@@ -1,0 +1,20 @@
+baseURL = 'https://engkad.github.io/blog/'
+languageCode = 'en-us'
+title = 'Kyle’s Blog'
+theme = 'PaperMod'
+publishDir = "public"
+
+
+contentDir = 'content'  # Obsidian folder
+
+[params]
+  ShowReadingTime = true
+  ShowBreadCrumbs = true
+  ShowPostNavLinks = true
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 1
