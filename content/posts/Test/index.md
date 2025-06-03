@@ -5,5 +5,5 @@ draft: false
 ---
 
 Testing Obsidian + Hugo. Here’s an image:
-![image](assets/cycles.png)
+![image](cycles.png)
 

@@ -1,8 +1,9 @@
 ---
-title: "Half-Badger Liquid Rocket Engine"
-date: 2025-06-03
+title: "Half-Badger"
+date: 2025-06-02
 draft: false
 ---
+
 (photo gallery?)
 # Introduction
 Half-Badger is a liquid rocket designed to compete in the FAR-OUT liquid/hybrid rocket competition in Mojave, CA.
