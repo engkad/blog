@@ -1,0 +1,40 @@
+baseURL: "https://engkad.github.io/blog/"
+languageCode: "en-us"
+title: "Kyle’s Engineering Blog"
+theme: ["PaperMod"]
+publishDir: "public"
+contentDir: "content"  # Obsidian folder
+
+params:
+  ShowReadingTime: true
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+  profileMode:
+    enabled: true
+    title: "Kyle's Engineering Blog" # optional default will be site title
+    subtitle: "This is subtitle"
+    imageUrl: "<image link>" # optional
+    imageTitle: "<title of image as alt>" # optional
+    imageWidth: 120 # custom size
+    imageHeight: 120 # custom size
+    buttons:
+      - name: Archive
+        url: "/archive"
+      - name: Github
+        url: "https://github.com/"
+
+    # homeInfoParams:
+    #   Title: Welcome to my blog
+    #   Content: This blog contains various information about my engineering journey, projects, and insights.
+
+    socialIcons: # optional
+      - name: "GitHub"
+        url: "www.github.com/engkad"
+
+
+menu:
+  main:
+    - identifier: "posts"
+      name: "Posts"
+      url: "/posts/"
+      weight: 1
