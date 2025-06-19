@@ -40,10 +40,10 @@ menu:
   main:
     - identifier: "posts"
       name: "Posts"
-      url: "/blog/posts/"
+      url: "/posts/"
       weight: 1
 
     - identifier: "archive"
       name: "Archive"
-      url: "/blog/archive/"
+      url: "/archive/"
       weight: 2
