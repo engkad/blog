@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Kyle’s Engineering Blog</title><link>https://engkad.github.io/blog/</link><description>Recent content on Kyle’s Engineering Blog</description><generator>Hugo -- 0.147.0</generator><language>en-us</language><lastBuildDate>Wed, 18 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://engkad.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://engkad.github.io/blog/posts/about/</link><pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate><guid>https://engkad.github.io/blog/posts/about/</guid><description>&lt;h1 id="the-author">The Author&lt;/h1>
-&lt;p>engineer&lt;/p></description></item><item><title>Europe 2024</title><link>https://engkad.github.io/blog/posts/europe-2024/</link><pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate><guid>https://engkad.github.io/blog/posts/europe-2024/</guid><description>&lt;p>Things we would change for next time&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Kyle’s Engineering Blog</title><link>https://engkad.github.io/blog/</link><description>Recent content on Kyle’s Engineering Blog</description><generator>Hugo -- 0.147.0</generator><language>en-us</language><lastBuildDate>Wed, 18 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://engkad.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Europe 2024</title><link>https://engkad.github.io/blog/posts/europe-2024/</link><pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate><guid>https://engkad.github.io/blog/posts/europe-2024/</guid><description>&lt;p>Things we would change for next time&lt;/p>
 &lt;p>Paris:&lt;/p>
 &lt;ul>
 &lt;li>Book museums in advance &lt;/li>
@@ -15,12 +14,10 @@
 &lt;p>Half-Badger is a liquid rocket designed to compete in the FAR-OUT liquid/hybrid rocket competition in Mojave, CA.&lt;/p>
 &lt;p>(include slideshow somehow?)&lt;/p>
 &lt;h1 id="propulsion-engineering">Propulsion Engineering&lt;/h1>
-&lt;p>Most of my efforts contributed to the propulsion and fluid system that fell under the responsibility of the Propulsion sub-team, for which I was a co-lead. I was also heavily involved test stand design and test operations, including co-founding a committee to develop a permanent propulsion test facility at UW-Madison.&lt;/p></description></item><item><title>Test Post</title><link>https://engkad.github.io/blog/posts/test/</link><pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate><guid>https://engkad.github.io/blog/posts/test/</guid><description>&lt;p>Testing Obsidian + Hugo. Here’s an image:
-&lt;img alt="image" loading="lazy" src="https://engkad.github.io/blog/posts/test/cycles.png">&lt;/p></description></item><item><title>Spaceport America Cup 2023</title><link>https://engkad.github.io/blog/posts/spaceport23/</link><pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate><guid>https://engkad.github.io/blog/posts/spaceport23/</guid><description>&lt;p>I participated in this rocket competition as President of the UW-Madison&amp;rsquo;s Chapter of AIAA (American Institute for Aeronautics and Astronautics).&lt;/p>
-&lt;p>Read the UW-Madison College of Engineering&amp;rsquo;s post here:&lt;/p>
-&lt;p>&lt;img loading="lazy" src="https://engineering.wisc.edu/wp-content/uploads/2023/07/AIAA-new-mexico-stars-scaled.webp">
-(&lt;a href="https://engineering.wisc.edu/blog/students-compete-at-spaceport-america-cup/">https://engineering.wisc.edu/blog/students-compete-at-spaceport-america-cup/&lt;/a>)
-UW Madison College of Engineering Posts About Spaceport America Cup&lt;/p>
+&lt;p>Most of my efforts contributed to the propulsion and fluid system that fell under the responsibility of the Propulsion sub-team, for which I was a co-lead. I was also heavily involved test stand design and test operations, including co-founding a committee to develop a permanent propulsion test facility at UW-Madison.&lt;/p></description></item><item><title>Spaceport America Cup 2023</title><link>https://engkad.github.io/blog/posts/spaceport23/</link><pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate><guid>https://engkad.github.io/blog/posts/spaceport23/</guid><description>&lt;p>&lt;img alt="The nine of us and our mentor Frank standing with our rocket in NM." loading="lazy" src="https://engkad.github.io/blog/posts/spaceport23/IMG_5357.jpg">&lt;/p>
+&lt;p>I participated in this rocket competition as President of the Wisconsin Space Program student org (formerly UW-Madison&amp;rsquo;s Chapter of AIAA).&lt;/p>
+&lt;p>Read the UW-Madison College of Engineering&amp;rsquo;s post &lt;a href="https://engineering.wisc.edu/blog/students-compete-at-spaceport-america-cup/">here&lt;/a>:&lt;/p>
+&lt;p>&lt;img loading="lazy" src="https://engineering.wisc.edu/wp-content/uploads/2023/07/AIAA-new-mexico-stars-scaled.webp">&lt;/p>
 &lt;h2 id="the-competition">The Competition&lt;/h2>
 &lt;p>The &lt;a href="https://spaceportamericacup.com">Spaceport America Cup&lt;/a> (also known as IREC) is the world&amp;rsquo;s largest intercollegiate rocket competition, with over 150 teams competing annually. There are a number of categories and it takes place outside of Las Cruces in southern New Mexico.&lt;/p></description></item><item><title/><link>https://engkad.github.io/blog/useful-links/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://engkad.github.io/blog/useful-links/</guid><description>&lt;table>
 &lt;thead>
@@ -35,4 +32,13 @@ UW Madison College of Engineering Posts About Spaceport America Cup&lt;/p>
 &lt;td style="text-align: left">Online media downloader (youtube, etc)&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item></channel></rss>
+&lt;/table></description></item><item><title>About</title><link>https://engkad.github.io/blog/posts/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://engkad.github.io/blog/posts/about/</guid><description>&lt;h1 id="the-author">The author&lt;/h1>
+&lt;p>Hello! I&amp;rsquo;m an aerospace engineer from Madison, WI. I got my B.S. in Engineering Mechanics and Aerospace from the University of Wisconsin-Madison in spring 2025, and now work as a propulsion test engineer.&lt;/p>
+&lt;p>I was part of the Wisconsin Space Program student org for my entire time in undergrad and continue to help and advise where I can. Key projects I&amp;rsquo;ve been involved in include:&lt;/p>
+&lt;ul>
+&lt;li>Research, development, analysis and test of a 1000lbf isopropanol/LOX rocket engine&lt;/li>
+&lt;li>Design, assembly, and hot fire testing of a GCH4/GOX torch igniter&lt;/li>
+&lt;li>Leading UW&amp;rsquo;s first team to attend the Spaceport America Cup intercollegiate rocket competition&lt;/li>
+&lt;li>Advising our second team at Spaceport where we won 2nd place in Payload&lt;/li>
+&lt;/ul>
+&lt;p>As an undergrad at UW-Madison I&amp;rsquo;ve worked in a number of positions:&lt;/p></description></item></channel></rss>
