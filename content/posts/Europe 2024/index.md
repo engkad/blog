@@ -1,3 +1,9 @@
+---
+title: "Europe 2024"
+date: 2025-06-18
+draft: false
+---
+
 Things we would change for next time
 
 Paris:

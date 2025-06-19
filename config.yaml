@@ -12,29 +12,38 @@ params:
   profileMode:
     enabled: true
     title: "Kyle's Engineering Blog" # optional default will be site title
-    subtitle: "This is subtitle"
-    imageUrl: "<image link>" # optional
-    imageTitle: "<title of image as alt>" # optional
-    imageWidth: 120 # custom size
-    imageHeight: 120 # custom size
+    subtitle: "Welcome to my blog!" # optional
+    imageUrl: "images/profile.jpg" # optional
+    imageTitle: "Me holding a liquid rocket engine" # optional
+    imageWidth: 240 # custom size
+    imageHeight: 240 # custom size
     buttons:
+      - name: About
+        url: "/blog/posts/about/"
       - name: Archive
-        url: "/archive"
-      - name: Github
-        url: "https://github.com/"
+        url: "/blog/archive/"
 
     # homeInfoParams:
     #   Title: Welcome to my blog
     #   Content: This blog contains various information about my engineering journey, projects, and insights.
 
-    socialIcons: # optional
-      - name: "GitHub"
-        url: "www.github.com/engkad"
+  socialIcons: # optional
+    - name: "GitHub"
+      url: "https://github.com/engkad"
+    - name: "LinkedIn"
+      url: "https://www.linkedin.com/in/kyledadler"
+    - name: "Youtube"
+      url: "https://www.youtube.com/@engkad880"
 
 
 menu:
   main:
     - identifier: "posts"
       name: "Posts"
-      url: "/posts/"
+      url: "/blog/posts/"
       weight: 1
+
+    - identifier: "archive"
+      name: "Archive"
+      url: "/blog/archive/"
+      weight: 2
