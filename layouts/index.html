@@ -2,7 +2,6 @@
 <main style="width: 100%; max-width: 900px; margin: auto;">
 
   {{ if .Site.Params.profileMode.enabled }}
-    {{/* Renders the PaperMod profile block */}}
     {{ partial "index_profile.html" . }}
   {{ end }}
 
@@ -10,38 +9,39 @@
 
   {{ range .Paginator.Pages }}
     {{ .Render "summary" }}
-{{ end }}
+  {{ end }}
 
-{{ partial "pagination.html" . }}
-<section style="margin-top: 0; display: flex; flex-direction: column; align-items: center; font-size: 0.95rem;">
-    <h2 style="text-align: center;">Useful Links</h2>
+  {{ partial "pagination.html" . }}
+
+<style>
+  .useful-links-table-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+  }
+
+  .useful-links-table-container table {
+    width: 100%;
+    max-width: 600px;
+    border-collapse: collapse;
+  }
+
+  .useful-links-table-container th,
+  .useful-links-table-container td {
+    text-align: left;
+    padding: 0.5em 1em;
+    border: none; /* Remove borders */
+    background: none; /* Remove header row background */
+  }
+</style>
+
+  {{ $links := readFile "content/useful-links.md" }}
+  <section class="useful-links-table-container">
     <div>
-            <table style="border-collapse: separate; border-spacing: 0 0.5rem; margin: auto;">
-                    <tbody>
-                            <tr>
-                                    <td><a href="https://overleaf.com" target="_blank">Overleaf</a></td>
-                                    <td style="padding-left: 1.5rem;">Collaborative LaTeX editor</td>
-                            </tr>
-                            <tr>
-                                    <td><a href="https://desmos.com" target="_blank">Desmos</a></td>
-                                    <td style="padding-left: 1.5rem;">Online graphing calculator</td>
-                            </tr>
-                            <tr>
-                                    <td><a href="https://chat.openai.com" target="_blank">ChatGPT</a></td>
-                                    <td style="padding-left: 1.5rem;">AI-powered chat assistant</td>
-                            </tr>
-                            <tr>
-                                    <td><a href="https://github.com/engkad" target="_blank">My GitHub</a></td>
-                                    <td style="padding-left: 1.5rem;">My code repositories</td>
-                            </tr>
-                            <tr>
-                                    <td><a href="https://www.wolframalpha.com/" target="_blank">WolframAlpha</a></td>
-                                    <td style="padding-left: 1.5rem;">Computational knowledge engine</td>
-                            </tr>
-                    </tbody>
-            </table>
+      <h2 style="text-align: center;">Useful Links</h2>
+      {{ $links | markdownify }}
     </div>
-</section>
+  </section>
 
 </main>
 {{ end }}
