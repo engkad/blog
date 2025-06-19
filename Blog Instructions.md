@@ -3,6 +3,19 @@
 This document explains how to maintain and deploy your Markdown-based blog from Obsidian using Hugo (PaperMod theme) and GitHub Actions. All commands assume **PowerShell** on Windows.
 
 ---
+## Quick Helpful Notes
+
+### **Hugo’s built-in `youtube` shortcode**
+
+Inside your Markdown:
+
+`{{< youtube dQw4w9WgXcQ >}}` (everything after the youtube v={HERE})
+
+This is shorter, but only works inside content files that are processed by Hugo (not files read manually via `readFile` and `markdownify` like you're doing for your custom homepage section).
+
+So **don't use this inside `readFile` + `markdownify` blocks**.
+
+
 
 ## 📁 Folder Structure
 
