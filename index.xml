@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Kyle’s Engineering Blog</title><link>https://engkad.github.io/blog/</link><description>Recent content on Kyle’s Engineering Blog</description><generator>Hugo -- 0.147.0</generator><language>en-us</language><lastBuildDate>Tue, 03 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://engkad.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Half-Badger Liquid Rocket Engine</title><link>https://engkad.github.io/blog/posts/half-badger/</link><pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate><guid>https://engkad.github.io/blog/posts/half-badger/</guid><description>&lt;p>(photo gallery?)&lt;/p>
-&lt;h1 id="introduction">Introduction&lt;/h1>
-&lt;p>Half-Badger is a liquid rocket designed to compete in the FAR-OUT liquid/hybrid rocket competition in Mojave, CA.&lt;/p>
-&lt;p>(include slideshow somehow?)&lt;/p>
-&lt;h1 id="propulsion-engineering">Propulsion Engineering&lt;/h1>
-&lt;p>Most of my efforts contributed to the propulsion and fluid system that fell under the responsibility of the Propulsion sub-team, for which I was a co-lead. I was also heavily involved test stand design and test operations, including co-founding a committee to develop a permanent propulsion test facility at UW-Madison.&lt;/p></description></item><item><title>Test Post</title><link>https://engkad.github.io/blog/posts/test/</link><pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate><guid>https://engkad.github.io/blog/posts/test/</guid><description>&lt;p>Testing Obsidian + Hugo. Here’s an image:
-&lt;img alt="image" loading="lazy" src="https://engkad.github.io/blog/posts/test/cycles.png">&lt;/p></description></item><item><title/><link>https://engkad.github.io/blog/posts/europe-2024/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://engkad.github.io/blog/posts/europe-2024/</guid><description>&lt;p>Things we would change for next time&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Kyle’s Engineering Blog</title><link>https://engkad.github.io/blog/</link><description>Recent content on Kyle’s Engineering Blog</description><generator>Hugo -- 0.147.0</generator><language>en-us</language><lastBuildDate>Wed, 18 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://engkad.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://engkad.github.io/blog/posts/about/</link><pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate><guid>https://engkad.github.io/blog/posts/about/</guid><description>&lt;h1 id="the-author">The Author&lt;/h1>
+&lt;p>engineer&lt;/p></description></item><item><title>Europe 2024</title><link>https://engkad.github.io/blog/posts/europe-2024/</link><pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate><guid>https://engkad.github.io/blog/posts/europe-2024/</guid><description>&lt;p>Things we would change for next time&lt;/p>
 &lt;p>Paris:&lt;/p>
 &lt;ul>
 &lt;li>Book museums in advance &lt;/li>
@@ -13,4 +8,12 @@
 &lt;li>bring spices (salt, cinnamon, pepper)&lt;/li>
 &lt;li>Bring laundry detergent &lt;/li>
 &lt;li>Bring extra sand which bags&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;/ul></description></item><item><title>Python Rocket Solver</title><link>https://engkad.github.io/blog/posts/rocket_py/</link><pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate><guid>https://engkad.github.io/blog/posts/rocket_py/</guid><description>&lt;p>&lt;a href="https://py.engrkad.com/rocket">Link to solver&lt;/a>&lt;/p>
+&lt;h1 id="purpose">Purpose&lt;/h1>
+&lt;p>use the code i made in ema524 with jackson&lt;/p></description></item><item><title>Half-Badger Liquid Rocket Engine</title><link>https://engkad.github.io/blog/posts/half-badger/</link><pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate><guid>https://engkad.github.io/blog/posts/half-badger/</guid><description>&lt;p>(photo gallery?)&lt;/p>
+&lt;h1 id="introduction">Introduction&lt;/h1>
+&lt;p>Half-Badger is a liquid rocket designed to compete in the FAR-OUT liquid/hybrid rocket competition in Mojave, CA.&lt;/p>
+&lt;p>(include slideshow somehow?)&lt;/p>
+&lt;h1 id="propulsion-engineering">Propulsion Engineering&lt;/h1>
+&lt;p>Most of my efforts contributed to the propulsion and fluid system that fell under the responsibility of the Propulsion sub-team, for which I was a co-lead. I was also heavily involved test stand design and test operations, including co-founding a committee to develop a permanent propulsion test facility at UW-Madison.&lt;/p></description></item><item><title>Test Post</title><link>https://engkad.github.io/blog/posts/test/</link><pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate><guid>https://engkad.github.io/blog/posts/test/</guid><description>&lt;p>Testing Obsidian + Hugo. Here’s an image:
+&lt;img alt="image" loading="lazy" src="https://engkad.github.io/blog/posts/test/cycles.png">&lt;/p></description></item></channel></rss>
