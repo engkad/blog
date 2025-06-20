@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Engineering on Kyle’s Engineering Blog</title><link>https://engkad.github.io/blog/tags/engineering/</link><description>Recent content in Engineering on Kyle’s Engineering Blog</description><generator>Hugo -- 0.147.0</generator><language>en-us</language><lastBuildDate>Fri, 20 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://engkad.github.io/blog/tags/engineering/index.xml" rel="self" type="application/rss+xml"/><item><title>Interview Questions</title><link>https://engkad.github.io/blog/posts/interview-questions/</link><pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate><guid>https://engkad.github.io/blog/posts/interview-questions/</guid><description>&lt;p>A collection of interview questions I&amp;rsquo;ve come across and like to share and discuss with other engineers.&lt;/p>
+&lt;h2 id="structural">Structural&lt;/h2>
+&lt;details>
+&lt;summary>&lt;strong>&lt;/strong>&lt;/summary>
+&lt;/details>
+&lt;h2 id="material-behavior">Material Behavior&lt;/h2>
+&lt;details>
+&lt;summary>&lt;strong>How do you go between stress and strain in a material?&lt;/strong>&lt;/summary>
+&lt;p>Hooke&amp;rsquo;s Law in elastic region of material,
+&lt;/p>
+$$
+\sigma = E \varepsilon
+$$&lt;p>
+where \(E\) is the Young&amp;rsquo;s modulus or modulus of elasticity.&lt;/p>
+&lt;/details>
+&lt;h2 id="fluid-systems">Fluid Systems&lt;/h2>
+&lt;h2 id="propulsion">Propulsion&lt;/h2>
+&lt;h2 id="behavioral">Behavioral&lt;/h2>
+&lt;details>
+&lt;summary>&lt;strong>What was a time where you couldn't meet a deadline, and how did you communicate that and deal with it?&lt;/strong>&lt;/summary>
+&lt;p>(subjective)&lt;/p></description></item><item><title>Python Rocket Solver</title><link>https://engkad.github.io/blog/posts/rocket_py/</link><pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate><guid>https://engkad.github.io/blog/posts/rocket_py/</guid><description>&lt;p>&lt;a href="https://py.engrkad.com/rocket">Link to solver&lt;/a>&lt;/p>
+&lt;h1 id="purpose">Purpose&lt;/h1>
+&lt;p>use the code i made in ema524 with jackson&lt;/p></description></item><item><title>Half-Badger Liquid Rocket Engine</title><link>https://engkad.github.io/blog/posts/half-badger/</link><pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate><guid>https://engkad.github.io/blog/posts/half-badger/</guid><description>&lt;p>(photo gallery?)&lt;/p>
+&lt;h1 id="introduction">Introduction&lt;/h1>
+&lt;p>Half-Badger is a liquid rocket designed to compete in the FAR-OUT liquid/hybrid rocket competition in Mojave, CA.&lt;/p>
+&lt;p>(include slideshow somehow?)&lt;/p>
+&lt;h1 id="propulsion-engineering">Propulsion Engineering&lt;/h1>
+&lt;p>Most of my efforts contributed to the propulsion and fluid system that fell under the responsibility of the Propulsion sub-team, for which I was a co-lead. I was also heavily involved test stand design and test operations, including co-founding a committee to develop a permanent propulsion test facility at UW-Madison.&lt;/p></description></item><item><title>Spaceport America Cup 2023</title><link>https://engkad.github.io/blog/posts/spaceport23/</link><pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate><guid>https://engkad.github.io/blog/posts/spaceport23/</guid><description>&lt;p>&lt;img alt="The nine of us and our mentor Frank standing with our rocket in NM." loading="lazy" src="https://engkad.github.io/blog/posts/spaceport23/IMG_5357.jpg">&lt;/p>
+&lt;p>I participated in this rocket competition as President of the Wisconsin Space Program student org (formerly UW-Madison&amp;rsquo;s Chapter of AIAA).&lt;/p>
+&lt;p>Read the UW-Madison College of Engineering&amp;rsquo;s post &lt;a href="https://engineering.wisc.edu/blog/students-compete-at-spaceport-america-cup/">here&lt;/a>:&lt;/p>
+&lt;p>&lt;img loading="lazy" src="https://engineering.wisc.edu/wp-content/uploads/2023/07/AIAA-new-mexico-stars-scaled.webp">&lt;/p>
+&lt;h2 id="the-competition">The Competition&lt;/h2>
+&lt;p>The &lt;a href="https://spaceportamericacup.com">Spaceport America Cup&lt;/a> (also known as IREC) is the world&amp;rsquo;s largest intercollegiate rocket competition, with over 150 teams competing annually. There are a number of categories and it takes place outside of Las Cruces in southern New Mexico.&lt;/p></description></item></channel></rss>
