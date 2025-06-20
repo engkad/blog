@@ -5,7 +5,31 @@ theme: ["PaperMod"]
 publishDir: "public"
 contentDir: "content"  # Obsidian folder
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true # Allow HTML in markdown
+    extensions:
+      passthrough:
+        delimiters:
+          block:
+          - - \[
+            - \]
+          - - $$
+            - $$
+          inline:
+          - - \(
+            - \)
+          - - $
+            - $
+        enable: true
+
+taxonomies:
+  tag: "tags" # Allow tags like "Engineering", "Software", etc.
+  # category: "categories" # Allow categories like "Engineering", "Software", etc.
+
 params:
+  math: true # Enable math rendering for latex
   ShowReadingTime: true
   ShowBreadCrumbs: true
   ShowPostNavLinks: true
@@ -47,3 +71,8 @@ menu:
       name: "Archive"
       url: "/archive/"
       weight: 2
+
+    - identifier: "tags"
+      name: "Tags"
+      url: "/tags/"
+      weight: 3
