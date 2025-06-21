@@ -15,6 +15,7 @@ This is shorter, but only works inside content files that are processed by Hugo 
 
 So **don't use this inside `readFile` + `markdownify` blocks**.
 
+Math: https://gohugo.io/content-management/mathematics/
 
 
 ## 📁 Folder Structure
