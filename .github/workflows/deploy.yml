@@ -22,6 +22,10 @@ jobs:
           hugo-version: '0.147.0'
           extended: true
 
+      - name: Hugo mod get
+        run: hugo mod get
+
+
       - name: Build
         run: hugo --minify
 
