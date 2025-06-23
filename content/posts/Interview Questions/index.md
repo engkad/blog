@@ -3,6 +3,7 @@ title: "Interview Questions"
 date: 2025-06-20
 draft: false
 tags: ["engineering"]
+math: true
 ---
 A collection of interview questions I've come across and like to share and discuss with other engineers.
 
