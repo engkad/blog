@@ -8,7 +8,8 @@ draft: false
 $$
 E = mc^2
 $$
-dd
+d
+
 test
 Testing Obsidian + Hugo. Here’s an image:
 ![image](cycles.png)
