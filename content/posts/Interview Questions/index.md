@@ -99,6 +99,7 @@ Buckling
 <summary><strong>What are the important factors in tendency to buckle?</strong></summary>
 
 Consider Euler buckling and critical load:
+
 $$
 P_{\text{cr}} = \frac{\pi^2 E I}{(K L)^2}
 $$
