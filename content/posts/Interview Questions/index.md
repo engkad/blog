@@ -7,6 +7,7 @@ tags: ["engineering"]
 A collection of interview questions I've come across and like to share and discuss with other engineers.
 
 ## Structural
+
 <details>
 <summary><strong>Given a fixed-free cantilever beam in bending (load at the free end):</strong></summary>
 
@@ -121,6 +122,7 @@ $$
 
 
 ## General Solids/Fluids Behavior
+
 <details>
 <summary><strong>How do you go between stress and strain in a material?</strong></summary>
 
@@ -158,6 +160,7 @@ where \(E\) is the Young's modulus or modulus of elasticity.
 </details>
 
 ## Fluid Systems
+
 <details>
 <summary><strong>You have an orifice in an incompressible fluid system. What happens to the pressure drop when you double the mass flow rate? What about for incompressible? Why are they different?</strong></summary>
 
@@ -201,6 +204,7 @@ where \(E\) is the Young's modulus or modulus of elasticity.
 
 
 ## Propulsion
+
 <details>
 <summary><strong>If you double the mass flow rate in an engine, how does chamber pressure change? How does thrust change?</strong></summary>
 
