@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Kyle’s Engineering Blog</title><link>https://engkad.github.io/blog/</link><description>Recent content on Kyle’s Engineering Blog</description><generator>Hugo -- 0.147.0</generator><language>en-us</language><lastBuildDate>Fri, 20 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://engkad.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Interview Questions</title><link>https://engkad.github.io/blog/posts/interview-questions/</link><pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate><guid>https://engkad.github.io/blog/posts/interview-questions/</guid><description>&lt;p>A collection of interview questions I&amp;rsquo;ve come across and like to share and discuss with other engineers.&lt;/p>
 &lt;h2 id="structural">Structural&lt;/h2>
-&lt;p>00000000000000002111&lt;/p>
 &lt;details>
 &lt;summary>&lt;strong>Given a fixed-free cantilever beam in bending (load at the free end):&lt;/strong>&lt;/summary>
 &lt;details>
@@ -9,7 +8,11 @@
 &lt;/details>
 &lt;details>
 &lt;summary>&lt;strong>Is the stress tensile or compressive?&lt;/strong>&lt;/summary>
-&lt;p>Tensile at the top of the beam and compressive at the bottom.&lt;/p></description></item><item><title>Europe 2024</title><link>https://engkad.github.io/blog/posts/europe-2024/</link><pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate><guid>https://engkad.github.io/blog/posts/europe-2024/</guid><description>&lt;p>Things we would change for next time&lt;/p>
+&lt;p>Tensile at the top of the beam and compressive at the bottom.&lt;/p>
+&lt;/details>
+&lt;details>
+&lt;summary>&lt;strong>How do you know if it will fail completely?&lt;/strong>&lt;/summary>
+&lt;p>Ultimate tensile strength since it will be lower than ultimate compressive strength.&lt;/p></description></item><item><title>Europe 2024</title><link>https://engkad.github.io/blog/posts/europe-2024/</link><pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate><guid>https://engkad.github.io/blog/posts/europe-2024/</guid><description>&lt;p>Things we would change for next time&lt;/p>
 &lt;p>Paris:&lt;/p>
 &lt;ul>
 &lt;li>Book museums in advance &lt;/li>
