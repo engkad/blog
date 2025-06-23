@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Engineering on Kyle’s Engineering Blog</title><link>https://engkad.github.io/blog/tags/engineering/</link><description>Recent content in Engineering on Kyle’s Engineering Blog</description><generator>Hugo -- 0.147.0</generator><language>en-us</language><lastBuildDate>Fri, 20 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://engkad.github.io/blog/tags/engineering/index.xml" rel="self" type="application/rss+xml"/><item><title>Interview Questions</title><link>https://engkad.github.io/blog/posts/interview-questions/</link><pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate><guid>https://engkad.github.io/blog/posts/interview-questions/</guid><description>&lt;p>A collection of interview questions I&amp;rsquo;ve come across and like to share and discuss with other engineers.&lt;/p>
 &lt;h2 id="structural">Structural&lt;/h2>
+&lt;p>boo&lt;/p>
 &lt;details>
 &lt;summary>&lt;strong>Given a fixed-free cantilever beam in bending (load at the free end):&lt;/strong>&lt;/summary>
 &lt;details>
@@ -8,11 +9,7 @@
 &lt;/details>
 &lt;details>
 &lt;summary>&lt;strong>Is the stress tensile or compressive?&lt;/strong>&lt;/summary>
-&lt;p>Tensile at the top of the beam and compressive at the bottom.&lt;/p>
-&lt;/details>
-&lt;details>
-&lt;summary>&lt;strong>How do you know if it will fail completely?&lt;/strong>&lt;/summary>
-&lt;p>Ultimate tensile strength since it will be lower than ultimate compressive strength.&lt;/p></description></item><item><title>Python Rocket Solver</title><link>https://engkad.github.io/blog/posts/rocket_py/</link><pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate><guid>https://engkad.github.io/blog/posts/rocket_py/</guid><description>&lt;p>&lt;a href="https://py.engrkad.com/rocket">Link to solver&lt;/a>&lt;/p>
+&lt;p>Tensile at the top of the beam and compressive at the bottom.&lt;/p></description></item><item><title>Python Rocket Solver</title><link>https://engkad.github.io/blog/posts/rocket_py/</link><pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate><guid>https://engkad.github.io/blog/posts/rocket_py/</guid><description>&lt;p>&lt;a href="https://py.engrkad.com/rocket">Link to solver&lt;/a>&lt;/p>
 &lt;h1 id="purpose">Purpose&lt;/h1>
 &lt;p>use the code i made in ema524 with jackson&lt;/p></description></item><item><title>Half-Badger Liquid Rocket Engine</title><link>https://engkad.github.io/blog/posts/half-badger/</link><pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate><guid>https://engkad.github.io/blog/posts/half-badger/</guid><description>&lt;p>(photo gallery?)&lt;/p>
 &lt;h1 id="introduction">Introduction&lt;/h1>
