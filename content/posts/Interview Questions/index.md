@@ -9,7 +9,7 @@ A collection of interview questions I've come across and like to share and discu
 
 ## Structural
 
-0000000000000
+00000000000000002111
 
 <details>
 <summary><strong>Given a fixed-free cantilever beam in bending (load at the free end):</strong></summary>
