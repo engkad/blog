@@ -7,7 +7,7 @@
 
 <head>
     {{- partial "head.html" . }}
-    {{ if .Param "math" }}
+    {{ if or (.Param "math") (.Site.Params.math) }}
         {{ partialCached "math.html" . }}
     {{ end }}
 
