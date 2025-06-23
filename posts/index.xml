@@ -1,53 +1,115 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on Kyle’s Engineering Blog</title><link>https://engkad.github.io/blog/posts/</link><description>Recent content in Posts on Kyle’s Engineering Blog</description><generator>Hugo -- 0.147.0</generator><language>en-us</language><lastBuildDate>Fri, 20 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://engkad.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Interview Questions</title><link>https://engkad.github.io/blog/posts/interview-questions/</link><pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate><guid>https://engkad.github.io/blog/posts/interview-questions/</guid><description>&lt;p>A collection of interview questions I&amp;rsquo;ve come across and like to share and discuss with other engineers.&lt;/p>
-&lt;h2 id="structural">Structural&lt;/h2>
-&lt;details>
-&lt;summary>&lt;strong>Given a fixed-free cantilever beam in bending (load at the free end):&lt;/strong>&lt;/summary>
-&lt;details>
-&lt;summary>&lt;strong>Where is the highest stress?&lt;/strong>&lt;/summary>
-&lt;p>At the base where it is fixed, at both the top and bottom of the cross-section.&lt;/p>
-&lt;/details>
-&lt;details>
-&lt;summary>&lt;strong>Is the stress tensile or compressive?&lt;/strong>&lt;/summary>
-&lt;p>Tensile at the top of the beam and compressive at the bottom.&lt;/p>
-&lt;/details>
-&lt;details>
-&lt;summary>&lt;strong>How do you know if it will fail completely?&lt;/strong>&lt;/summary>
-&lt;p>Ultimate tensile strength since it will be lower than ultimate compressive strength.&lt;/p></description></item><item><title>Europe 2024</title><link>https://engkad.github.io/blog/posts/europe-2024/</link><pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate><guid>https://engkad.github.io/blog/posts/europe-2024/</guid><description>&lt;p>Things we would change for next time&lt;/p>
-&lt;p>Paris:&lt;/p>
-&lt;ul>
-&lt;li>Book museums in advance &lt;/li>
-&lt;li>Book trains in advance and look into intercity trains instead of the Eurostar &lt;/li>
-&lt;li>Stay closer in to the center &lt;/li>
-&lt;li>bring spices (salt, cinnamon, pepper)&lt;/li>
-&lt;li>Bring laundry detergent &lt;/li>
-&lt;li>Bring extra sand which bags&lt;/li>
-&lt;/ul></description></item><item><title>Python Rocket Solver</title><link>https://engkad.github.io/blog/posts/rocket_py/</link><pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate><guid>https://engkad.github.io/blog/posts/rocket_py/</guid><description>&lt;p>&lt;a href="https://py.engrkad.com/rocket">Link to solver&lt;/a>&lt;/p>
-&lt;h1 id="purpose">Purpose&lt;/h1>
-&lt;p>use the code i made in ema524 with jackson&lt;/p></description></item><item><title>Half-Badger Liquid Rocket Engine</title><link>https://engkad.github.io/blog/posts/half-badger/</link><pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate><guid>https://engkad.github.io/blog/posts/half-badger/</guid><description>&lt;p>(photo gallery?)&lt;/p>
-&lt;h1 id="introduction">Introduction&lt;/h1>
-&lt;p>Half-Badger is a liquid rocket designed to compete in the FAR-OUT liquid/hybrid rocket competition in Mojave, CA.&lt;/p>
-&lt;p>(include slideshow somehow?)&lt;/p>
-&lt;h1 id="propulsion-engineering">Propulsion Engineering&lt;/h1>
-&lt;p>Most of my efforts contributed to the propulsion and fluid system that fell under the responsibility of the Propulsion sub-team, for which I was a co-lead. I was also heavily involved test stand design and test operations, including co-founding a committee to develop a permanent propulsion test facility at UW-Madison.&lt;/p></description></item><item><title>Test Post</title><link>https://engkad.github.io/blog/posts/test/</link><pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate><guid>https://engkad.github.io/blog/posts/test/</guid><description>$$
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Kyle’s Engineering Blog</title>
+    <link>https://engkad.github.io/blog/posts/</link>
+    <description>Recent content in Posts on Kyle’s Engineering Blog</description>
+    <generator>Hugo -- 0.147.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 20 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://engkad.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Interview Questions</title>
+      <link>https://engkad.github.io/blog/posts/interview-questions/</link>
+      <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://engkad.github.io/blog/posts/interview-questions/</guid>
+      <description>&lt;p&gt;A collection of interview questions I&amp;rsquo;ve come across and like to share and discuss with other engineers.&lt;/p&gt;
+&lt;h2 id=&#34;structural&#34;&gt;Structural&lt;/h2&gt;
+&lt;details&gt;
+&lt;summary&gt;&lt;strong&gt;Given a fixed-free cantilever beam in bending (load at the free end):&lt;/strong&gt;&lt;/summary&gt;
+&lt;details&gt;
+&lt;summary&gt;&lt;strong&gt;Where is the highest stress?&lt;/strong&gt;&lt;/summary&gt;
+&lt;p&gt;At the base where it is fixed, at both the top and bottom of the cross-section.&lt;/p&gt;
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;&lt;strong&gt;Is the stress tensile or compressive?&lt;/strong&gt;&lt;/summary&gt;
+&lt;p&gt;Tensile at the top of the beam and compressive at the bottom.&lt;/p&gt;
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;&lt;strong&gt;How do you know if it will fail completely?&lt;/strong&gt;&lt;/summary&gt;
+&lt;p&gt;Ultimate tensile strength since it will be lower than ultimate compressive strength.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Europe 2024</title>
+      <link>https://engkad.github.io/blog/posts/europe-2024/</link>
+      <pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://engkad.github.io/blog/posts/europe-2024/</guid>
+      <description>&lt;p&gt;Things we would change for next time&lt;/p&gt;
+&lt;p&gt;Paris:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Book museums in advance &lt;/li&gt;
+&lt;li&gt;Book trains in advance and look into intercity trains instead of the Eurostar &lt;/li&gt;
+&lt;li&gt;Stay closer in to the center &lt;/li&gt;
+&lt;li&gt;bring spices (salt, cinnamon, pepper)&lt;/li&gt;
+&lt;li&gt;Bring laundry detergent &lt;/li&gt;
+&lt;li&gt;Bring extra sand which bags&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Python Rocket Solver</title>
+      <link>https://engkad.github.io/blog/posts/rocket_py/</link>
+      <pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://engkad.github.io/blog/posts/rocket_py/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://py.engrkad.com/rocket&#34;&gt;Link to solver&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;purpose&#34;&gt;Purpose&lt;/h1&gt;
+&lt;p&gt;use the code i made in ema524 with jackson&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Half-Badger Liquid Rocket Engine</title>
+      <link>https://engkad.github.io/blog/posts/half-badger/</link>
+      <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://engkad.github.io/blog/posts/half-badger/</guid>
+      <description>&lt;p&gt;(photo gallery?)&lt;/p&gt;
+&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;Half-Badger is a liquid rocket designed to compete in the FAR-OUT liquid/hybrid rocket competition in Mojave, CA.&lt;/p&gt;
+&lt;p&gt;(include slideshow somehow?)&lt;/p&gt;
+&lt;h1 id=&#34;propulsion-engineering&#34;&gt;Propulsion Engineering&lt;/h1&gt;
+&lt;p&gt;Most of my efforts contributed to the propulsion and fluid system that fell under the responsibility of the Propulsion sub-team, for which I was a co-lead. I was also heavily involved test stand design and test operations, including co-founding a committee to develop a permanent propulsion test facility at UW-Madison.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Test Post</title>
+      <link>https://engkad.github.io/blog/posts/test/</link>
+      <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://engkad.github.io/blog/posts/test/</guid>
+      <description>$$
 E = mc^2
-$$&lt;p>test
+$$&lt;p&gt;
+dd
+test
 Testing Obsidian + Hugo. Here’s an image:
-&lt;img alt="image" loading="lazy" src="https://engkad.github.io/blog/posts/test/cycles.png">&lt;/p>
-&lt;details>
-&lt;summary>&lt;strong>What is propulsion testing?&lt;/strong>&lt;/summary>
-&lt;p>Propulsion testing involves hot-fire tests of rocket engines under controlled conditions to validate thrust, stability, and performance. test&lt;/p>
-&lt;/details></description></item><item><title>Spaceport America Cup 2023</title><link>https://engkad.github.io/blog/posts/spaceport23/</link><pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate><guid>https://engkad.github.io/blog/posts/spaceport23/</guid><description>&lt;p>&lt;img alt="The nine of us and our mentor Frank standing with our rocket in NM." loading="lazy" src="https://engkad.github.io/blog/posts/spaceport23/IMG_5357.jpg">&lt;/p>
-&lt;p>I participated in this rocket competition as President of the Wisconsin Space Program student org (formerly UW-Madison&amp;rsquo;s Chapter of AIAA).&lt;/p>
-&lt;p>Read the UW-Madison College of Engineering&amp;rsquo;s post &lt;a href="https://engineering.wisc.edu/blog/students-compete-at-spaceport-america-cup/">here&lt;/a>:&lt;/p>
-&lt;p>&lt;img loading="lazy" src="https://engineering.wisc.edu/wp-content/uploads/2023/07/AIAA-new-mexico-stars-scaled.webp">&lt;/p>
-&lt;h2 id="the-competition">The Competition&lt;/h2>
-&lt;p>The &lt;a href="https://spaceportamericacup.com">Spaceport America Cup&lt;/a> (also known as IREC) is the world&amp;rsquo;s largest intercollegiate rocket competition, with over 150 teams competing annually. There are a number of categories and it takes place outside of Las Cruces in southern New Mexico.&lt;/p></description></item><item><title>About</title><link>https://engkad.github.io/blog/posts/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://engkad.github.io/blog/posts/about/</guid><description>&lt;h1 id="the-author">The author&lt;/h1>
-&lt;p>Hello! I&amp;rsquo;m an aerospace engineer from Madison, WI. I got my B.S. in Engineering Mechanics and Aerospace from the University of Wisconsin-Madison in spring 2025, and now work as a propulsion test engineer.&lt;/p>
-&lt;p>I was part of the Wisconsin Space Program student org for my entire time in undergrad and continue to help and advise where I can. Key projects I&amp;rsquo;ve been involved in include:&lt;/p>
-&lt;ul>
-&lt;li>Research, development, analysis and test of a 1000lbf isopropanol/LOX rocket engine&lt;/li>
-&lt;li>Design, assembly, and hot fire testing of a GCH4/GOX torch igniter&lt;/li>
-&lt;li>Leading UW&amp;rsquo;s first team to attend the Spaceport America Cup intercollegiate rocket competition&lt;/li>
-&lt;li>Advising our second team at Spaceport where we won 2nd place in Payload&lt;/li>
-&lt;/ul>
-&lt;p>As an undergrad at UW-Madison I&amp;rsquo;ve worked in a number of positions:&lt;/p></description></item></channel></rss>
+&lt;img alt=&#34;image&#34; loading=&#34;lazy&#34; src=&#34;https://engkad.github.io/blog/posts/test/cycles.png&#34;&gt;&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;&lt;strong&gt;What is propulsion testing?&lt;/strong&gt;&lt;/summary&gt;
+&lt;p&gt;Propulsion testing involves hot-fire tests of rocket engines under controlled conditions to validate thrust, stability, and performance. test&lt;/p&gt;
+&lt;/details&gt;</description>
+    </item>
+    <item>
+      <title>Spaceport America Cup 2023</title>
+      <link>https://engkad.github.io/blog/posts/spaceport23/</link>
+      <pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://engkad.github.io/blog/posts/spaceport23/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;The nine of us and our mentor Frank standing with our rocket in NM.&#34; loading=&#34;lazy&#34; src=&#34;https://engkad.github.io/blog/posts/spaceport23/IMG_5357.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I participated in this rocket competition as President of the Wisconsin Space Program student org (formerly UW-Madison&amp;rsquo;s Chapter of AIAA).&lt;/p&gt;
+&lt;p&gt;Read the UW-Madison College of Engineering&amp;rsquo;s post &lt;a href=&#34;https://engineering.wisc.edu/blog/students-compete-at-spaceport-america-cup/&#34;&gt;here&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://engineering.wisc.edu/wp-content/uploads/2023/07/AIAA-new-mexico-stars-scaled.webp&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;the-competition&#34;&gt;The Competition&lt;/h2&gt;
+&lt;p&gt;The &lt;a href=&#34;https://spaceportamericacup.com&#34;&gt;Spaceport America Cup&lt;/a&gt; (also known as IREC) is the world&amp;rsquo;s largest intercollegiate rocket competition, with over 150 teams competing annually. There are a number of categories and it takes place outside of Las Cruces in southern New Mexico.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>https://engkad.github.io/blog/posts/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://engkad.github.io/blog/posts/about/</guid>
+      <description>&lt;h1 id=&#34;the-author&#34;&gt;The author&lt;/h1&gt;
+&lt;p&gt;Hello! I&amp;rsquo;m an aerospace engineer from Madison, WI. I got my B.S. in Engineering Mechanics and Aerospace from the University of Wisconsin-Madison in spring 2025, and now work as a propulsion test engineer.&lt;/p&gt;
+&lt;p&gt;I was part of the Wisconsin Space Program student org for my entire time in undergrad and continue to help and advise where I can. Key projects I&amp;rsquo;ve been involved in include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Research, development, analysis and test of a 1000lbf isopropanol/LOX rocket engine&lt;/li&gt;
+&lt;li&gt;Design, assembly, and hot fire testing of a GCH4/GOX torch igniter&lt;/li&gt;
+&lt;li&gt;Leading UW&amp;rsquo;s first team to attend the Spaceport America Cup intercollegiate rocket competition&lt;/li&gt;
+&lt;li&gt;Advising our second team at Spaceport where we won 2nd place in Payload&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As an undergrad at UW-Madison I&amp;rsquo;ve worked in a number of positions:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
