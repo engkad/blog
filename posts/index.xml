@@ -74,8 +74,8 @@
       <description>$$
 E = mc^2
 $$&lt;p&gt;
-dd
-test
+d&lt;/p&gt;
+&lt;p&gt;test
 Testing Obsidian + Hugo. Here’s an image:
 &lt;img alt=&#34;image&#34; loading=&#34;lazy&#34; src=&#34;https://engkad.github.io/blog/posts/test/cycles.png&#34;&gt;&lt;/p&gt;
 &lt;details&gt;
