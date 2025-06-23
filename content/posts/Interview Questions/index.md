@@ -99,11 +99,9 @@ Buckling
 <summary><strong>What are the important factors in tendency to buckle?</strong></summary>
 
 Consider Euler buckling and critical load:
-
 $$
 P_{\text{cr}} = \frac{\pi^2 E I}{(K L)^2}
 $$
-
 - Boundary conditions (affects K value, fixed-fixed will be a lot stronger (lower K) than pinned-free)
 - Length of beam (similarly slenderness ratio, ratio of length to radius)
 - Stiffness of beam
