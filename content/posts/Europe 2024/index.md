@@ -1,7 +1,7 @@
 ---
 title: "Europe 2024"
 date: 2025-06-18
-draft: false
+draft: true
 tags: ["travel"]
 ---
 

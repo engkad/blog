@@ -1,7 +1,7 @@
 ---
 title: "Half-Badger Liquid Rocket Engine"
 date: 2025-06-03
-draft: false
+draft: true
 tags: ["engineering"]
 ---
 
