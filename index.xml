@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Kyle’s Engineering Blog</title>
-    <link>https://engkad.github.io/</link>
+    <link>https://kyleadler.com/</link>
     <description>Recent content on Kyle’s Engineering Blog</description>
     <generator>Hugo -- 0.147.0</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 20 Jun 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://engkad.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kyleadler.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Interview Questions</title>
-      <link>https://engkad.github.io/posts/interview-questions/</link>
+      <link>https://kyleadler.com/posts/interview-questions/</link>
       <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://engkad.github.io/posts/interview-questions/</guid>
+      <guid>https://kyleadler.com/posts/interview-questions/</guid>
       <description>&lt;p&gt;A collection of interview questions I&amp;rsquo;ve come across and like to share and discuss with other engineers.&lt;/p&gt;
 &lt;h2 id=&#34;structural&#34;&gt;Structural&lt;/h2&gt;
 &lt;details&gt;
@@ -31,18 +31,18 @@
     </item>
     <item>
       <title>Python Rocket Solver</title>
-      <link>https://engkad.github.io/posts/rocket_py/</link>
+      <link>https://kyleadler.com/posts/rocket_py/</link>
       <pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://engkad.github.io/posts/rocket_py/</guid>
+      <guid>https://kyleadler.com/posts/rocket_py/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://py.engrkad.com/rocket&#34;&gt;Link to solver&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&#34;purpose&#34;&gt;Purpose&lt;/h1&gt;
 &lt;p&gt;use the code i made in ema524 with jackson&lt;/p&gt;</description>
     </item>
     <item>
       <title>Space Case Podcast</title>
-      <link>https://engkad.github.io/posts/podcast/</link>
+      <link>https://kyleadler.com/posts/podcast/</link>
       <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://engkad.github.io/posts/podcast/</guid>
+      <guid>https://kyleadler.com/posts/podcast/</guid>
       <description>&lt;p&gt;Earlier this week I had the chance to chat about the Wisconsin Space Program student org and our goals to take Wisconsin past the Karman line on &lt;a href=&#34;https://wsum.org/&#34;&gt;WSUM 91.7 FM Madison&lt;/a&gt;&amp;rsquo;s&lt;a href=&#34;https://open.spotify.com/show/5ESJvEloyZhM0fbDQ7DrCr&#34;&gt; Space Case&lt;/a&gt; segment. Listen &lt;a href=&#34;https://open.spotify.com/episode/1PCEckH6gRe78kGdnW6sVo?si=My6gPAZyQlmw92w92mmGVg&#34;&gt;here&lt;/a&gt;:&lt;/p&gt;
 &lt;iframe style=&#34;border-radius:12px&#34; 
     src=&#34;https://open.spotify.com/embed/episode/1PCEckH6gRe78kGdnW6sVo?utm_source=generator&#34; 
@@ -56,10 +56,10 @@
     </item>
     <item>
       <title>Spaceport America Cup 2023</title>
-      <link>https://engkad.github.io/posts/spaceport23/</link>
+      <link>https://kyleadler.com/posts/spaceport23/</link>
       <pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://engkad.github.io/posts/spaceport23/</guid>
-      <description>&lt;p&gt;&lt;img alt=&#34;The nine of us and our mentor Frank standing with our rocket in NM.&#34; loading=&#34;lazy&#34; src=&#34;https://engkad.github.io/posts/spaceport23/IMG_5357.jpg&#34;&gt;&lt;/p&gt;
+      <guid>https://kyleadler.com/posts/spaceport23/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;The nine of us and our mentor Frank standing with our rocket in NM.&#34; loading=&#34;lazy&#34; src=&#34;https://kyleadler.com/posts/spaceport23/IMG_5357.jpg&#34;&gt;&lt;/p&gt;
 &lt;p&gt;I participated in this rocket competition as President of the Wisconsin Space Program student org (formerly UW-Madison&amp;rsquo;s Chapter of AIAA).&lt;/p&gt;
 &lt;p&gt;Read the UW-Madison College of Engineering&amp;rsquo;s post &lt;a href=&#34;https://engineering.wisc.edu/blog/students-compete-at-spaceport-america-cup/&#34;&gt;here&lt;/a&gt;:&lt;/p&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://engineering.wisc.edu/wp-content/uploads/2023/07/AIAA-new-mexico-stars-scaled.webp&#34;&gt;&lt;/p&gt;
@@ -68,9 +68,9 @@
     </item>
     <item>
       <title></title>
-      <link>https://engkad.github.io/useful-links/</link>
+      <link>https://kyleadler.com/useful-links/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://engkad.github.io/useful-links/</guid>
+      <guid>https://kyleadler.com/useful-links/</guid>
       <description>&lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -88,9 +88,9 @@
     </item>
     <item>
       <title>About</title>
-      <link>https://engkad.github.io/posts/about/</link>
+      <link>https://kyleadler.com/posts/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://engkad.github.io/posts/about/</guid>
+      <guid>https://kyleadler.com/posts/about/</guid>
       <description>&lt;h1 id=&#34;the-author&#34;&gt;The author&lt;/h1&gt;
 &lt;p&gt;Hello! I&amp;rsquo;m an aerospace engineer from Madison, WI. I got my B.S. in Engineering Mechanics and Aerospace from the University of Wisconsin-Madison in spring 2025, and now work as a propulsion test engineer.&lt;/p&gt;
 &lt;p&gt;I was part of the Wisconsin Space Program student org for my entire time in undergrad and continue to help and advise where I can. Key projects I&amp;rsquo;ve been involved in include:&lt;/p&gt;
