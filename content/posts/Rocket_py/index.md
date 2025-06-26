@@ -2,7 +2,7 @@
 title: "Python Rocket Solver"
 date: 2025-06-18
 draft: false
-tags: ["engineering"]
+tags: ["engineering","undergrad"]
 ---
 
 [Link to solver](https://py.engrkad.com/rocket)

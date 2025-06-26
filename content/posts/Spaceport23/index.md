@@ -2,7 +2,7 @@
 title: Spaceport America Cup 2023
 date: 2024-02-05
 draft: false
-tags: ["engineering"]
+tags: ["engineering","undergrad"]
 ---
 ![The nine of us and our mentor Frank standing with our rocket in NM.](IMG_5357.jpg)
 
