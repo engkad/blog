@@ -34,6 +34,7 @@ params:
   ShowBreadCrumbs: true # Enable breadcrumbs for navigation
   ShowPostNavLinks: true # Enable next/previous post links
   ShowCodeCopyButtons: true # Enable copy buttons for code blocks
+  ShowToc: true # Enable table of contents for posts
   profileMode:
     enabled: true
     title: "Kyle's Engineering Blog" # optional default will be site title
