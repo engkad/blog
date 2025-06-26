@@ -30,9 +30,10 @@ taxonomies:
 
 params:
   math: true # Enable math rendering for latex
-  ShowReadingTime: true
-  ShowBreadCrumbs: true
-  ShowPostNavLinks: true
+  ShowReadingTime: true # Show estimated reading time for posts
+  ShowBreadCrumbs: true # Enable breadcrumbs for navigation
+  ShowPostNavLinks: true # Enable next/previous post links
+  ShowCodeCopyButtons: true # Enable copy buttons for code blocks
   profileMode:
     enabled: true
     title: "Kyle's Engineering Blog" # optional default will be site title
@@ -76,3 +77,10 @@ menu:
       name: "Tags"
       url: "/tags/"
       weight: 3
+
+# add search functionality
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
