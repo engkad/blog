@@ -1,4 +1,4 @@
-baseURL: "https://engkad.github.io/blog/"
+baseURL: "https://engkad.github.io/"
 languageCode: "en-us"
 title: "Kyle’s Engineering Blog"
 theme: ["PaperMod"]
@@ -43,9 +43,9 @@ params:
     imageHeight: 240 # custom size
     buttons:
       - name: About
-        url: "/blog/posts/about/"
+        url: "/posts/about/"
       - name: Archive
-        url: "/blog/archive/"
+        url: "/archive/"
 
     # homeInfoParams:
     #   Title: Welcome to my blog
