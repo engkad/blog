@@ -78,6 +78,11 @@ menu:
       url: "/tags/"
       weight: 3
 
+    - identifier: "search"
+      name: "Search"
+      url: "/search/"
+      weight: 4
+
 # add search functionality
 outputs:
   home:
