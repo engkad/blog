@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Undergrad on Kyle’s Engineering Blog</title>
+    <link>https://kyleadler.com/tags/undergrad/</link>
+    <description>Recent content in Undergrad on Kyle’s Engineering Blog</description>
+    <generator>Hugo -- 0.147.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 11 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://kyleadler.com/tags/undergrad/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Senior Design Final Report</title>
+      <link>https://kyleadler.com/posts/senior-design-final-report/</link>
+      <pubDate>Sun, 11 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://kyleadler.com/posts/senior-design-final-report/</guid>
+      <description>&lt;p&gt;Below is my senior design report from EMA569. This project was developed in the spring semester, following a fall semester of designing a product and building a prototype.&lt;/p&gt;
+&lt;object data=&#34;EMA569_Report.pdf&#34; type=&#34;application/pdf&#34; width=&#34;100%&#34; height=&#34;600px&#34;&gt;
+    &lt;p&gt;Link to PDF: &lt;a href=&#34;EMA569_Report.pdf&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/object&gt;</description>
+    </item>
+  </channel>
+</rss>
