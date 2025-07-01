@@ -64,9 +64,7 @@ params:
 
 
   assets:
-    disableHLJS: true
-    favicon: "assets/favicon.ico" # Path to favicon
-
+    favicon: "/icons/favicon.ico"
 
 menu:
   main:
