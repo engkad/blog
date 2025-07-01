@@ -8,6 +8,9 @@ tags: ["engineering"]
 ## EMA524 Rocket Propulsion
 
 <details>
+<summary><strong>Lectures</strong></summary>
+
+<details>
 <summary><strong>Intro/internal energy</strong></summary>
 <iframe src="/course_notes/EMA524/524_lecture_1.pdf" width="100%" height="600px"></iframe>
 </details>
@@ -172,6 +175,13 @@ tags: ["engineering"]
 <iframe src="/course_notes/EMA524/524_lecture_39_equil_and_real_flows.pdf" width="100%" height="600px"></iframe>
 </details>
 
+</details>
+
+---
+
+<details>
+<summary><strong>Projects</strong></summary>
+
 <details>
 <summary><strong>Project 1</strong></summary>
 <iframe src="/course_notes/EMA524/524_project_1.pdf" width="100%" height="600px"></iframe>
@@ -181,6 +191,13 @@ tags: ["engineering"]
 <summary><strong>Project 2</strong></summary>
 <iframe src="/course_notes/EMA524/524_project_2.pdf" width="100%" height="600px"></iframe>
 </details>
+
+</details>
+
+---
+
+<details>
+<summary><strong>Exams</strong></summary>
 
 <details>
 <summary><strong>Exam 1 Equations and Topics</strong></summary>
@@ -192,7 +209,12 @@ tags: ["engineering"]
 <iframe src="/course_notes/EMA524/Exam_2_Equations.pdf" width="100%" height="600px"></iframe>
 </details>
 
+</details>
+
 ## EMA550 Astrodynamics
+
+<details>
+<summary><strong>Lectures</strong></summary>
 
 <details>
 <summary><strong>Kepler’s laws</strong></summary>
@@ -294,20 +316,12 @@ tags: ["engineering"]
 <iframe src="/course_notes/EMA550/550_L24.pdf" width="100%" height="600px"></iframe>
 </details>
 
-<details>
-<summary><strong>Note sheet</strong></summary>
-<iframe src="/course_notes/EMA550/Note_sheet_.pdf" width="100%" height="600px"></iframe>
 </details>
 
-<details>
-<summary><strong>Project</strong></summary>
-<iframe src="/course_notes/EMA550/Project.pdf" width="100%" height="600px"></iframe>
-</details>
+---
 
 <details>
-<summary><strong>Exam review & practice</strong></summary>
-<iframe src="/course_notes/EMA550/550_exam_review_practice.pdf" width="100%" height="600px"></iframe>
-</details>
+<summary><strong>Homework</strong></summary>
 
 <details>
 <summary><strong>Homework 1</strong></summary>
@@ -339,7 +353,41 @@ tags: ["engineering"]
 <iframe src="/course_notes/EMA550/550_HW6.pdf" width="100%" height="600px"></iframe>
 </details>
 
-## EMA521 Aerodymamics
+</details>
+
+---
+
+<details>
+<summary><strong>Project</strong></summary>
+
+<details>
+<summary><strong>Project</strong></summary>
+<iframe src="/course_notes/EMA550/Project.pdf" width="100%" height="600px"></iframe>
+</details>
+
+</details>
+
+---
+
+<details>
+<summary><strong>Exam materials</strong></summary>
+
+<details>
+<summary><strong>Note sheet</strong></summary>
+<iframe src="/course_notes/EMA550/Note_sheet_.pdf" width="100%" height="600px"></iframe>
+</details>
+
+<details>
+<summary><strong>Exam review & practice</strong></summary>
+<iframe src="/course_notes/EMA550/550_exam_review_practice.pdf" width="100%" height="600px"></iframe>
+</details>
+
+</details>
+
+## EMA521 Aerodynamics
+
+<details>
+<summary><strong>Lectures</strong></summary>
 
 <details>
 <summary><strong>Airplanes and airfoils</strong></summary>
@@ -401,15 +449,12 @@ tags: ["engineering"]
 <iframe src="/course_notes/EMA521/Note_Dec_10,_2024.pdf" width="100%" height="600px"></iframe>
 </details>
 
-<details>
-<summary><strong>Final project</strong></summary>
-<iframe src="/course_notes/EMA521/521_Final_Project.pdf" width="100%" height="600px"></iframe>
 </details>
 
+---
+
 <details>
-<summary><strong>Midterm 2 practice</strong></summary>
-<iframe src="/course_notes/EMA521/Midterm_2_practice.pdf" width="100%" height="600px"></iframe>
-</details>
+<summary><strong>Problem Sets</strong></summary>
 
 <details>
 <summary><strong>Problem Set 0</strong></summary>
@@ -466,437 +511,454 @@ tags: ["engineering"]
 <iframe src="/course_notes/EMA521/521_PS13.pdf" width="100%" height="600px"></iframe>
 </details>
 
-## ME364 Heat transfer
+</details>
+
+---
 
 <details>
-  <summary><strong>Lecture Notes</strong></summary>
-  <iframe src="/course_notes/ME364/LECTURE.pdf" width="100%" height="600px"></iframe>
+<summary><strong>Project</strong></summary>
+
+<details>
+<summary><strong>Final project</strong></summary>
+<iframe src="/course_notes/EMA521/521_Final_Project.pdf" width="100%" height="600px"></iframe>
+</details>
+
+</details>
+
+---
+
+<details>
+<summary><strong>Exam materials</strong></summary>
+
+<details>
+<summary><strong>Midterm 2 practice</strong></summary>
+<iframe src="/course_notes/EMA521/Midterm_2_practice.pdf" width="100%" height="600px"></iframe>
+</details>
+
+</details>
+
+## ME364 Heat Transfer
+
+<details>
+<summary><strong>Lecture materials</strong></summary>
+
+<details>
+<summary><strong>Lecture notes</strong></summary>
+<iframe src="/course_notes/ME364/LECTURE.pdf" width="100%" height="600px"></iframe>
 </details>
 
 <details>
-  <summary><strong>Equation Sheet</strong></summary>
-  <iframe src="/course_notes/ME364/EQ_sheet.pdf" width="100%" height="600px"></iframe>
+<summary><strong>Equation sheet</strong></summary>
+<iframe src="/course_notes/ME364/EQ_sheet.pdf" width="100%" height="600px"></iframe>
 </details>
 
 <details>
-  <summary><strong>Note Sheet</strong></summary>
-  <iframe src="/course_notes/ME364/364_note_sheet.pdf" width="100%" height="600px"></iframe>
+<summary><strong>Note sheet</strong></summary>
+<iframe src="/course_notes/ME364/364_note_sheet.pdf" width="100%" height="600px"></iframe>
+</details>
+
+</details>
+
+---
+
+<details>
+<summary><strong>Homework</strong></summary>
+
+<details>
+<summary><strong>Homework 1</strong></summary>
+<iframe src="/course_notes/ME364/364_hw01.pdf" width="100%" height="600px"></iframe>
 </details>
 
 <details>
-  <summary><strong>Homework 1</strong></summary>
-  <iframe src="/course_notes/ME364/364_hw01.pdf" width="100%" height="600px"></iframe>
+<summary><strong>Homework 2</strong></summary>
+<iframe src="/course_notes/ME364/364_hw2.pdf" width="100%" height="600px"></iframe>
 </details>
 
 <details>
-  <summary><strong>Homework 2</strong></summary>
-  <iframe src="/course_notes/ME364/364_hw2.pdf" width="100%" height="600px"></iframe>
+<summary><strong>Homework 3</strong></summary>
+<iframe src="/course_notes/ME364/364_hw3.pdf" width="100%" height="600px"></iframe>
 </details>
 
 <details>
-  <summary><strong>Homework 3</strong></summary>
-  <iframe src="/course_notes/ME364/364_hw3.pdf" width="100%" height="600px"></iframe>
+<summary><strong>Homework 4</strong></summary>
+<iframe src="/course_notes/ME364/364_hw4.pdf" width="100%" height="600px"></iframe>
 </details>
 
 <details>
-  <summary><strong>Homework 4</strong></summary>
-  <iframe src="/course_notes/ME364/364_hw4.pdf" width="100%" height="600px"></iframe>
+<summary><strong>Homework 5</strong></summary>
+<iframe src="/course_notes/ME364/364_hw5.pdf" width="100%" height="600px"></iframe>
 </details>
 
 <details>
-  <summary><strong>Homework 5</strong></summary>
-  <iframe src="/course_notes/ME364/364_hw5.pdf" width="100%" height="600px"></iframe>
+<summary><strong>Homework 6</strong></summary>
+<iframe src="/course_notes/ME364/364_hw6.pdf" width="100%" height="600px"></iframe>
 </details>
 
 <details>
-  <summary><strong>Homework 6</strong></summary>
-  <iframe src="/course_notes/ME364/364_hw6.pdf" width="100%" height="600px"></iframe>
+<summary><strong>Homework 7</strong></summary>
+<iframe src="/course_notes/ME364/364_hw7_external_convection.pdf" width="100%" height="600px"></iframe>
 </details>
 
 <details>
-  <summary><strong>Homework 7</strong></summary>
-  <iframe src="/course_notes/ME364/364_hw7_external_convection.pdf" width="100%" height="600px"></iframe>
+<summary><strong>Homework 8</strong></summary>
+<iframe src="/course_notes/ME364/364_hw8.pdf" width="100%" height="600px"></iframe>
 </details>
 
 <details>
-  <summary><strong>Homework 8</strong></summary>
-  <iframe src="/course_notes/ME364/364_hw8.pdf" width="100%" height="600px"></iframe>
+<summary><strong>Homework 9</strong></summary>
+<iframe src="/course_notes/ME364/364_hw9.pdf" width="100%" height="600px"></iframe>
 </details>
 
 <details>
-  <summary><strong>Homework 9</strong></summary>
-  <iframe src="/course_notes/ME364/364_hw9.pdf" width="100%" height="600px"></iframe>
+<summary><strong>Homework 10</strong></summary>
+<iframe src="/course_notes/ME364/364_hw10.pdf" width="100%" height="600px"></iframe>
 </details>
 
 <details>
-  <summary><strong>Homework 10</strong></summary>
-  <iframe src="/course_notes/ME364/364_hw10.pdf" width="100%" height="600px"></iframe>
+<summary><strong>Homework 11</strong></summary>
+<iframe src="/course_notes/ME364/364_hw11.pdf" width="100%" height="600px"></iframe>
+</details>
+
+</details>
+
+---
+
+<details>
+<summary><strong>Discussions</strong></summary>
+
+<details>
+<summary><strong>Discussion 1</strong></summary>
+<iframe src="/course_notes/ME364/DIS1.pdf" width="100%" height="600px"></iframe>
 </details>
 
 <details>
-  <summary><strong>Homework 11</strong></summary>
-  <iframe src="/course_notes/ME364/364_hw11.pdf" width="100%" height="600px"></iframe>
+<summary><strong>Discussion 2</strong></summary>
+<iframe src="/course_notes/ME364/364_dis2.pdf" width="100%" height="600px"></iframe>
 </details>
 
 <details>
-  <summary><strong>Discussion 1</strong></summary>
-  <iframe src="/course_notes/ME364/DIS1.pdf" width="100%" height="600px"></iframe>
+<summary><strong>Discussion 3</strong></summary>
+<iframe src="/course_notes/ME364/364_dis3.pdf" width="100%" height="600px"></iframe>
 </details>
 
 <details>
-  <summary><strong>Discussion 2</strong></summary>
-  <iframe src="/course_notes/ME364/364_dis2.pdf" width="100%" height="600px"></iframe>
+<summary><strong>Discussion 4</strong></summary>
+<iframe src="/course_notes/ME364/364_dis4.pdf" width="100%" height="600px"></iframe>
 </details>
 
 <details>
-  <summary><strong>Discussion 3</strong></summary>
-  <iframe src="/course_notes/ME364/364_dis3.pdf" width="100%" height="600px"></iframe>
+<summary><strong>Discussion 5</strong></summary>
+<iframe src="/course_notes/ME364/364_dis5.pdf" width="100%" height="600px"></iframe>
 </details>
 
 <details>
-  <summary><strong>Discussion 4</strong></summary>
-  <iframe src="/course_notes/ME364/364_dis4.pdf" width="100%" height="600px"></iframe>
+<summary><strong>Discussion 6</strong></summary>
+<iframe src="/course_notes/ME364/364_dis6.pdf" width="100%" height="600px"></iframe>
 </details>
 
 <details>
-  <summary><strong>Discussion 5</strong></summary>
-  <iframe src="/course_notes/ME364/364_dis5.pdf" width="100%" height="600px"></iframe>
+<summary><strong>Discussion 7</strong></summary>
+<iframe src="/course_notes/ME364/364_dis7.pdf" width="100%" height="600px"></iframe>
 </details>
 
 <details>
-  <summary><strong>Discussion 6</strong></summary>
-  <iframe src="/course_notes/ME364/364_dis6.pdf" width="100%" height="600px"></iframe>
+<summary><strong>Discussion 8</strong></summary>
+<iframe src="/course_notes/ME364/364_dis8.pdf" width="100%" height="600px"></iframe>
 </details>
 
 <details>
-  <summary><strong>Discussion 7</strong></summary>
-  <iframe src="/course_notes/ME364/364_dis7.pdf" width="100%" height="600px"></iframe>
+<summary><strong>Discussion 9</strong></summary>
+<iframe src="/course_notes/ME364/364_dis9.pdf" width="100%" height="600px"></iframe>
 </details>
 
 <details>
-  <summary><strong>Discussion 8</strong></summary>
-  <iframe src="/course_notes/ME364/364_dis8.pdf" width="100%" height="600px"></iframe>
+<summary><strong>Discussion 10</strong></summary>
+<iframe src="/course_notes/ME364/364_dis10.pdf" width="100%" height="600px"></iframe>
 </details>
 
 <details>
-  <summary><strong>Discussion 9</strong></summary>
-  <iframe src="/course_notes/ME364/364_dis9.pdf" width="100%" height="600px"></iframe>
+<summary><strong>Discussion 12</strong></summary>
+<iframe src="/course_notes/ME364/364_dis12.pdf" width="100%" height="600px"></iframe>
 </details>
 
 <details>
-  <summary><strong>Discussion 10</strong></summary>
-  <iframe src="/course_notes/ME364/364_dis10.pdf" width="100%" height="600px"></iframe>
+<summary><strong>Discussion 13</strong></summary>
+<iframe src="/course_notes/ME364/364_dis13.pdf" width="100%" height="600px"></iframe>
 </details>
 
 <details>
-  <summary><strong>Discussion 12</strong></summary>
-  <iframe src="/course_notes/ME364/364_dis12.pdf" width="100%" height="600px"></iframe>
+<summary><strong>Discussion 14</strong></summary>
+<iframe src="/course_notes/ME364/364_dis14.pdf" width="100%" height="600px"></iframe>
 </details>
 
 <details>
-  <summary><strong>Discussion 13</strong></summary>
-  <iframe src="/course_notes/ME364/364_dis13.pdf" width="100%" height="600px"></iframe>
+<summary><strong>Discussion 15</strong></summary>
+<iframe src="/course_notes/ME364/364_dis15.pdf" width="100%" height="600px"></iframe>
 </details>
 
 <details>
-  <summary><strong>Discussion 14</strong></summary>
-  <iframe src="/course_notes/ME364/364_dis14.pdf" width="100%" height="600px"></iframe>
+<summary><strong>Discussion 17</strong></summary>
+<iframe src="/course_notes/ME364/364_dis17.pdf" width="100%" height="600px"></iframe>
 </details>
 
 <details>
-  <summary><strong>Discussion 15</strong></summary>
-  <iframe src="/course_notes/ME364/364_dis15.pdf" width="100%" height="600px"></iframe>
+<summary><strong>Discussion 19</strong></summary>
+<iframe src="/course_notes/ME364/364_dis19.pdf" width="100%" height="600px"></iframe>
 </details>
 
 <details>
-  <summary><strong>Discussion 17</strong></summary>
-  <iframe src="/course_notes/ME364/364_dis17.pdf" width="100%" height="600px"></iframe>
+<summary><strong>Discussion 20</strong></summary>
+<iframe src="/course_notes/ME364/364_lec20.pdf" width="100%" height="600px"></iframe>
 </details>
 
 <details>
-  <summary><strong>Discussion 19</strong></summary>
-  <iframe src="/course_notes/ME364/364_dis19.pdf" width="100%" height="600px"></iframe>
+<summary><strong>Discussion 23</strong></summary>
+<iframe src="/course_notes/ME364/364_dis23.pdf" width="100%" height="600px"></iframe>
+</details>
+
+</details>
+
+---
+
+<details>
+<summary><strong>Exams & reviews</strong></summary>
+
+<details>
+<summary><strong>Practice Exam 1</strong></summary>
+<iframe src="/course_notes/ME364/364_practice_exam_1.pdf" width="100%" height="600px"></iframe>
 </details>
 
 <details>
-  <summary><strong>Discussion 20</strong></summary>
-  <iframe src="/course_notes/ME364/364_lec20.pdf" width="100%" height="600px"></iframe>
+<summary><strong>Practice Midterm 2</strong></summary>
+<iframe src="/course_notes/ME364/Practice_midterm_2.pdf" width="100%" height="600px"></iframe>
 </details>
 
 <details>
-  <summary><strong>Discussion 23</strong></summary>
-  <iframe src="/course_notes/ME364/364_dis23.pdf" width="100%" height="600px"></iframe>
+<summary><strong>Exam 2 review</strong></summary>
+<iframe src="/course_notes/ME364/364_exam_2_review.pdf" width="100%" height="600px"></iframe>
 </details>
 
 <details>
-  <summary><strong>Practice Exam 1</strong></summary>
-  <iframe src="/course_notes/ME364/364_practice_exam_1.pdf" width="100%" height="600px"></iframe>
+<summary><strong>Exam review</strong></summary>
+<iframe src="/course_notes/ME364/364_exam_review.pdf" width="100%" height="600px"></iframe>
 </details>
 
 <details>
-  <summary><strong>Practice Midterm 2</strong></summary>
-  <iframe src="/course_notes/ME364/Practice_midterm_2.pdf" width="100%" height="600px"></iframe>
+<summary><strong>Final review</strong></summary>
+<iframe src="/course_notes/ME364/364_final_review.pdf" width="100%" height="600px"></iframe>
 </details>
 
-<details>
-  <summary><strong>Exam 2 Review</strong></summary>
-  <iframe src="/course_notes/ME364/364_exam_2_review.pdf" width="100%" height="600px"></iframe>
-</details>
-
-<details>
-  <summary><strong>Exam Review</strong></summary>
-  <iframe src="/course_notes/ME364/364_exam_review.pdf" width="100%" height="600px"></iframe>
-</details>
-
-<details>
-  <summary><strong>Final Review</strong></summary>
-  <iframe src="/course_notes/ME364/364_final_review.pdf" width="100%" height="600px"></iframe>
 </details>
 
 ## ME446 Controls
 
-<!-- Lectures -->
 <details>
-  <summary><strong>Dynamic system modelling</strong></summary>
-  <iframe src="/course_notes/ME446/446_Lec2,3,4.pdf" width="100%" height="600px"></iframe>
+<summary><strong>Lecture slides</strong></summary>
+
+<details><summary><strong>Dynamic system modelling</strong></summary>
+<iframe src="/course_notes/ME446/446_Lec2,3,4.pdf" width="100%" height="600px"></iframe>
 </details>
 
-<details>
-  <summary><strong>Transfer functions, MATLAB</strong></summary>
-  <iframe src="/course_notes/ME446/446_lec5_transfer_fn,_matlab_.pdf" width="100%" height="600px"></iframe>
+<details><summary><strong>Transfer functions, MATLAB</strong></summary>
+<iframe src="/course_notes/ME446/446_lec5_transfer_fn,_matlab_.pdf" width="100%" height="600px"></iframe>
 </details>
 
-<details>
-  <summary><strong>Final value, block diagrams</strong></summary>
-  <iframe src="/course_notes/ME446/446_lec6_final_value,_block_diagrams.pdf" width="100%" height="600px"></iframe>
+<details><summary><strong>Final value, block diagrams</strong></summary>
+<iframe src="/course_notes/ME446/446_lec6_final_value,_block_diagrams.pdf" width="100%" height="600px"></iframe>
 </details>
 
-<details>
-  <summary><strong>Block diagram</strong></summary>
-  <iframe src="/course_notes/ME446/446_lec7_block_diagram.pdf" width="100%" height="600px"></iframe>
+<details><summary><strong>Block diagram</strong></summary>
+<iframe src="/course_notes/ME446/446_lec7_block_diagram.pdf" width="100%" height="600px"></iframe>
 </details>
 
-<details>
-  <summary><strong>Time domain performance specs</strong></summary>
-  <iframe src="/course_notes/ME446/446_lec9_time_domain_performance_specs.pdf" width="100%" height="600px"></iframe>
+<details><summary><strong>Time domain performance specs</strong></summary>
+<iframe src="/course_notes/ME446/446_lec9_time_domain_performance_specs.pdf" width="100%" height="600px"></iframe>
 </details>
 
-<details>
-  <summary><strong>Unity gain feedback, specs</strong></summary>
-  <iframe src="/course_notes/ME446/446_lec10_unity_gain_feedback,_specs.pdf" width="100%" height="600px"></iframe>
+<details><summary><strong>Unity gain feedback, specs</strong></summary>
+<iframe src="/course_notes/ME446/446_lec10_unity_gain_feedback,_specs.pdf" width="100%" height="600px"></iframe>
 </details>
 
-<details>
-  <summary><strong>Effects of zeros, poles, feedback</strong></summary>
-  <iframe src="/course_notes/ME446/446_lec11_effects_of_zeros,_poles._feedback.pdf" width="100%" height="600px"></iframe>
+<details><summary><strong>Effects of zeros, poles, feedback</strong></summary>
+<iframe src="/course_notes/ME446/446_lec11_effects_of_zeros,_poles._feedback.pdf" width="100%" height="600px"></iframe>
 </details>
 
-<details>
-  <summary><strong>PID</strong></summary>
-  <iframe src="/course_notes/ME446/446_lec12_pid_.pdf" width="100%" height="600px"></iframe>
+<details><summary><strong>PID</strong></summary>
+<iframe src="/course_notes/ME446/446_lec12_pid_.pdf" width="100%" height="600px"></iframe>
 </details>
 
-<details>
-  <summary><strong>PI</strong></summary>
-  <iframe src="/course_notes/ME446/446_lec14_pi.pdf" width="100%" height="600px"></iframe>
+<details><summary><strong>PI</strong></summary>
+<iframe src="/course_notes/ME446/446_lec14_pi.pdf" width="100%" height="600px"></iframe>
 </details>
 
-<details>
-  <summary><strong>Root locus</strong></summary>
-  <iframe src="/course_notes/ME446/446_lec15_root_locus.pdf" width="100%" height="600px"></iframe>
+<details><summary><strong>Root locus</strong></summary>
+<iframe src="/course_notes/ME446/446_lec15_root_locus.pdf" width="100%" height="600px"></iframe>
 </details>
 
-<details>
-  <summary><strong>PD</strong></summary>
-  <iframe src="/course_notes/ME446/446_lec16_.pdf" width="100%" height="600px"></iframe>
+<details><summary><strong>PD</strong></summary>
+<iframe src="/course_notes/ME446/446_lec16_.pdf" width="100%" height="600px"></iframe>
 </details>
 
-<details>
-  <summary><strong>Frequency domain</strong></summary>
-  <iframe src="/course_notes/ME446/446_lec17_frequency_domain.pdf" width="100%" height="600px"></iframe>
+<details><summary><strong>Frequency domain</strong></summary>
+<iframe src="/course_notes/ME446/446_lec17_frequency_domain.pdf" width="100%" height="600px"></iframe>
 </details>
 
-<details>
-  <summary><strong>Frequency response, Bode</strong></summary>
-  <iframe src="/course_notes/ME446/446_lec18_frequency_response,_bode.pdf" width="100%" height="600px"></iframe>
+<details><summary><strong>Frequency response, Bode</strong></summary>
+<iframe src="/course_notes/ME446/446_lec18_frequency_response,_bode.pdf" width="100%" height="600px"></iframe>
 </details>
 
-<details>
-  <summary><strong>Response due to roots</strong></summary>
-  <iframe src="/course_notes/ME446/446_lec19_response_due_to_roots.pdf" width="100%" height="600px"></iframe>
+<details><summary><strong>Response due to roots</strong></summary>
+<iframe src="/course_notes/ME446/446_lec19_response_due_to_roots.pdf" width="100%" height="600px"></iframe>
 </details>
 
-<details>
-  <summary><strong>Real roots response</strong></summary>
-  <iframe src="/course_notes/ME446/446_lec20_real_roots_response.pdf" width="100%" height="600px"></iframe>
+<details><summary><strong>Real roots response</strong></summary>
+<iframe src="/course_notes/ME446/446_lec20_real_roots_response.pdf" width="100%" height="600px"></iframe>
 </details>
 
-<details>
-  <summary><strong>Complex roots response</strong></summary>
-  <iframe src="/course_notes/ME446/446_lec21_complex_roots_response_.pdf" width="100%" height="600px"></iframe>
+<details><summary><strong>Complex roots response</strong></summary>
+<iframe src="/course_notes/ME446/446_lec21_complex_roots_response_.pdf" width="100%" height="600px"></iframe>
 </details>
 
-<details>
-  <summary><strong>Nyquist stability</strong></summary>
-  <iframe src="/course_notes/ME446/446_lec22_nyquist_stability.pdf" width="100%" height="600px"></iframe>
+<details><summary><strong>Nyquist stability</strong></summary>
+<iframe src="/course_notes/ME446/446_lec22_nyquist_stability.pdf" width="100%" height="600px"></iframe>
 </details>
 
-<details>
-  <summary><strong>Nyquist continued</strong></summary>
-  <iframe src="/course_notes/ME446/446_lec23_nyquist.pdf" width="100%" height="600px"></iframe>
+<details><summary><strong>Nyquist continued</strong></summary>
+<iframe src="/course_notes/ME446/446_lec23_nyquist.pdf" width="100%" height="600px"></iframe>
 </details>
 
-<details>
-  <summary><strong>Nyquist encirclements</strong></summary>
-  <iframe src="/course_notes/ME446/446_lec24_nyquist_encirclements.pdf" width="100%" height="600px"></iframe>
+<details><summary><strong>Nyquist encirclements</strong></summary>
+<iframe src="/course_notes/ME446/446_lec24_nyquist_encirclements.pdf" width="100%" height="600px"></iframe>
 </details>
 
-<details>
-  <summary><strong>Stability condition, bandwidth</strong></summary>
-  <iframe src="/course_notes/ME446/446_lec25_stability_condition,_bandwidth_.pdf" width="100%" height="600px"></iframe>
+<details><summary><strong>Stability condition, bandwidth</strong></summary>
+<iframe src="/course_notes/ME446/446_lec25_stability_condition,_bandwidth_.pdf" width="100%" height="600px"></iframe>
 </details>
 
-<details>
-  <summary><strong>Stability margins</strong></summary>
-  <iframe src="/course_notes/ME446/446_lec26_stability_margins.pdf" width="100%" height="600px"></iframe>
+<details><summary><strong>Stability margins</strong></summary>
+<iframe src="/course_notes/ME446/446_lec26_stability_margins.pdf" width="100%" height="600px"></iframe>
 </details>
 
-<details>
-  <summary><strong>Compensation, design</strong></summary>
-  <iframe src="/course_notes/ME446/446_lec27_compensation,_design.pdf" width="100%" height="600px"></iframe>
+<details><summary><strong>Compensation, design</strong></summary>
+<iframe src="/course_notes/ME446/446_lec27_compensation,_design.pdf" width="100%" height="600px"></iframe>
 </details>
 
-<details>
-  <summary><strong>Exam 2 review</strong></summary>
-  <iframe src="/course_notes/ME446/446_lec28_exam_2_review.pdf" width="100%" height="600px"></iframe>
+<details><summary><strong>Exam 2 review</strong></summary>
+<iframe src="/course_notes/ME446/446_lec28_exam_2_review.pdf" width="100%" height="600px"></iframe>
 </details>
 
-<details>
-  <summary><strong>Compensation</strong></summary>
-  <iframe src="/course_notes/ME446/446_lec29_compensation_.pdf" width="100%" height="600px"></iframe>
+<details><summary><strong>Compensation</strong></summary>
+<iframe src="/course_notes/ME446/446_lec29_compensation_.pdf" width="100%" height="600px"></iframe>
 </details>
 
-<details>
-  <summary><strong>Lead design, integral-speed of response</strong></summary>
-  <iframe src="/course_notes/ME446/446_lec30_lead_design,_integral-speed_of_response.pdf" width="100%" height="600px"></iframe>
+<details><summary><strong>Lead design, integral-speed of response</strong></summary>
+<iframe src="/course_notes/ME446/446_lec30_lead_design,_integral-speed_of_response.pdf" width="100%" height="600px"></iframe>
 </details>
 
-<details>
-  <summary><strong>PI controller</strong></summary>
-  <iframe src="/course_notes/ME446/446_lec31_pi_controller_.pdf" width="100%" height="600px"></iframe>
+<details><summary><strong>PI controller</strong></summary>
+<iframe src="/course_notes/ME446/446_lec31_pi_controller_.pdf" width="100%" height="600px"></iframe>
 </details>
 
-<details>
-  <summary><strong>PI & lag, error</strong></summary>
-  <iframe src="/course_notes/ME446/446_lec32_pi_&_lag,_error.pdf" width="100%" height="600px"></iframe>
+<details><summary><strong>PI & lag, error</strong></summary>
+<iframe src="/course_notes/ME446/446_lec32_pi_&_lag,_error.pdf" width="100%" height="600px"></iframe>
 </details>
 
-<details>
-  <summary><strong>Lead lag, PID</strong></summary>
-  <iframe src="/course_notes/ME446/446_lec33_lead_lag,_pid.pdf" width="100%" height="600px"></iframe>
+<details><summary><strong>Lead lag, PID</strong></summary>
+<iframe src="/course_notes/ME446/446_lec33_lead_lag,_pid.pdf" width="100%" height="600px"></iframe>
 </details>
 
-<details>
-  <summary><strong>Lead-lag example</strong></summary>
-  <iframe src="/course_notes/ME446/446_lec34_lead-lag_example.pdf" width="100%" height="600px"></iframe>
+<details><summary><strong>Lead-lag example</strong></summary>
+<iframe src="/course_notes/ME446/446_lec34_lead-lag_example.pdf" width="100%" height="600px"></iframe>
 </details>
 
-<details>
-  <summary><strong>PID example</strong></summary>
-  <iframe src="/course_notes/ME446/446_lec35_pid_example.pdf" width="100%" height="600px"></iframe>
+<details><summary><strong>PID example</strong></summary>
+<iframe src="/course_notes/ME446/446_lec35_pid_example.pdf" width="100%" height="600px"></iframe>
 </details>
 
-<details>
-  <summary><strong>GM, collocated</strong></summary>
-  <iframe src="/course_notes/ME446/446_lec36_gm,_collocated.pdf" width="100%" height="600px"></iframe>
+<details><summary><strong>GM, collocated</strong></summary>
+<iframe src="/course_notes/ME446/446_lec36_gm,_collocated.pdf" width="100%" height="600px"></iframe>
 </details>
 
-<details>
-  <summary><strong>Resonance, GM, collocated</strong></summary>
-  <iframe src="/course_notes/ME446/446_lec37_resonance,_GM,_collocated.pdf" width="100%" height="600px"></iframe>
+<details><summary><strong>Resonance, GM, collocated</strong></summary>
+<iframe src="/course_notes/ME446/446_lec37_resonance,_GM,_collocated.pdf" width="100%" height="600px"></iframe>
 </details>
 
-<details>
-  <summary><strong>Time delay</strong></summary>
-  <iframe src="/course_notes/ME446/446_lec39_time_delay.pdf" width="100%" height="600px"></iframe>
+<details><summary><strong>Time delay</strong></summary>
+<iframe src="/course_notes/ME446/446_lec39_time_delay.pdf" width="100%" height="600px"></iframe>
 </details>
 
-<details>
-  <summary><strong>Cascaded leads</strong></summary>
-  <iframe src="/course_notes/ME446/446_lec40.pdf" width="100%" height="600px"></iframe>
+<details><summary><strong>Cascaded leads</strong></summary>
+<iframe src="/course_notes/ME446/446_lec40.pdf" width="100%" height="600px"></iframe>
 </details>
 
-<details>
-  <summary><strong>Final review</strong></summary>
-  <iframe src="/course_notes/ME446/446_lec41_review.pdf" width="100%" height="600px"></iframe>
+<details><summary><strong>Final review</strong></summary>
+<iframe src="/course_notes/ME446/446_lec41_review.pdf" width="100%" height="600px"></iframe>
 </details>
 
-<!-- Homeworks -->
-<details>
-  <summary><strong>Homework 2</strong></summary>
-  <iframe src="/course_notes/ME446/446_hw2.pdf" width="100%" height="600px"></iframe>
 </details>
 
+---
+
 <details>
-  <summary><strong>Homework 3</strong></summary>
-  <iframe src="/course_notes/ME446/446_hw3.pdf" width="100%" height="600px"></iframe>
+<summary><strong>Homework</strong></summary>
+
+<details><summary><strong>Homework 2</strong></summary>
+<iframe src="/course_notes/ME446/446_hw2.pdf" width="100%" height="600px"></iframe>
 </details>
 
-<details>
-  <summary><strong>Homework 4</strong></summary>
-  <iframe src="/course_notes/ME446/446_hw4.pdf" width="100%" height="600px"></iframe>
+<details><summary><strong>Homework 3</strong></summary>
+<iframe src="/course_notes/ME446/446_hw3.pdf" width="100%" height="600px"></iframe>
 </details>
 
-<details>
-  <summary><strong>Homework 5</strong></summary>
-  <iframe src="/course_notes/ME446/446_hw5.pdf" width="100%" height="600px"></iframe>
+<details><summary><strong>Homework 4</strong></summary>
+<iframe src="/course_notes/ME446/446_hw4.pdf" width="100%" height="600px"></iframe>
 </details>
 
-<details>
-  <summary><strong>Homework 6</strong></summary>
-  <iframe src="/course_notes/ME446/446_hw6.pdf" width="100%" height="600px"></iframe>
+<details><summary><strong>Homework 5</strong></summary>
+<iframe src="/course_notes/ME446/446_hw5.pdf" width="100%" height="600px"></iframe>
 </details>
 
-<details>
-  <summary><strong>Homework 7</strong></summary>
-  <iframe src="/course_notes/ME446/446_hw7.pdf" width="100%" height="600px"></iframe>
+<details><summary><strong>Homework 6</strong></summary>
+<iframe src="/course_notes/ME446/446_hw6.pdf" width="100%" height="600px"></iframe>
 </details>
 
-<details>
-  <summary><strong>Homework 8</strong></summary>
-  <iframe src="/course_notes/ME446/446_hw8.pdf" width="100%" height="600px"></iframe>
+<details><summary><strong>Homework 7</strong></summary>
+<iframe src="/course_notes/ME446/446_hw7.pdf" width="100%" height="600px"></iframe>
 </details>
 
-<details>
-  <summary><strong>Homework 9</strong></summary>
-  <iframe src="/course_notes/ME446/446_hw9.pdf" width="100%" height="600px"></iframe>
+<details><summary><strong>Homework 8</strong></summary>
+<iframe src="/course_notes/ME446/446_hw8.pdf" width="100%" height="600px"></iframe>
 </details>
 
-<!-- Reviews and Exams -->
-<details>
-  <summary><strong>Exam 1 practice</strong></summary>
-  <iframe src="/course_notes/ME446/446_exam_1_review_.pdf" width="100%" height="600px"></iframe>
+<details><summary><strong>Homework 9</strong></summary>
+<iframe src="/course_notes/ME446/446_hw9.pdf" width="100%" height="600px"></iframe>
 </details>
 
-<details>
-  <summary><strong>Exam 2 practice</strong></summary>
-  <iframe src="/course_notes/ME446/446_exam_2_review.pdf" width="100%" height="600px"></iframe>
 </details>
 
+---
+
 <details>
-  <summary><strong>Exam 3 practice</strong></summary>
-  <iframe src="/course_notes/ME446/446_exam_3_review_.pdf" width="100%" height="600px"></iframe>
+<summary><strong>Reviews & exams</strong></summary>
+
+<details><summary><strong>Exam 1 practice</strong></summary>
+<iframe src="/course_notes/ME446/446_exam_1_review_.pdf" width="100%" height="600px"></iframe>
 </details>
 
-<details>
-  <summary><strong>Final practice</strong></summary>
-  <iframe src="/course_notes/ME446/446_final_review.pdf" width="100%" height="600px"></iframe>
+<details><summary><strong>Exam 2 practice</strong></summary>
+<iframe src="/course_notes/ME446/446_exam_2_review.pdf" width="100%" height="600px"></iframe>
 </details>
 
+<details><summary><strong>Exam 3 practice</strong></summary>
+<iframe src="/course_notes/ME446/446_exam_3_review_.pdf" width="100%" height="600px"></iframe>
+</details>
 
+<details><summary><strong>Final practice</strong></summary>
+<iframe src="/course_notes/ME446/446_final_review.pdf" width="100%" height="600px"></iframe>
+</details>
 
-<!-- Miscellaneous -->
-<details>
-  <summary><strong>Laplace transform</strong></summary>
-  <iframe src="/course_notes/ME446/Note_Sep_11,_2023.pdf" width="100%" height="600px"></iframe>
+<details><summary><strong>Laplace transform</strong></summary>
+<iframe src="/course_notes/ME446/Note_Sep_11,_2023.pdf" width="100%" height="600px"></iframe>
+</details>
+
 </details>
