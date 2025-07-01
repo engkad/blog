@@ -28,6 +28,7 @@ taxonomies:
   tag: "tags" # Allow tags like "Engineering", "Software", etc.
   # category: "categories" # Allow categories like "Engineering", "Software", etc.
 
+
 params:
   math: true # Enable math rendering for latex
   ShowReadingTime: true # Show estimated reading time for posts
@@ -60,6 +61,11 @@ params:
       url: "https://www.linkedin.com/in/kyledadler"
     - name: "Youtube"
       url: "https://www.youtube.com/@engkad880"
+
+
+  assets:
+    disableHLJS: true
+    favicon: "assets/favicon.ico" # Path to favicon
 
 
 menu:
