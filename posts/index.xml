@@ -6,12 +6,58 @@
     <description>Recent content in Posts on Kyle’s Engineering Blog</description>
     <generator>Hugo -- 0.147.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://kyleadler.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Interview Questions</title>
+      <link>https://kyleadler.com/posts/interview-questions/</link>
+      <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://kyleadler.com/posts/interview-questions/</guid>
+      <description>&lt;p&gt;A collection of interview questions I&amp;rsquo;ve come across and like to share and discuss with other engineers.&lt;/p&gt;
+&lt;h2 id=&#34;structural&#34;&gt;Structural&lt;/h2&gt;
+&lt;details&gt;
+&lt;summary&gt;&lt;strong&gt;Given a fixed-free cantilever beam in bending (load at the free end):&lt;/strong&gt;&lt;/summary&gt;
+&lt;details&gt;
+&lt;summary&gt;&lt;strong&gt;Where is the highest stress?&lt;/strong&gt;&lt;/summary&gt;
+&lt;p&gt;At the base where it is fixed, at both the top and bottom of the cross-section.&lt;/p&gt;
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;&lt;strong&gt;Is the stress tensile or compressive?&lt;/strong&gt;&lt;/summary&gt;
+&lt;p&gt;Tensile at the top of the beam and compressive at the bottom.&lt;/p&gt;
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;&lt;strong&gt;How do you know if it will fail completely?&lt;/strong&gt;&lt;/summary&gt;
+&lt;p&gt;Ultimate tensile strength since it will be lower than ultimate compressive strength.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Python Rocket Solver</title>
+      <link>https://kyleadler.com/posts/rocket_py/</link>
+      <pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://kyleadler.com/posts/rocket_py/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://py.engrkad.com/rocket&#34;&gt;Link to solver&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;purpose&#34;&gt;Purpose&lt;/h1&gt;
+&lt;p&gt;use the code i made in ema524 with jackson&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Space Case Podcast</title>
+      <link>https://kyleadler.com/posts/podcast/</link>
+      <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://kyleadler.com/posts/podcast/</guid>
+      <description>&lt;p&gt;Earlier this week I had the chance to chat about the Wisconsin Space Program student org and our goals to take Wisconsin past the Karman line on &lt;a href=&#34;https://wsum.org/&#34;&gt;WSUM 91.7 FM Madison&lt;/a&gt;&amp;rsquo;s&lt;a href=&#34;https://open.spotify.com/show/5ESJvEloyZhM0fbDQ7DrCr&#34;&gt; Space Case&lt;/a&gt; segment. Listen &lt;a href=&#34;https://open.spotify.com/episode/1PCEckH6gRe78kGdnW6sVo?si=My6gPAZyQlmw92w92mmGVg&#34;&gt;here&lt;/a&gt;:&lt;/p&gt;
+&lt;iframe style=&#34;border-radius:12px&#34; 
+    src=&#34;https://open.spotify.com/embed/episode/1PCEckH6gRe78kGdnW6sVo?utm_source=generator&#34; 
+    width=&#34;100%&#34; 
+    height=&#34;152&#34; 
+    frameBorder=&#34;0&#34; 
+    allowfullscreen=&#34;&#34; 
+    allow=&#34;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&#34; 
+    loading=&#34;lazy&#34;&gt;
+&lt;/iframe&gt;</description>
+    </item>
     <item>
       <title>Course Notes</title>
       <link>https://kyleadler.com/posts/course-notes/</link>
-      <pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
       <guid>https://kyleadler.com/posts/course-notes/</guid>
       <description>&lt;h2 id=&#34;ema524-rocket-propulsion&#34;&gt;EMA524 Rocket Propulsion&lt;/h2&gt;
 &lt;details&gt;
@@ -741,52 +787,6 @@
 &lt;iframe src=&#34;https://kyleadler.com/course_notes/ME446/Note_Sep_11,_2023.pdf&#34; width=&#34;100%&#34; height=&#34;600px&#34;&gt;&lt;/iframe&gt;
 &lt;/details&gt;
 &lt;/details&gt;</description>
-    </item>
-    <item>
-      <title>Interview Questions</title>
-      <link>https://kyleadler.com/posts/interview-questions/</link>
-      <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://kyleadler.com/posts/interview-questions/</guid>
-      <description>&lt;p&gt;A collection of interview questions I&amp;rsquo;ve come across and like to share and discuss with other engineers.&lt;/p&gt;
-&lt;h2 id=&#34;structural&#34;&gt;Structural&lt;/h2&gt;
-&lt;details&gt;
-&lt;summary&gt;&lt;strong&gt;Given a fixed-free cantilever beam in bending (load at the free end):&lt;/strong&gt;&lt;/summary&gt;
-&lt;details&gt;
-&lt;summary&gt;&lt;strong&gt;Where is the highest stress?&lt;/strong&gt;&lt;/summary&gt;
-&lt;p&gt;At the base where it is fixed, at both the top and bottom of the cross-section.&lt;/p&gt;
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;&lt;strong&gt;Is the stress tensile or compressive?&lt;/strong&gt;&lt;/summary&gt;
-&lt;p&gt;Tensile at the top of the beam and compressive at the bottom.&lt;/p&gt;
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;&lt;strong&gt;How do you know if it will fail completely?&lt;/strong&gt;&lt;/summary&gt;
-&lt;p&gt;Ultimate tensile strength since it will be lower than ultimate compressive strength.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Python Rocket Solver</title>
-      <link>https://kyleadler.com/posts/rocket_py/</link>
-      <pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://kyleadler.com/posts/rocket_py/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://py.engrkad.com/rocket&#34;&gt;Link to solver&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&#34;purpose&#34;&gt;Purpose&lt;/h1&gt;
-&lt;p&gt;use the code i made in ema524 with jackson&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Space Case Podcast</title>
-      <link>https://kyleadler.com/posts/podcast/</link>
-      <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://kyleadler.com/posts/podcast/</guid>
-      <description>&lt;p&gt;Earlier this week I had the chance to chat about the Wisconsin Space Program student org and our goals to take Wisconsin past the Karman line on &lt;a href=&#34;https://wsum.org/&#34;&gt;WSUM 91.7 FM Madison&lt;/a&gt;&amp;rsquo;s&lt;a href=&#34;https://open.spotify.com/show/5ESJvEloyZhM0fbDQ7DrCr&#34;&gt; Space Case&lt;/a&gt; segment. Listen &lt;a href=&#34;https://open.spotify.com/episode/1PCEckH6gRe78kGdnW6sVo?si=My6gPAZyQlmw92w92mmGVg&#34;&gt;here&lt;/a&gt;:&lt;/p&gt;
-&lt;iframe style=&#34;border-radius:12px&#34; 
-    src=&#34;https://open.spotify.com/embed/episode/1PCEckH6gRe78kGdnW6sVo?utm_source=generator&#34; 
-    width=&#34;100%&#34; 
-    height=&#34;152&#34; 
-    frameBorder=&#34;0&#34; 
-    allowfullscreen=&#34;&#34; 
-    allow=&#34;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&#34; 
-    loading=&#34;lazy&#34;&gt;
-&lt;/iframe&gt;</description>
     </item>
     <item>
       <title>Senior Design Final Report</title>
