@@ -6,8 +6,19 @@
     <description>Recent content in Posts on Kyle’s Engineering Blog</description>
     <generator>Hugo -- 0.147.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 30 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://kyleadler.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Course Notes</title>
+      <link>https://kyleadler.com/posts/course-notes/</link>
+      <pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://kyleadler.com/posts/course-notes/</guid>
+      <description>&lt;h2 id=&#34;ema524-rocket-propulsion&#34;&gt;EMA524 Rocket Propulsion&lt;/h2&gt;
+&lt;details&gt;
+&lt;summary&gt;&lt;strong&gt;Internal energy&lt;/strong&gt;&lt;/summary&gt;
+&lt;iframe src=&#34;https://kyleadler.com/course_notes/EMA524/524_lecture_1.pdf&#34; width=&#34;100%&#34; height=&#34;600px&#34;&gt;&lt;/iframe&gt;
+&lt;/details&gt;</description>
+    </item>
     <item>
       <title>Interview Questions</title>
       <link>https://kyleadler.com/posts/interview-questions/</link>
@@ -59,7 +70,7 @@
       <link>https://kyleadler.com/posts/senior-design-final-report/</link>
       <pubDate>Sun, 11 May 2025 00:00:00 +0000</pubDate>
       <guid>https://kyleadler.com/posts/senior-design-final-report/</guid>
-      <description>&lt;p&gt;Below is my senior design report from EMA569. This project was developed in the spring semester, following a fall semester of designing a product and building a prototype.&lt;/p&gt;
+      <description>&lt;p&gt;Below is my senior design report from EMA569. This project was developed in the spring semester, following a fall semester of designing a product and building a prototype. Note that blue text means it has changed since the last version of the report.&lt;/p&gt;
 &lt;object data=&#34;EMA569_Report.pdf&#34; type=&#34;application/pdf&#34; width=&#34;100%&#34; height=&#34;600px&#34;&gt;
     &lt;p&gt;Link to PDF: &lt;a href=&#34;EMA569_Report.pdf&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/object&gt;</description>
