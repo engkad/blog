@@ -1,8 +1,8 @@
 ---
 title: "Course Notes"
-date: 2025-06-30
+date: 2025-05-14
 draft: false
-tags: ["engineering"]
+tags: ["engineering","undergrad"]
 ---
 
 ## EMA524 Rocket Propulsion

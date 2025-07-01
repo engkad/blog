@@ -46,8 +46,8 @@ params:
     buttons:
       - name: About
         url: "/posts/about/"
-      - name: Archive
-        url: "/archive/"
+      - name: Posts
+        url: "/posts/"
 
     # homeInfoParams:
     #   Title: Welcome to my blog
