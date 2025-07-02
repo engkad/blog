@@ -64,7 +64,7 @@ params:
     - name: "Youtube"
       url: "https://www.youtube.com/@engkad880"
 
-  paginate = 5 # prevent pagination issues on homepage
+  paginate = 500 # prevent pagination issues on homepage
 
 
   assets:
