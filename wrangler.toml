@@ -1,0 +1,11 @@
+name = "hugoblog"
+type = "javascript"  # or "webpack" if using a bundler
+
+account_id = "11f869093840389301fb4cade5089ad0"        # from Cloudflare dashboard
+workers_dev = false                    # or false if deploying to a custom domain
+route = ""                           # leave empty if using workers.dev subdomain
+zone_id = "b4fe3632e23739d4e5a48bcb3c16cbfb"              # needed if you use route and custom domain
+
+[site]
+bucket = "./public"
+entry-point = "."
