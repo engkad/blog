@@ -64,6 +64,8 @@ params:
     - name: "Youtube"
       url: "https://www.youtube.com/@engkad880"
 
+  paginate = 5 # prevent pagination issues on homepage
+
 
   assets:
     favicon: "/favicon.ico"
