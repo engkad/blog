@@ -52,9 +52,27 @@ Aerospace Engineer with 5+ years of rocket engineering experience, specializing 
 ### **Research Assistant**, Wisconsin Shock Tube Laboratory (WiSTL)  
 *May 2023 – Present*
 
-- Supported operation of 3-story shock tube (Mach 1.2–2.4) for gas mixing experiments.  
-- Operated high-pressure gas systems, lasers, and high-speed imaging equipment.  
-- Used MATLAB and chemical solvers to model ignition delays for shock-initiated combustion.
+- Assisted in preparing and operating 3-story vertical shock tube experiments ranging from Mach 1.2 to 2.2  
+- Facilitate lab operations such as loading/unloading and connecting gas bottles to system, maintaining pressures during experiments, replacing burst discs  
+- Performed alignment and operation of Class 4 lasers for PLIF & PIV particle imaging  
+- Used MATLAB & Cantera chemical solver to determine ignition delay of shock-initiated combustion
+
+---
+
+### **Tutor**, UW-Madison Undergraduate Learning Center
+*Oct 2023 – Sep 2024*
+
+- Drop-in tutoring for dynamics, fluid mechanics, and heat transfer  
+- Explained concepts to students with diverse backgrounds and tailored instruction to individual learning style  
+- Facilitated lively discussion of course subjects and encouraged students to explore different approaches to problems
+
+---
+
+### **Student Instructor**, UW-Madison Undergraduate Learning Center
+*Jan 2022 – Dec 2022*
+
+- Taught Dynamics to class of 15 students using self-prepared lectures and worksheets  
+- Created practice exams and led solutions sessions for 100+ students
 
 ---
 
@@ -63,3 +81,38 @@ Aerospace Engineer with 5+ years of rocket engineering experience, specializing 
 
 - Designed and built microcontroller circuit for experimental and commercial sensor systems.  
 - Wrote power-efficient C++ data-logging scripts for prototype devices.
+
+---
+
+### **Tech Lab Intern**, Hyper Innovation  
+*Sep 2021 – Jan 2022*
+
+- Proposed student projects for the Hyper Innovation Tech Lab  
+- Outreach to students and organizations regarding tech exploration opportunities  
+- Participated in Digital Health Tech Challenge to identify problems and potential solutions in telehealth and worked with major health company to find issues in user experience
+
+---
+
+### **Computer Technician**, Madison Computer Works
+*Oct 2019 – Sep 2021*
+
+- Hardware and software diagnostics/repair and documentation for commercial and residential clients
+- Basic networking, system configuration, and enterprise server management
+- 
+---
+
+### **Student Developer**, Holos Inc
+*Feb 2021 – Apr 2021*
+
+- Conceptualized a user interface for a file manager/workspace in VR  
+- Created a working prototype of the UI using Unity, C# and 
+
+https://blog.holos.io/hyperx-spring-2021/
+https://www.youtube.com/watch?v=m6_JWY2__sk
+
+---
+
+### **Server**, Pizza Brutta
+*May 2018 – Sep 2019*
+
+- Prepared food for and served customers in fast-paced environment
