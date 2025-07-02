@@ -46,9 +46,11 @@ params:
     imageHeight: 240 # custom size
     buttons:
       - name: About
-        url: "/posts/about/"
+        url: "/about/"
       - name: Posts
         url: "/posts/"
+      - name: Resume
+        url: "/resume/"
 
     # homeInfoParams:
     #   Title: Welcome to my blog

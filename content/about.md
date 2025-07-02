@@ -19,4 +19,4 @@ As an undergrad at UW-Madison I've worked in a number of positions:
 
 ## The website
 Under construction!
-![construction](36125552-website-under-construction-sign-in-white-background-3d-mesh-vector-illustration.jpg)
+![construction](Projects/blog/content/36125552-website-under-construction-sign-in-white-background-3d-mesh-vector-illustration.jpg)
