@@ -851,7 +851,12 @@
       <link>https://kyleadler.com/resume/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://kyleadler.com/resume/</guid>
-      <description>&lt;p&gt;resume stuff (in progress)&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;professional-summary&#34;&gt;Professional Summary&lt;/h2&gt;
+&lt;p&gt;Aerospace Engineer with 5+ years of rocket engineering experience, specializing in propulsion systems, mechanical design, and manufacturing. Demonstrated prototyping, testing, and manufacturing expertise through an 8-month co-op and extensive leadership in rocketry competitions and student projects. Key achievements include developing cryogenic liquid rocket propulsion systems and conducting cold flow and hot fire tests.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;B.S. Engineering Mechanics and Aerospace&lt;/strong&gt;, University of Wisconsin–Madison&lt;br&gt;
+&lt;em&gt;Completed May 2025 • GPA 3.52 • Certificate in Thermal Energy Systems&lt;/em&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
