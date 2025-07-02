@@ -19,4 +19,4 @@ As an undergrad at UW-Madison I've worked in a number of positions:
 
 ## The website
 Under construction!
-![construction](/construction.jpg)
+![construction](/images/construction.jpg)
