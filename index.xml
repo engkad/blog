@@ -832,9 +832,9 @@
     </item>
     <item>
       <title>About</title>
-      <link>https://kyleadler.com/posts/about/</link>
+      <link>https://kyleadler.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://kyleadler.com/posts/about/</guid>
+      <guid>https://kyleadler.com/about/</guid>
       <description>&lt;h1 id=&#34;the-author&#34;&gt;The author&lt;/h1&gt;
 &lt;p&gt;Hello! I&amp;rsquo;m an aerospace engineer from Madison, WI. I got my B.S. in Engineering Mechanics and Aerospace from the University of Wisconsin-Madison in spring 2025, and now work as a propulsion test engineer.&lt;/p&gt;
 &lt;p&gt;I was part of the Wisconsin Space Program student org for my entire time in undergrad and continue to help and advise where I can. Key projects I&amp;rsquo;ve been involved in include:&lt;/p&gt;
@@ -845,6 +845,13 @@
 &lt;li&gt;Advising our second team at Spaceport where we won 2nd place in Payload&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;As an undergrad at UW-Madison I&amp;rsquo;ve worked in a number of positions:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Resume</title>
+      <link>https://kyleadler.com/resume/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://kyleadler.com/resume/</guid>
+      <description>&lt;p&gt;resume stuff (in progress)&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
