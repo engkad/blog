@@ -815,11 +815,11 @@
       <link>https://kyleadler.com/useful-links/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://kyleadler.com/useful-links/</guid>
-      <description>&lt;h1 id=&#34;general&#34;&gt;General&lt;/h1&gt;
+      <description>&lt;h3 id=&#34;general&#34;&gt;General&lt;/h3&gt;
 &lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;&lt;strong&gt;General&lt;/strong&gt;&lt;/th&gt;
           &lt;th style=&#34;text-align: left&#34;&gt;&lt;/th&gt;
       &lt;/tr&gt;
   &lt;/thead&gt;
@@ -828,20 +828,28 @@
           &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://cobalt.tools/&#34;&gt;Cobalt&lt;/a&gt;&lt;/td&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;Online media downloader (youtube, etc)&lt;/td&gt;
       &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Engineering&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://divapps.parker.com/divapps/oring/ORingSelector/?LangID=EN&amp;amp;lang=en&amp;amp;cntry=us/17061&amp;amp;LangSrcType=local&#34;&gt;Parker&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;O-ring selector/groove calculator (&lt;a href=&#34;https://www.parker.com/content/dam/Parker-com/Literature/O-Ring-Division-Literature/ORD-5700.pdf&#34;&gt;handbook&lt;/a&gt;)&lt;/td&gt;
+      &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h1 id=&#34;engineering&#34;&gt;Engineering&lt;/h1&gt;
+&lt;h3 id=&#34;engineering&#34;&gt;Engineering&lt;/h3&gt;
 &lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Engineering&lt;/th&gt;
           &lt;th style=&#34;text-align: left&#34;&gt;&lt;/th&gt;
       &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
       &lt;tr&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://divapps.parker.com/divapps/oring/ORingSelector/?LangID=EN&amp;amp;lang=en&amp;amp;cntry=us/17061&amp;amp;LangSrcType=local&#34;&gt;Parker&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;O-ring selector/groove calculator&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;O-ring selector/groove calculator (&lt;a href=&#34;https://www.parker.com/content/dam/Parker-com/Literature/O-Ring-Division-Literature/ORD-5700.pdf&#34;&gt;handbook&lt;/a&gt;)&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;</description>
