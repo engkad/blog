@@ -1,0 +1,47 @@
+{{ define "main" }}
+<main style="width: 100%; max-width: 900px; margin: auto;">
+
+  {{ if .Site.Params.profileMode.enabled }}
+    {{ partial "index_profile.html" . }}
+  {{ end }}
+
+  {{ .Content }}
+
+  {{ range .Paginator.Pages }}
+    {{ .Render "summary" }}
+  {{ end }}
+
+  <!-- {{ partial "pagination.html" . }} -->
+
+<style>
+  .useful-links-table-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+  }
+
+  .useful-links-table-container table {
+    width: 100%;
+    max-width: 600px;
+    border-collapse: collapse;
+  }
+
+  .useful-links-table-container th,
+  .useful-links-table-container td {
+    text-align: left;
+    padding: 0.5em 1em;
+    border: none;
+    background: none;
+  }
+</style>
+
+  {{ $links := readFile "content/useful-links.md" }}
+  <section class="useful-links-table-container">
+    <div>
+      <h2 style="text-align: center;">Useful Links</h2>
+      {{ $links | markdownify }}
+    </div>
+  </section>
+
+</main>
+{{ end }}

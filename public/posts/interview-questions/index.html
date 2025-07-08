@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Interview Questions | Kyle’s Engineering Blog</title>
+<meta name="keywords" content="engineering">
+<meta name="description" content="A collection of interview questions I&rsquo;ve come across and like to share and discuss with other engineers.
+Structural
+
+Given a fixed-free cantilever beam in bending (load at the free end):
+
+Where is the highest stress?
+At the base where it is fixed, at both the top and bottom of the cross-section.
+
+
+Is the stress tensile or compressive?
+Tensile at the top of the beam and compressive at the bottom.
+
+
+How do you know if it will fail completely?
+Ultimate tensile strength since it will be lower than ultimate compressive strength.">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/posts/interview-questions/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.36819bea596090d8b48cf10d9831382996197aa7e4fc86f792f7c08c9ca4d23b.css" integrity="sha256-NoGb6llgkNi0jPENmDE4KZYZeqfk/Ib3kvfAjJyk0js=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/interview-questions/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Kyle’s Engineering Blog (Alt + H)">Kyle’s Engineering Blog</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/posts/" title="Posts">
+                    <span>Posts</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archive/" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Interview Questions
+    </h1>
+    <div class="post-meta"><span title='2025-06-20 00:00:00 +0000 UTC'>June 20, 2025</span>&nbsp;·&nbsp;8 min
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#structural" aria-label="Structural">Structural</a></li>
+                <li>
+                    <a href="#general-solidsfluids-behavior" aria-label="General Solids/Fluids Behavior">General Solids/Fluids Behavior</a></li>
+                <li>
+                    <a href="#fluid-systems" aria-label="Fluid Systems">Fluid Systems</a></li>
+                <li>
+                    <a href="#propulsion" aria-label="Propulsion">Propulsion</a></li>
+                <li>
+                    <a href="#design-and-manufacturing" aria-label="Design and Manufacturing">Design and Manufacturing</a></li>
+                <li>
+                    <a href="#behavioral" aria-label="Behavioral">Behavioral</a></li>
+                <li>
+                    <a href="#random" aria-label="Random">Random</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><p>A collection of interview questions I&rsquo;ve come across and like to share and discuss with other engineers.</p>
+<h2 id="structural">Structural<a hidden class="anchor" aria-hidden="true" href="#structural">#</a></h2>
+<details>
+<summary><strong>Given a fixed-free cantilever beam in bending (load at the free end):</strong></summary>
+<details>
+<summary><strong>Where is the highest stress?</strong></summary>
+<p>At the base where it is fixed, at both the top and bottom of the cross-section.</p>
+</details>
+<details>
+<summary><strong>Is the stress tensile or compressive?</strong></summary>
+<p>Tensile at the top of the beam and compressive at the bottom.</p>
+</details>
+<details>
+<summary><strong>How do you know if it will fail completely?</strong></summary>
+<p>Ultimate tensile strength since it will be lower than ultimate compressive strength.</p>
+</details>
+<details>
+<summary><strong>What is the ideal shape of the beam (to prevent failure) and why?</strong></summary>
+<p>A cross-section with a high moment of inertia to distribute the stress better such as an I-beam, since the equation for stress due to bending is:
+</p>
+$$
+\sigma = \frac{My}{I}
+$$</details>
+</details>
+<hr>
+<details>
+<summary><strong>Given a cylindrical pressure vessel with spherical ends: </strong></summary>
+<details>
+<summary><strong>If you are pressure testing it, where do you place the crack (cylinder or end cap) and in what orientation (longitudinally or perpendicularly)?</strong></summary>
+<p>Along longitudinal axis so it propagates along hoop stress, that is the hoop stress failure mode.
+<img alt="pressurevesselfail" loading="lazy" src="/posts/interview-questions/10.1177_0021998319870588-fig8.jpg"></p>
+</details>
+<details>
+<summary><strong>If you were to grind that crack out into a divot, how to know if it's still safe to use?</strong></summary>
+<p>Check hand calculations with reduced thickness/stress concentration and see if it is still allowable.</p>
+<details>
+<summary><strong>If your hand calcs say it yields, how to know if we can still use it?</strong></summary>
+<p>Can look at local yielding to redistribute stress with hand calcs or FEA.</p>
+</details>
+</details>
+</details>
+<hr>
+<details>
+<summary><strong>You’re given a metallic bracket from a rocket, and your boss asks you to figure out if it’s going to break. What questions are you asking?</strong></summary>
+<ul>
+<li>What material is it made from (to get properties)?</li>
+<li>What loads is it under?</li>
+<li>What are the specifics of the geometry?</li>
+</ul>
+<details>
+<summary><strong>Your boss tells you it’s made of 15-5 stainless and gives you the loads. What do you do next to find out if it breaks?</strong></summary>
+<ul>
+<li>Start with basic hand calculations like bending and stress analysis</li>
+<li>Possibly build an FEA model, but verify the FEA with hand calcs</li>
+</ul>
+</details>
+</details>
+<hr>
+<details>
+<summary><strong>What kind of failure would you expect in a long slender beam?</strong></summary>
+<p>Buckling</p>
+<details>
+<summary><strong>What are the important factors in tendency to buckle?</strong></summary>
+<p>Consider Euler buckling and critical load:
+</p>
+$$
+P_{\text{cr}} = \frac{\pi^2 E I}{(K L)^2}
+$$<ul>
+<li>Boundary conditions (affects K value, fixed-fixed will be a lot stronger (lower K) than pinned-free)</li>
+<li>Length of beam (similarly slenderness ratio, ratio of length to radius)</li>
+<li>Stiffness of beam</li>
+</ul>
+</details>
+</details>
+<hr>
+<details>
+<summary><strong>How do longitudinal and hoop stresses differ, and which one fails first?</strong></summary>
+<ul>
+<li>Hoop stress acts circumferentially and is typically twice as large as longitudinal stress in thin-walled pressure vessels.</li>
+<li>Longitudinal stress acts along the length of the vessel.</li>
+<li>Hoop stress usually causes failure first due to its higher magnitude.</li>
+</ul>
+</details>
+<h2 id="general-solidsfluids-behavior">General Solids/Fluids Behavior<a hidden class="anchor" aria-hidden="true" href="#general-solidsfluids-behavior">#</a></h2>
+<details>
+<summary><strong>How do you go between stress and strain in a material?</strong></summary>
+<p>Hooke&rsquo;s Law in elastic region of material,
+</p>
+$$
+\sigma = E \varepsilon
+$$<p>
+where \(E\) is the Young&rsquo;s modulus or modulus of elasticity.</p>
+</details>
+<hr>
+<details> <summary><strong>Explain what Reynolds number is and what it tells you.</strong></summary> Reynolds number is a dimensionless value that helps predict whether a flow is likely to be laminar or turbulent. It’s not an absolute threshold, but a strong indicator of flow regime tendency. </details>
+<hr>
+<details>
+<summary><strong>How do cryogenic fluids affect metals?</strong></summary>
+<ul>
+<li>Yield strength and ultimate strength both generally increase for stainless steels at cryogenic temperatures.</li>
+<li>For other metals (heavy generalization) strength may increase but ductility decreases, making metals behave more brittle.</li>
+<li>Some metals exhibit a brittle transition temperature below which brittleness dominates</li>
+<li>Thermal contraction and expansion cause dimensional changes and stresses.</li>
+<li>Thermal conductivity of metals can change at cryogenic temperatures (e.g., copper shows increased conductivity).</li>
+</ul>
+</details>
+<hr>
+<details>
+<summary><strong>What is the volume ratio for vaporizing fluids, and why is it important?</strong></summary>
+<ul>
+<li>Typically between 800 and 1900.</li>
+<li>Helps illustrate the immense change in volume when a fluid changes phase and the potential energy contained (such as in a <a href="https://en.wikipedia.org/wiki/Boiling_liquid_expanding_vapor_explosion">BLEVE event</a>)</li>
+</ul>
+</details>
+<h2 id="fluid-systems">Fluid Systems<a hidden class="anchor" aria-hidden="true" href="#fluid-systems">#</a></h2>
+<details>
+<summary><strong>You have an orifice in an incompressible fluid system. What happens to the pressure drop when you double the mass flow rate? What about for incompressible? Why are they different?</strong></summary>
+<p>4x, 2x, density</p>
+</details>
+<hr>
+<details>
+<summary><strong>What considerations go into developing a LOX fluid system?</strong></summary>
+<ul>
+<li>No trapped fluid: burst disks, relief valves, ball valves with holes, etc</li>
+<li>Material selection: lots of stainless, PTFE instead of rubber (LOX-compatible)</li>
+<li>Temperature effects: freezing control devices</li>
+</ul>
+</details>
+<hr>
+<details>
+<summary><strong>What are the main differences between a pneumatic system versus a hydraulic or electromechanical system?</strong></summary>
+<ul>
+<li>Hydraulic systems provide higher force output due to incompressible fluid.</li>
+<li>Hydraulics are more precise because the fluid is incompressible.</li>
+<li>Hydraulic systems have shorter time constants (faster response).</li>
+<li>Pneumatics use compressible air, typically less precise and lower force.</li>
+<li>Electromechanical systems rely on motors and actuators, often simpler but with different force/response characteristics.</li>
+</ul>
+</details>
+<hr>
+<details>
+<summary><strong>What are the main differences between a conventional valve and a cryogenic valve?</strong></summary>
+<ul>
+<li>Different sealing materials designed to withstand cryogenic temperatures</li>
+<li>Cryogenic-compatible materials like stainless (often oxygen compatible too)</li>
+<li>Features such as hole in the ball valve to prevent trapped cryogenic fluid</li>
+</ul>
+</details>
+<h2 id="propulsion">Propulsion<a hidden class="anchor" aria-hidden="true" href="#propulsion">#</a></h2>
+<details>
+<summary><strong>If you double the mass flow rate in an engine, how does chamber pressure change? How does thrust change?</strong></summary>
+<p>Chamber pressure doubles (PUT EQN)
+Thrust doubles (put eqn)</p>
+</details>
+<hr>
+<details>
+<summary><strong>What's the difference between low cycle and high cycle fatigue? What are some examples of both in a rocket engine?</strong></summary>
+</details>
+<hr>
+<details>
+<summary><strong>What is the primary factor that drives tank pressure on a pressure fed rocket engine?</strong></summary>
+<p>Pump cavitation - suction pressure</p>
+</details>
+<hr>
+<details> <summary><strong>Given isentropic flow through a CD nozzle:</strong></summary> <details> <summary><strong>How does static pressure change through the nozzle?</strong></summary> Decreases in the converging section and decreases further in the diverging section. </details> <details> <summary><strong>What happens if the exit pressure is too high or too low?</strong></summary> Overexpanded: exit pressure is too low compared to ambient → potential for flow separation. Underexpanded: exit pressure is too high → less efficient expansion. </details> <details> <summary><strong>How does stagnation pressure change through the nozzle?</strong></summary> It stays constant in ideal isentropic flow. </details> <details> <summary><strong>How does Mach number change through the nozzle?</strong></summary> Starts low, reaches Mach 1 at the throat, and increases to high supersonic values (e.g., Mach 5 or 6) in the diverging section. </details> <details> <summary><strong>How does temperature change through the nozzle?</strong></summary> Temperature decreases in the converging section and drops significantly in the diverging section. </details> </details>
+<hr>
+<details>
+<summary><strong>Explain the thermodynamic cycle of a full-flow staged combustion engine like Raptor.</strong></summary>
+<p>Explain what goes where and why.</p>
+<details><summary><strong>Do you tap off the fuel and oxidizer for preburners before or after the main pumps?</summary></strong>
+<p>After!</p>
+<p><img alt="raptorcycle" loading="lazy" src="/posts/interview-questions/raptorcycle.jpg"></p>
+</details>
+</details>
+<hr>
+<details>
+<summary><strong>What are the key advantages of using a full-flow staged combustion cycle over other cycles like gas-generator or expander?</strong></summary>
+<ul>
+<li>Less waste heat because all propellant flows through turbines and combustors.</li>
+<li>More efficient combustion in the main combustion chamber.</li>
+</ul>
+</details>
+<hr>
+<details>
+<summary><strong>How do you calculate the specific impulse (Isp) of a rocket engine? What factors influence it?</strong></summary>
+<ul>
+<li>Specific impulse is calculated as thrust divided by propellant weight flow rate:<br>
+$$
+  I_{sp} = \frac{F}{\dot{m} g_0}
+  $$</li>
+<li>Factors influencing Isp include chamber pressure, nozzle expansion ratio, propellant type, and combustion efficiency.</li>
+</ul>
+</details>
+<hr>
+<details>
+<summary><strong>What happens if you shorten the combustion chamber?</strong></summary>
+<ul>
+<li>Shortening the CC can reduce combustion efficiency and completeness.</li>
+<li>It may lead to increased combustion instability or incomplete burning.</li>
+<li>Both of these can reduce overall engine performance and specific impulse.</li>
+</ul>
+</details>
+<hr>
+<details>
+<summary><strong>Compare a single shaft and dual shaft closed cycle engine.</strong></summary>
+<p><strong>Single shaft:</strong></p>
+<ul>
+<li>Simple design, lower cost and weight</li>
+<li>Might not have enough power to drive both pumps</li>
+<li>Coupled power control between fuel and oxidizer pumps</li>
+<li>More complex leak considerations due to shared shaft</li>
+</ul>
+<p><strong>Dual shaft:</strong></p>
+<ul>
+<li>Independent power control of fuel and oxidizer pumps</li>
+<li>Can deliver more power overall</li>
+<li>Heavier and more expensive design</li>
+<li>Requires more seals and complexity</li>
+</ul>
+</details>
+<h2 id="design-and-manufacturing">Design and Manufacturing<a hidden class="anchor" aria-hidden="true" href="#design-and-manufacturing">#</a></h2>
+<details><summary><strong>What’s the difference between MMC and LMC in GD&T?</strong></summary>
+- MMC (Maximum Material Condition): part contains the most material (smallest hole, largest pin)
+- LMC (Least Material Condition):part contains the least material (largest hole, smallest pin) They affect how much geometric tolerance is allowed based on feature size.
+-</details>
+<hr>
+<details> 
+<summary><strong>What are basic dimensions used for in GD&T?</strong></summary> Basic dimensions define the exact theoretical location, size, or orientation of a feature. They are used in conjunction with geometric tolerances but are not themselves toleranced.
+</details>
+<h2 id="behavioral">Behavioral<a hidden class="anchor" aria-hidden="true" href="#behavioral">#</a></h2>
+<details>
+<summary><strong>What was a time where you couldn't meet a deadline, and how did you communicate that and deal with it?</strong></summary>
+<p>(subjective)</p>
+</details>
+<hr>
+<details>
+<summary><strong>What is an example of a professional failure that you've had, and what did you take away from it?</strong></summary>
+<p>My example was a COTS component that failed on our Spaceport 2024 rocket, and from that I learned not to trust a component that I don&rsquo;t fully understand the mechanism of; I didn&rsquo;t realize the eye bolt was only partially threaded, etc.</p>
+</details>
+<hr>
+<details>
+<summary><strong>What's a technical decision that you regret?</strong></summary>
+<p>(subjective)</p>
+</details>
+<hr>
+<details> <summary><strong>What is an important piece of engineering feedback you’ve received?</strong></summary> e.g. club industry advisor raised concerns about N₂O system risk. He encouraged stepping back because we didn’t fully understand the fluid behavior and potential hazards. That feedback reinforced the importance of not rushing into implementation without a full systems-level understanding. </details>
+<h2 id="random">Random<a hidden class="anchor" aria-hidden="true" href="#random">#</a></h2>
+<details>
+<summary><strong>How much paint does it take to paint a Falcon 9? (whatever units, give your best guess)</strong></summary>
+<p>Having just seen a falcon 9 in person helps. My guess for approximate dimensions were 10ft diameter and 100ft tall. Thus approximately 30ft circumference times 100ft length is 3000ft^2. From painting walls I guessed it takes (very roughly) around 1 gallon to paint a 10ft x 10ft wall (so 100ft^2), so 3000/100 = 30 gallons of paint. Actual answer is around 40 gallons!</p>
+</details>
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/engineering/">Engineering</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="next" href="http://localhost:1313/posts/europe-2024/">
+    <span class="title">Next »</span>
+    <br>
+    <span>Europe 2024</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/">Kyle’s Engineering Blog</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+
+        
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+    
+</body>
+
+</html>
