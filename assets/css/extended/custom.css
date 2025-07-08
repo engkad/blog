@@ -1,0 +1,4 @@
+/* Underline all links in post content */
+.post-content a {
+  text-decoration: underline;
+}
