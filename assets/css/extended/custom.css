@@ -1,4 +1,4 @@
-/* Underline all links in post content */
-.post-content a {
+/* Only underline links in the Useful Links section */
+.useful-links-table-container a {
   text-decoration: underline;
 }
