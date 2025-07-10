@@ -9,31 +9,28 @@
     <lastBuildDate>Fri, 20 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://kyleadler.com/tags/engineering/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Engineering Design Notes</title>
+      <title>Engineering Tools</title>
       <link>https://kyleadler.com/tools/</link>
       <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://kyleadler.com/tools/</guid>
-      <description>&lt;h1 id=&#34;cavitating-venturis&#34;&gt;Cavitating Venturis&lt;/h1&gt;
-&lt;p&gt;[[Cavitating Venturi - FlowMaxx Engineering]]&lt;/p&gt;
-&lt;p&gt;[[Cavitating Venturi Script]]&lt;/p&gt;
-&lt;h1 id=&#34;fluids-fittings&#34;&gt;Fluids Fittings&lt;/h1&gt;
-&lt;p&gt;Swagelok&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Good and swivels, but heavy and expensive&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;AN&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Good cheap and swivels, used in industry a lot&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;NPT&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Requires thread sealant&lt;/li&gt;
-&lt;li&gt;Twisting sucks for tight spaces&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;o-ring-seals&#34;&gt;O-ring seals&lt;/h1&gt;
+      <description>&lt;h1 id=&#34;o-ring-seals&#34;&gt;O-ring seals&lt;/h1&gt;
 &lt;p&gt;See parker o-ring calculator and handbook links on blog homepage&lt;/p&gt;
 &lt;h2 id=&#34;compression&#34;&gt;Compression&lt;/h2&gt;
-&lt;p&gt;See handbook&amp;rsquo;s compression values for the durometer, then use those values to calculate clamp force of the bolts you&amp;rsquo;re using, using equation from &lt;a href=&#34;https://www.engineersedge.com/calculators/torque_calc.htm&#34;&gt;https://www.engineersedge.com/calculators/torque_calc.htm&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;See handbook&amp;rsquo;s compression values for the durometer, then use those values to calculate clamp force of the bolts you&amp;rsquo;re using, using equation from &lt;a href=&#34;https://www.engineersedge.com/calculators/torque_calc.htm&#34;&gt;https://www.engineersedge.com/calculators/torque_calc.htm&lt;/a&gt;&lt;/p&gt;
+$$
+F = \frac{T}{K d}
+$$&lt;p&gt;
+&lt;/p&gt;
+$$
+\begin{aligned}
+\text{where } &amp; F = \text{clamp force (axial load)} \\
+              &amp; T = \text{applied torque} \\
+              &amp; K = \text{nut factor (dimensionless)} \\
+              &amp; d = \text{nominal bolt diameter}
+\end{aligned}
+$$&lt;p&gt;
+&lt;label for=&#34;torque&#34;&gt;Torque (T) in ft·lb:&lt;/label&gt;
+&lt;input type=&#34;number&#34; id=&#34;torque&#34; step=&#34;any&#34; placeholder=&#34;e.g., 75&#34;&gt;&lt;br&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Interview Questions</title>
