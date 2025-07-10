@@ -11,8 +11,8 @@ Aerospace Engineer with 5+ years of rocket engineering experience, specializing 
 
 ## Education
 
-**B.S. Engineering Mechanics and Aerospace**, University of Wisconsin–Madison  
-*Completed May 2025 • GPA 3.52 • Certificate in Thermal Energy Systems*
+**B.S. Engineering Mechanics and Aerospace**, University of Wisconsin
+*Completed 2025 • GPA 3.52 • Certificate in Thermal Energy Systems*
 
 ---
 
@@ -27,7 +27,7 @@ Aerospace Engineer with 5+ years of rocket engineering experience, specializing 
 
 ## Experience
 
-### **Associate Mechanical Engineer**, Extreme Engineering Solutions  
+### **Associate Mechanical Engineer**, Aerospace/Defense Electronics Company
 *Jan 2024 – Aug 2024*
 
 - Designed and optimized mechanical components for ruggedized electronic systems in Creo.  
@@ -50,7 +50,6 @@ Aerospace Engineer with 5+ years of rocket engineering experience, specializing 
 ---
 
 ### **Research Assistant**, Wisconsin Shock Tube Laboratory (WiSTL)  
-*May 2023 – Present*
 
 - Assisted in preparing and operating 3-story vertical shock tube experiments ranging from Mach 1.2 to 2.2  
 - Facilitate lab operations such as loading/unloading and connecting gas bottles to system, maintaining pressures during experiments, replacing burst discs  
@@ -59,8 +58,7 @@ Aerospace Engineer with 5+ years of rocket engineering experience, specializing 
 
 ---
 
-### **Tutor**, UW-Madison Undergraduate Learning Center
-*Oct 2023 – Sep 2024*
+### **Tutor**, UW Undergraduate Learning Center
 
 - Drop-in tutoring for dynamics, fluid mechanics, and heat transfer  
 - Explained concepts to students with diverse backgrounds and tailored instruction to individual learning style  
@@ -68,7 +66,7 @@ Aerospace Engineer with 5+ years of rocket engineering experience, specializing 
 
 ---
 
-### **Student Instructor**, UW-Madison Undergraduate Learning Center
+### **Student Instructor**, UW Undergraduate Learning Center
 *Jan 2022 – Dec 2022*
 
 - Taught Dynamics to class of 15 students using self-prepared lectures and worksheets  
@@ -76,33 +74,29 @@ Aerospace Engineer with 5+ years of rocket engineering experience, specializing 
 
 ---
 
-### **Mechanical Engineering Lab Assistant**, UW–Madison  
-*Jun 2022 – Sep 2022*
+### **Mechanical Engineering Lab Assistant**, UW Electronics Research Lab  
 
 - Designed and built microcontroller circuit for experimental and commercial sensor systems.  
 - Wrote power-efficient C++ data-logging scripts for prototype devices.
 
 ---
 
-### **Tech Lab Intern**, Hyper Innovation  
-*Sep 2021 – Jan 2022*
+### **Tech Lab Intern**, Tech Consultant  
 
-- Proposed student projects for the Hyper Innovation Tech Lab  
+- Proposed student projects for the Tech Lab  
 - Outreach to students and organizations regarding tech exploration opportunities  
 - Participated in Digital Health Tech Challenge to identify problems and potential solutions in telehealth and worked with major health company to find issues in user experience
 
 ---
 
-### **Computer Technician**, Madison Computer Works
-*Oct 2019 – Sep 2021*
+### **Computer Technician**, Computer Repair Company
 
 - Hardware and software diagnostics/repair and documentation for commercial and residential clients
 - Basic networking, system configuration, and enterprise server management
-- 
+
 ---
 
-### **Student Developer**, Holos Inc
-*Feb 2021 – Apr 2021*
+### **Student Developer**, VR Company
 
 - Conceptualized a user interface for a file manager/workspace in VR  
 - Created a working prototype of the UI using Unity, C# and 
@@ -112,7 +106,6 @@ https://www.youtube.com/watch?v=m6_JWY2__sk
 
 ---
 
-### **Server**, Pizza Brutta
-*May 2018 – Sep 2019*
+### **Server**, Pizza Restaurant
 
 - Prepared food for and served customers in fast-paced environment
