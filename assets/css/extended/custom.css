@@ -2,3 +2,13 @@
 .useful-links-table-container a {
   text-decoration: underline;
 }
+
+input[type="number"],
+input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 200px;
+    margin: 5px 0;
+    font-size: 1em;
+}

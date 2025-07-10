@@ -1,28 +1,9 @@
 ---
-title: "Engineering Design Notes"
+title: "Engineering Tools"
 date: 2025-06-20
 draft: false
 tags: ["engineering"]
 ---
-
-
-# Cavitating Venturis
-[[Cavitating Venturi - FlowMaxx Engineering]]
-
-[[Cavitating Venturi Script]]
-
-
-# Fluids Fittings
-Swagelok
-- Good and swivels, but heavy and expensive
-
-AN
-- Good cheap and swivels, used in industry a lot
-
-NPT
-- Requires thread sealant
-- Twisting sucks for tight spaces
-
 
 # O-ring seals
 See parker o-ring calculator and handbook links on blog homepage
@@ -68,4 +49,21 @@ function calculateClampForce() {
   document.getElementById('result').innerText = `Clamp Force (F): ${F.toFixed(2)} lbf`;
 }
 </script>
+
+# Cavitating Venturis
+[[Cavitating Venturi - FlowMaxx Engineering]]
+
+[[Cavitating Venturi Script]]
+
+
+# Fluids Fittings
+Swagelok
+- Good and swivels, but heavy and expensive
+
+AN
+- Good cheap and swivels, used in industry a lot
+
+NPT
+- Requires thread sealant
+- Twisting sucks for tight spaces
 
