@@ -3,10 +3,10 @@
   text-decoration: underline;
 }
 
-/* Universal input/button styling */
+/* calc input/button styling */
 input[type="number"],
 input[type="text"],
-button {
+.calc-button {
   padding: 0.6em 1em;
   border-radius: 6px;
   border: 1px solid var(--border);
@@ -17,6 +17,10 @@ button {
   width: 100%;
   max-width: 300px;
   box-sizing: border-box;
+}
+
+.calc-button:hover {
+  background-color: #434343;
 }
 
 /* Remove number spinners (Chrome, Safari) */

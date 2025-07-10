@@ -30,7 +30,7 @@ $$
 <label for="diameter">Bolt Diameter (d) in inches:</label>
 <input type="number" id="diameter" step="any" placeholder="e.g., 0.5"><br><br>
 
-<button onclick="calculateClampForce()">Calculate Clamp Force</button>
+<button class="calc-button" onclick="calculateClampForce()">Calculate Clamp Force</button>
 
 <p id="result"></p>
 
