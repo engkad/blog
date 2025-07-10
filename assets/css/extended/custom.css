@@ -3,12 +3,62 @@
   text-decoration: underline;
 }
 
+/* Universal input/button styling */
 input[type="number"],
-input[type="text"] {
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    width: 200px;
-    margin: 5px 0;
-    font-size: 1em;
+input[type="text"],
+button {
+  padding: 0.6em 1em;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  font-size: 1rem;
+  background-color: var(--bg);
+  color: var(--fg);
+  margin: 6px 0;
+  width: 100%;
+  max-width: 300px;
+  box-sizing: border-box;
+}
+
+/* Remove number spinners (Chrome, Safari) */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Remove number spinners (Firefox) */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/* Button-specific styling */
+button {
+  background-color: var(--primary);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: var(--primary-hover);
+}
+
+/* Light and dark mode variables (PaperMod compatible) */
+:root {
+  --bg: #fff;
+  --fg: #111;
+  --border: #ccc;
+  --primary: #007acc;
+  --primary-hover: #005fa3;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1e1e1e;
+    --fg: #eee;
+    --border: #444;
+    --primary: #3192e1;
+    --primary-hover: #217ac0;
+  }
 }
