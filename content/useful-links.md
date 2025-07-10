@@ -1,3 +1,5 @@
-|  |  |
-|:-----|:------------|
-| [Cobalt](https://cobalt.tools/) | Online media downloader (youtube, etc) |
+| General                                                                                                              |                                                                                                                                                  |
+| :------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Cobalt](https://cobalt.tools/)                                                                                      | Online media downloader (youtube, etc)                                                                                                           |
+| **Engineering**                                                                                                      |                                                                                                                                                  |
+| [Parker](https://divapps.parker.com/divapps/oring/ORingSelector/?LangID=EN&lang=en&cntry=us/17061&LangSrcType=local) | O-ring selector/groove calculator ([handbook](https://www.parker.com/content/dam/Parker-com/Literature/O-Ring-Division-Literature/ORD-5700.pdf)) |

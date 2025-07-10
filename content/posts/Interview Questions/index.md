@@ -91,7 +91,7 @@ Can look at local yielding to redistribute stress with hand calcs or FEA.
 ---
 
 <details>
-<summary><strong>What kind of failure would you expect in a long slender beam?</strong></summary>
+<summary><strong>What kind of failure would you expect in an axially loaded slender beam?</strong></summary>
 
 Buckling
 
@@ -161,9 +161,9 @@ where \(E\) is the Young's modulus or modulus of elasticity.
 ## Fluid Systems
 
 <details>
-<summary><strong>You have an orifice in an incompressible fluid system. What happens to the pressure drop when you double the mass flow rate? What about for incompressible? Why are they different?</strong></summary>
+<summary><strong>You have an orifice in an incompressible fluid system. What happens to the pressure drop when you double the mass flow rate? What about for compressible? Why are they different?</strong></summary>
 
-4x, 2x, density
+4x, ~2x, density
 </details>
 
 ---

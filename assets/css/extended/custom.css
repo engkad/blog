@@ -1,0 +1,4 @@
+/* Only underline links in the Useful Links section */
+.useful-links-table-container a {
+  text-decoration: underline;
+}
