@@ -49,8 +49,6 @@ params:
         url: "/about/"
       - name: Posts
         url: "/posts/"
-      - name: Resume
-        url: "/resume/"
       - name: Tools
         url: "/tools/"
       - name: Industry
