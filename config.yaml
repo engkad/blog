@@ -53,6 +53,8 @@ params:
         url: "/resume/"
       - name: Tools
         url: "/tools/"
+      - name: Industry
+        url: "/industry/"
 
     # homeInfoParams:
     #   Title: Welcome to my blog
