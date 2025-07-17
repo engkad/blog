@@ -7,6 +7,7 @@ tags: ["engineering"]
 
 # O-ring seals
 See parker o-ring calculator and handbook links on blog homepage
+
 ## Compression
 See handbook's compression values for the durometer, then use those values to calculate clamp force of the bolts you're using, using equation from https://www.engineersedge.com/calculators/torque_calc.htm
 
@@ -21,6 +22,8 @@ $$
               & d = \text{nominal bolt diameter}
 \end{aligned}
 $$
+
+Calculator with U.S. units:
 <label for="torque">Torque (T) in ft·lb:</label>
 <input type="number" id="torque" step="any" placeholder="e.g., 75"><br>
 

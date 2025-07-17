@@ -15,3 +15,4 @@ Paris:
 - bring spices (salt, cinnamon, pepper)
 - Bring laundry detergent 
 - Bring extra sand which bags
+- Start in cities and then do more nature stuff later

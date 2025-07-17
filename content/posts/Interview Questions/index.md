@@ -4,7 +4,7 @@ date: 2025-06-20
 draft: false
 tags: ["engineering"]
 ---
-A collection of interview questions I've come across and like to share and discuss with other engineers.
+A collection of interview questions I've come across and like to share and discuss with other engineers for fun :)
 
 ## Structural
 
