@@ -1,16 +1,16 @@
 ---
 title: "Half-Badger Liquid Rocket Engine"
 date: 2025-06-03
-draft: true
+draft: false
 tags: ["engineering","undergrad"]
 ---
-
-(photo gallery?)
-
 # Introduction
 Half-Badger is a liquid rocket designed to compete in the FAR-OUT liquid/hybrid rocket competition in Mojave, CA.
 
-(include slideshow somehow?)
+<details>
+<summary><strong>Project presentation</strong></summary>
+<iframe src="halfbadger.pdf" width="100%" height="600px"></iframe>
+</details>
 
 # Propulsion Engineering
 Most of my efforts contributed to the propulsion and fluid system that fell under the responsibility of the Propulsion sub-team, for which I was a co-lead. I was also heavily involved test stand design and test operations, including co-founding a committee to develop a permanent propulsion test facility at UW-Madison.
@@ -49,7 +49,7 @@ Stainless steel (316/316L)
 Copper alloy
 - good oxygen/corrosion compatibility
 - best thermal conductivity (~10x 316, higher for cryogenic temps)
-- >3x more expensive than stainless
+- \>3x more expensive than stainless
 - around half the tensile strength
 	- so still doesn't perform as well in thermal transient sim, would need to design differently to take advantage of conductivity (regen)
 
@@ -90,6 +90,7 @@ Vehicle diameter and length
 
 Tank pressure
 	- added up pressure drops along tubing and flow components (valves, cav, tees, etc)
+
 #### Propellants
 The initial oxidizer selected was saturated nitrous oxide (N2O) as used on HalfCat Sphinx, however nitrous has a number of drawbacks to it:
 - Saturated N2O is stored at very high pressures (~600-1000psi depending on temperature), which means a very high risk of BLEVE event
@@ -118,13 +119,13 @@ The pressurant was decided to be nitrogen due to cost
 	- Lower density, so less pressurant mass needed to fill the same amount of volume
 
 #### Injector
-(injector design notes and description, pictures)
+TBD: injector design notes and description, pictures
 
 #### Combustion Chamber
-(cc design notes etc)
+TBD: cc design notes etc
 
 #### Nozzle
-(nozzle esign notes etc)
+TBD: nozzle design notes etc
 
 ### Fluid System
 #### Tanks
@@ -135,7 +136,12 @@ This design as some flaws however. Since cavitating venturis are not used in N2O
 For these and several other reasons, we decided to change our oxidizer to cryogenic liquid oxygen, and instead use a separate nitrogen pressurant tank to pressurize the independent LOX and IPA tanks.
 
 #### Fluids Routing
-(P&ID)
+<details>
+<summary><strong>Plumbing and Instrumentation Diagram (P&ID) for the test stand setup</strong></summary>
+
+![P&ID for test stand setup](Test_Stand_P&ID_5-17-25.png)
+
+</details>
 
 ### Test Operations
 
