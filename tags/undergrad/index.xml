@@ -18,6 +18,20 @@
 &lt;p&gt;The purpose of this tool is to utilize some of the logic and code I developed with my friend for one of the projects assigned in EMA524 Rocket Propulsion. The project involved graphing the ratio of thrust coefficient to purely convergent thrust coefficient versus expansion ratio across various pressure ratios (atmospheric pressure divided by chamber pressure). The code was then modified to take input values of pressure ratio and expansion ratio and graph the resulting mach number vs position along nozzle. The nozzle shape used in the code is a Rao nozzle developed in a previous project.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Half-Badger Liquid Rocket Engine</title>
+      <link>https://kyleadler.com/posts/half-badger/</link>
+      <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://kyleadler.com/posts/half-badger/</guid>
+      <description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;Half-Badger is a liquid rocket designed to compete in the FAR-OUT liquid/hybrid rocket competition in Mojave, CA.&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;&lt;strong&gt;Project presentation&lt;/strong&gt;&lt;/summary&gt;
+&lt;iframe src=&#34;halfbadger.pdf&#34; width=&#34;100%&#34; height=&#34;600px&#34;&gt;&lt;/iframe&gt;
+&lt;/details&gt;
+&lt;h1 id=&#34;propulsion-engineering&#34;&gt;Propulsion Engineering&lt;/h1&gt;
+&lt;p&gt;Most of my efforts contributed to the propulsion and fluid system that fell under the responsibility of the Propulsion sub-team, for which I was a co-lead. I was also heavily involved test stand design and test operations, including co-founding a committee to develop a permanent propulsion test facility at UW-Madison.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Space Case Podcast</title>
       <link>https://kyleadler.com/posts/podcast/</link>
       <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
