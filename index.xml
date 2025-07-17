@@ -28,7 +28,7 @@ $$
               &amp; K = \text{nut factor (dimensionless)} \\
               &amp; d = \text{nominal bolt diameter}
 \end{aligned}
-$$&lt;p&gt;
+$$&lt;p&gt;Calculator with U.S. units:
 &lt;label for=&#34;torque&#34;&gt;Torque (T) in ft·lb:&lt;/label&gt;
 &lt;input type=&#34;number&#34; id=&#34;torque&#34; step=&#34;any&#34; placeholder=&#34;e.g., 75&#34;&gt;&lt;br&gt;&lt;/p&gt;</description>
     </item>
@@ -37,7 +37,7 @@ $$&lt;p&gt;
       <link>https://kyleadler.com/posts/interview-questions/</link>
       <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://kyleadler.com/posts/interview-questions/</guid>
-      <description>&lt;p&gt;A collection of interview questions I&amp;rsquo;ve come across and like to share and discuss with other engineers.&lt;/p&gt;
+      <description>&lt;p&gt;A collection of interview questions I&amp;rsquo;ve come across and like to share and discuss with other engineers for fun :)&lt;/p&gt;
 &lt;h2 id=&#34;structural&#34;&gt;Structural&lt;/h2&gt;
 &lt;details&gt;
 &lt;summary&gt;&lt;strong&gt;Given a fixed-free cantilever beam in bending (load at the free end):&lt;/strong&gt;&lt;/summary&gt;
@@ -47,11 +47,7 @@ $$&lt;p&gt;
 &lt;/details&gt;
 &lt;details&gt;
 &lt;summary&gt;&lt;strong&gt;Is the stress tensile or compressive?&lt;/strong&gt;&lt;/summary&gt;
-&lt;p&gt;Tensile at the top of the beam and compressive at the bottom.&lt;/p&gt;
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;&lt;strong&gt;How do you know if it will fail completely?&lt;/strong&gt;&lt;/summary&gt;
-&lt;p&gt;Ultimate tensile strength since it will be lower than ultimate compressive strength.&lt;/p&gt;</description>
+&lt;p&gt;Tensile at the top of the beam and compressive at the bottom.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Python Rocket Solver</title>
@@ -60,7 +56,7 @@ $$&lt;p&gt;
       <guid>https://kyleadler.com/posts/rocket_py/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://py.engrkad.com/rocket&#34;&gt;Link to solver&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&#34;purpose&#34;&gt;Purpose&lt;/h1&gt;
-&lt;p&gt;use the code i made in ema524 with jackson&lt;/p&gt;</description>
+&lt;p&gt;The purpose of this tool is to utilize some of the logic and code I developed with my friend for one of the projects assigned in EMA524 Rocket Propulsion. The project involved graphing the ratio of thrust coefficient to purely convergent thrust coefficient versus expansion ratio across various pressure ratios (atmospheric pressure divided by chamber pressure). The code was then modified to take input values of pressure ratio and expansion ratio and graph the resulting mach number vs position along nozzle. The nozzle shape used in the code is a Rao nozzle developed in a previous project.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Space Case Podcast</title>
@@ -817,7 +813,7 @@ $$&lt;p&gt;
       <link>https://kyleadler.com/posts/senior-design-final-report/</link>
       <pubDate>Sun, 11 May 2025 00:00:00 +0000</pubDate>
       <guid>https://kyleadler.com/posts/senior-design-final-report/</guid>
-      <description>&lt;p&gt;Below is my senior design report from EMA569. This project was developed in the spring semester, following a fall semester of designing a product and building a prototype. Note that blue text means it has changed since the last version of the report.&lt;/p&gt;
+      <description>&lt;p&gt;Below is my senior design report from EMA569. This group project was developed in the spring semester, following a fall semester of designing a product and building a prototype. (Blue text means it has changed since the last version of the report)&lt;/p&gt;
 &lt;object data=&#34;EMA569_Report.pdf&#34; type=&#34;application/pdf&#34; width=&#34;100%&#34; height=&#34;600px&#34;&gt;
     &lt;p&gt;Link to PDF: &lt;a href=&#34;EMA569_Report.pdf&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/object&gt;</description>
@@ -849,7 +845,7 @@ $$&lt;p&gt;
   &lt;tbody&gt;
       &lt;tr&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://cobalt.tools/&#34;&gt;Cobalt&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Online media downloader (youtube, etc)&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Online media downloader (youtube etc, &lt;a href=&#34;https://vatis.tech/tools/youtube-to-mp4&#34;&gt;alternative&lt;/a&gt;)&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Engineering&lt;/strong&gt;&lt;/td&gt;
@@ -858,6 +854,18 @@ $$&lt;p&gt;
       &lt;tr&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://divapps.parker.com/divapps/oring/ORingSelector/?LangID=EN&amp;amp;lang=en&amp;amp;cntry=us/17061&amp;amp;LangSrcType=local&#34;&gt;Parker&lt;/a&gt;&lt;/td&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;O-ring selector/groove calculator (&lt;a href=&#34;https://www.parker.com/content/dam/Parker-com/Literature/O-Ring-Division-Literature/ORD-5700.pdf&#34;&gt;handbook&lt;/a&gt;)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Fun&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://angle.wtf/&#34;&gt;angle&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Daily angle guessing game&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;</description>
