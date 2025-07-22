@@ -13,24 +13,28 @@
       <link>https://kyleadler.com/tools/</link>
       <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://kyleadler.com/tools/</guid>
-      <description>&lt;h1 id=&#34;o-ring-seals&#34;&gt;O-ring seals&lt;/h1&gt;
+      <description>&lt;h1 id=&#34;literatureresources&#34;&gt;Literature/Resources&lt;/h1&gt;
+&lt;h2 id=&#34;momstructural&#34;&gt;MoM/Structural&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://jackson.engr.tamu.edu/wp-content/uploads/sites/229/2023/03/Roarks-formulas-for-stress-and-strain.pdf&#34;&gt;Roark&amp;rsquo;s&lt;/a&gt; - Formulas for stress/strain&lt;/p&gt;
+&lt;h2 id=&#34;fluid-systems&#34;&gt;Fluid Systems&lt;/h2&gt;
+&lt;h2 id=&#34;propulsion&#34;&gt;Propulsion&lt;/h2&gt;
+&lt;p&gt;Rocket Propulsion Elements, Sutton
+Design of Liquid Propellant Rocket Engines, Huzel &amp;amp; Huang&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://rrs.org/2023/01/28/making-correct-parabolic-nozzles/&#34;&gt;Rao nozzle design&lt;/a&gt;
+&lt;a href=&#34;https://apps.dtic.mil/sti/pdfs/ADA234288.pdf&#34;&gt;Liquid film cooling&lt;/a&gt;
+&lt;a href=&#34;https://www.usseal.com/Grafoil/What-is-Grafoil.pdf&#34;&gt;Gasket design guide&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;ntrs&#34;&gt;NTRS&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://ntrs.nasa.gov/api/citations/19940019998/downloads/19940019998.pdf&#34;&gt;Engine heat transfer&lt;/a&gt;
+&lt;a href=&#34;https://ntrs.nasa.gov/api/citations/20160008869/downloads/20160008869.pdf&#34;&gt;Engine material selection&lt;/a&gt;
+&lt;a href=&#34;https://ntrs.nasa.gov/api/citations/19930085379/downloads/19930085379.pdf&#34;&gt;Film cooling&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;youtube-videos&#34;&gt;YouTube Videos&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=Owji-ukVt9M&#34;&gt;Engine cycles&lt;/a&gt;
+&lt;a href=&#34;https://www.youtube.com/watch?v=bAUVCn_jw5I&#34;&gt;Engine ignition&lt;/a&gt;
+&lt;a href=&#34;https://www.youtube.com/watch?v=he_BL6Q5u1Y&#34;&gt;Engine cooling&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;o-ring-seals&#34;&gt;O-ring seals&lt;/h1&gt;
 &lt;p&gt;See parker o-ring calculator and handbook links on blog homepage&lt;/p&gt;
 &lt;h2 id=&#34;compression&#34;&gt;Compression&lt;/h2&gt;
-&lt;p&gt;See handbook&amp;rsquo;s compression values for the durometer, then use those values to calculate clamp force of the bolts you&amp;rsquo;re using, using equation from &lt;a href=&#34;https://www.engineersedge.com/calculators/torque_calc.htm&#34;&gt;https://www.engineersedge.com/calculators/torque_calc.htm&lt;/a&gt;&lt;/p&gt;
-$$
-F = \frac{T}{K d}
-$$&lt;p&gt;
-&lt;/p&gt;
-$$
-\begin{aligned}
-\text{where } &amp; F = \text{clamp force (axial load)} \\
-              &amp; T = \text{applied torque} \\
-              &amp; K = \text{nut factor (dimensionless)} \\
-              &amp; d = \text{nominal bolt diameter}
-\end{aligned}
-$$&lt;p&gt;Calculator with U.S. units:
-&lt;label for=&#34;torque&#34;&gt;Torque (T) in ft·lb:&lt;/label&gt;
-&lt;input type=&#34;number&#34; id=&#34;torque&#34; step=&#34;any&#34; placeholder=&#34;e.g., 75&#34;&gt;&lt;br&gt;&lt;/p&gt;</description>
+&lt;p&gt;See handbook&amp;rsquo;s compression values for the durometer, then use those values to calculate clamp force of the bolts you&amp;rsquo;re using, using equation from &lt;a href=&#34;https://www.engineersedge.com/calculators/torque_calc.htm&#34;&gt;https://www.engineersedge.com/calculators/torque_calc.htm&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Interview Questions</title>
