@@ -83,13 +83,13 @@ Film cooling
 		- start with a rough (theoretically conservative) estimate from our analysis, and then validate analysis parameters through testing
 
 Burn time = 5s
-	- originally 7.5s with a the old n2o engine design, but with higher combustion temperature we needed a lower burn time to take advantage of transient, also less burn time since larger thrust
+- originally 7.5s with a the old n2o engine design, but with higher combustion temperature we needed a lower burn time to take advantage of transient, also less burn time since larger thrust
 
 Vehicle diameter and length
 - match similar rockets we've built, diameter is sufficient for a our desired expansion with reasonable chamber pressure
 
 Tank pressure
-	- added up pressure drops along tubing and flow components (valves, cav, tees, etc)
+- added up pressure drops along tubing and flow components (valves, cav, tees, etc)
 
 #### Propellants
 The initial oxidizer selected was saturated nitrous oxide (N2O) as used on HalfCat Sphinx, however nitrous has a number of drawbacks to it:
@@ -144,7 +144,7 @@ For these and several other reasons, we decided to change our oxidizer to cryoge
 </details>
 
 ### Test Operations
-
+TBD
 
 
 
@@ -155,14 +155,15 @@ Administrative/timeline
 - Not leak testing more sections of line prior to water flow test
 
 Fluid system
-- NPT requires tons of thread tape, swagelok is really expensive 
-	- coul've used more AN flared fittings
+- NPT requires tons of thread tape and space to twist, swagelok is really expensive 
+	- could've used more AN flared fittings
 - Forgot to put zero thrust tees on vent valves - venting can be a lot of thrust!
 - Tubing for PTs should be as small as possible to minimize volume, 1/8" or something. Can still have length to prevent cryo temps
 - Need faster acting valves, 1s is too slow
-- Purge line needs to be lower pressure for ox side since purging during startup
+- Purge line needs an orifice to be lower pressure for ox side since purging during startup; don't want to stop lox flow
 - Need tubes to carry vent/dump LOX away from test stand
 
 TCA
-- forgot to put PT/TC in manifold
+- forgot to put PT/TC in injector manifold
+	- Manifold pressures/temperatures are going to be your best indicators of propellant 
 	- ended up putting a tee into the inlet lines, this works fine too

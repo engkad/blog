@@ -158,6 +158,14 @@ where \(E\) is the Young's modulus or modulus of elasticity.
 - Helps illustrate the immense change in volume when a fluid changes phase and the potential energy contained (such as in a [BLEVE event](https://en.wikipedia.org/wiki/Boiling_liquid_expanding_vapor_explosion))
 </details>
 
+---
+
+<details>
+<summary><strong>Feynman sprinkler: which way does it turn?</strong></summary>
+See https://en.wikipedia.org/wiki/Feynman_sprinkler
+
+</details>
+
 ## Fluid Systems
 
 <details>
