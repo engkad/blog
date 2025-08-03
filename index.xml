@@ -850,6 +850,30 @@ Design of Liquid Propellant Rocket Engines, Huzel &amp;amp; Huang&lt;/p&gt;
     </item>
     <item>
       <title></title>
+      <link>https://kyleadler.com/drafts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://kyleadler.com/drafts/</guid>
+      <description>&lt;h1 id=&#34;tools&#34;&gt;tools&lt;/h1&gt;
+&lt;h1 id=&#34;cavitating-venturis&#34;&gt;Cavitating Venturis&lt;/h1&gt;
+&lt;p&gt;[[Cavitating Venturi - FlowMaxx Engineering]]&lt;/p&gt;
+&lt;p&gt;[[Cavitating Venturi Script]]&lt;/p&gt;
+&lt;h1 id=&#34;fluids-fittings&#34;&gt;Fluids Fittings&lt;/h1&gt;
+&lt;p&gt;Swagelok&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Good and swivels, but heavy and expensive&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;AN&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Good cheap and swivels, used in industry a lot&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;NPT&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Requires thread sealant&lt;/li&gt;
+&lt;li&gt;Twisting sucks for tight spaces&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title></title>
       <link>https://kyleadler.com/useful-links/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://kyleadler.com/useful-links/</guid>
@@ -879,7 +903,7 @@ Design of Liquid Propellant Rocket Engines, Huzel &amp;amp; Huang&lt;/p&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://angle.wtf/&#34;&gt;angle&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Daily angle guessing game&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Like the wordle but angles&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;</description>
