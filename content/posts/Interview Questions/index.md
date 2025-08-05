@@ -162,7 +162,7 @@ where \(E\) is the Young's modulus or modulus of elasticity.
 
 <details>
 <summary><strong>Feynman sprinkler: which way does it turn?</strong></summary>
-See https://en.wikipedia.org/wiki/Feynman_sprinkler
+See <a href="https://en.wikipedia.org/wiki/Feynman_sprinkler">https://en.wikipedia.org/wiki/Feynman_sprinkler</a>
 
 </details>
 
@@ -351,7 +351,7 @@ My example was a COTS component that failed on our Spaceport 2024 rocket, and fr
 ## Random
 
 <details>
-<summary><strong>How much paint does it take to paint a Falcon 9? (whatever units, give your best guess)</strong></summary>
+<summary><strong>How much paint does it take to paint a Falcon 9? (whatever units, give your best estimate and talk through your though process)</strong></summary>
 
 Having just seen a falcon 9 in person helps. My guess for approximate dimensions were 10ft diameter and 100ft tall. Thus approximately 30ft circumference times 100ft length is 3000ft^2. From painting walls I guessed it takes (very roughly) around 1 gallon to paint a 10ft x 10ft wall (so 100ft^2), so 3000/100 = 30 gallons of paint. Actual answer is around 40 gallons!
 </details>
