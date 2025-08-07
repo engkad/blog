@@ -6,8 +6,17 @@
     <description>Recent content on Kyle’s Engineering Blog</description>
     <generator>Hugo -- 0.147.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 06 Aug 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://kyleadler.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Oh Hell Card Game Scorekeeper</title>
+      <link>https://kyleadler.com/posts/ohhellscorekeeper/</link>
+      <pubDate>Wed, 06 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://kyleadler.com/posts/ohhellscorekeeper/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Score format:&lt;/strong&gt; guessed/taken → score (10 bonus for exact guess)&lt;/p&gt;
+&lt;div id=&#34;scorekeeper-app&#34; style=&#34;max-width: 600px; margin: auto;&#34;&gt;&lt;/div&gt;
+&lt;script src=&#34;https://kyleadler.com/js/oh-hell-scorekeeper.js&#34;&gt;&lt;/script&gt;</description>
+    </item>
     <item>
       <title>Engineering Tools</title>
       <link>https://kyleadler.com/tools/</link>
