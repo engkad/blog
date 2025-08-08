@@ -7,6 +7,7 @@
     currentRound: 0,
     trickSequence: [],
     awardOnMiss: true,
+    editingRoundIndex: null, // NEW: track when editing
   };
 
   function saveState() {
@@ -69,33 +70,44 @@
       state.awardOnMiss = awardOnMiss;
       state.rounds = [];
       state.currentRound = 0;
+      state.editingRoundIndex = null;
       saveState();
       renderRoundInput();
     };
   }
 
-  function renderRoundInput() {
-    const trickCount = state.trickSequence[state.currentRound];
+  function renderRoundInput(roundIndex = null) {
+    const isEditing = roundIndex !== null;
+    const roundNum = isEditing ? roundIndex : state.currentRound;
+    const trickCount = state.trickSequence[roundNum];
     if (trickCount === undefined) {
-      renderScoreTable(true); // game over
+      renderScoreTable(true);
       return;
     }
 
-    let html = `<h2>Round ${state.currentRound + 1} – ${trickCount} Tricks</h2>`;
+    let html = `<h2>${isEditing ? `Edit Round ${roundNum + 1}` : `Round ${roundNum + 1}`} – ${trickCount} Tricks</h2>`;
     html += `<form id="round-form"><table>`;
     html += `<tr><th>Player</th><th>Bid</th><th>Tricks Won</th></tr>`;
 
     state.players.forEach((player, i) => {
+      let bidVal = "";
+      let wonVal = "";
+      if (isEditing) {
+        bidVal = state.rounds[roundIndex].bids[i];
+        wonVal = state.rounds[roundIndex].won[i];
+      }
       html += `
         <tr>
           <td>${player}</td>
-          <td><input type="number" name="bid-${i}" min="0" max="${trickCount}" required></td>
-          <td><input type="number" name="won-${i}" min="0" max="${trickCount}" required></td>
+          <td><input type="number" name="bid-${i}" min="0" max="${trickCount}" value="${bidVal}" required></td>
+          <td><input type="number" name="won-${i}" min="0" max="${trickCount}" value="${wonVal}" required></td>
         </tr>
       `;
     });
 
-    html += `</table><button type="submit">Submit Round</button></form>`;
+    html += `</table>
+      <button type="submit">${isEditing ? "Save Changes" : "Submit Round"}</button>
+    </form>`;
     html += `<button id="reset-game-btn">Reset Game</button>`;
 
     appDiv.innerHTML = html;
@@ -112,7 +124,6 @@
         round.won[i] = won;
 
         const gotItRight = bid === won;
-
         let score = 0;
         if (gotItRight) {
           score = won + 10;
@@ -121,12 +132,17 @@
         } else {
           score = 0;
         }
-
         round.scores[i] = score;
       });
 
-      state.rounds.push(round);
-      state.currentRound++;
+      if (isEditing) {
+        state.rounds[roundIndex] = round;
+      } else {
+        state.rounds.push(round);
+        state.currentRound++;
+      }
+
+      state.editingRoundIndex = null;
       saveState();
       renderScoreTable();
     };
@@ -138,7 +154,8 @@
     let html = `<h2>${gameOver ? "Final Scores" : "Scores"}</h2><table><tr><th>Player</th>`;
 
     state.rounds.forEach((_, i) => {
-      html += `<th>R${i + 1}</th>`;
+      const trickCount = state.trickSequence[i];
+      html += `<th>R${i + 1} (${trickCount}) <button style="font-size:0.7em" onclick="editRound(${i})">✎</button></th>`;
     });
 
     html += `<th>Total</th></tr>`;
@@ -159,23 +176,28 @@
     html += `</table>`;
 
     if (!gameOver) {
-    html += `<div style="margin-top:1em">
+      html += `<div style="margin-top:1em">
         <button id="next-round-btn" style="margin-right:1em">Next Round</button>
         <button id="reset-game-btn">Reset Game</button>
-    </div>`;
+      </div>`;
     } else {
-    html += `<div style="margin-top:1em">
+      html += `<div style="margin-top:1em">
         <button id="reset-game-btn">Reset Game</button>
-    </div>`;
+      </div>`;
     }
 
     appDiv.innerHTML = html;
 
     if (!gameOver) {
-      document.getElementById("next-round-btn").addEventListener("click", renderRoundInput);
+      document.getElementById("next-round-btn").addEventListener("click", () => renderRoundInput());
     }
     document.getElementById("reset-game-btn").addEventListener("click", resetState);
   }
+
+  // NEW: make edit function available
+  window.editRound = function (roundIndex) {
+    renderRoundInput(roundIndex);
+  };
 
   // Initialize
   loadState();
