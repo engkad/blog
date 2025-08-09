@@ -7,7 +7,9 @@
     currentRound: 0,
     trickSequence: [],
     awardOnMiss: true,
-    editingRoundIndex: null, // NEW: track when editing
+    editingRoundIndex: null, // null = adding new round
+    view: "summary", // or "entry"
+    currentRoundData: { bids: [], won: [] } // preserves form progress
   };
 
   function saveState() {
@@ -71,17 +73,20 @@
       state.rounds = [];
       state.currentRound = 0;
       state.editingRoundIndex = null;
+      state.view = "entry";
+      state.currentRoundData = { bids: Array(names.length).fill(""), won: Array(names.length).fill("") };
       saveState();
-      renderRoundInput();
+      render();
     };
   }
 
-  function renderRoundInput(roundIndex = null) {
-    const isEditing = roundIndex !== null;
-    const roundNum = isEditing ? roundIndex : state.currentRound;
+  function renderRoundEntry() {
+    const isEditing = state.editingRoundIndex !== null;
+    const roundNum = isEditing ? state.editingRoundIndex : state.currentRound;
     const trickCount = state.trickSequence[roundNum];
     if (trickCount === undefined) {
-      renderScoreTable(true);
+      state.view = "summary";
+      render();
       return;
     }
 
@@ -90,12 +95,15 @@
     html += `<tr><th>Player</th><th>Bid</th><th>Tricks Won</th></tr>`;
 
     state.players.forEach((player, i) => {
-      let bidVal = "";
-      let wonVal = "";
-      if (isEditing) {
-        bidVal = state.rounds[roundIndex].bids[i];
-        wonVal = state.rounds[roundIndex].won[i];
+      let bidVal = state.currentRoundData.bids[i] ?? "";
+      let wonVal = state.currentRoundData.won[i] ?? "";
+
+      // If editing and no temporary data yet, pull from stored round
+      if (isEditing && bidVal === "" && wonVal === "" && state.rounds[roundNum]) {
+        bidVal = state.rounds[roundNum].bids[i];
+        wonVal = state.rounds[roundNum].won[i];
       }
+
       html += `
         <tr>
           <td>${player}</td>
@@ -108,7 +116,13 @@
     html += `</table>
       <button type="submit">${isEditing ? "Save Changes" : "Submit Round"}</button>
     </form>`;
-    html += `<button id="reset-game-btn">Reset Game</button>`;
+
+    html += `
+      <div style="margin-top:1em">
+        <button id="summary-view-btn" style="margin-right:1em">View Summary</button>
+        <button id="reset-game-btn">Reset Game</button>
+      </div>
+    `;
 
     appDiv.innerHTML = html;
 
@@ -129,28 +143,44 @@
           score = won + 10;
         } else if (state.awardOnMiss) {
           score = won;
-        } else {
-          score = 0;
         }
         round.scores[i] = score;
       });
 
       if (isEditing) {
-        state.rounds[roundIndex] = round;
+        state.rounds[roundNum] = round;
       } else {
         state.rounds.push(round);
         state.currentRound++;
       }
 
       state.editingRoundIndex = null;
+      state.currentRoundData = { bids: Array(state.players.length).fill(""), won: Array(state.players.length).fill("") };
+      state.view = "summary";
       saveState();
-      renderScoreTable();
+      render();
     };
+
+    document.querySelectorAll(`#round-form input`).forEach(input => {
+      input.addEventListener("input", () => {
+        const idx = parseInt(input.name.split("-")[1], 10);
+        if (input.name.startsWith("bid-")) state.currentRoundData.bids[idx] = input.value;
+        if (input.name.startsWith("won-")) state.currentRoundData.won[idx] = input.value;
+        saveState();
+      });
+    });
+
+    document.getElementById("summary-view-btn").addEventListener("click", () => {
+      state.view = "summary";
+      saveState();
+      render();
+    });
 
     document.getElementById("reset-game-btn").addEventListener("click", resetState);
   }
 
-  function renderScoreTable(gameOver = false) {
+  function renderScoreTable() {
+    let gameOver = state.currentRound >= state.trickSequence.length;
     let html = `<h2>${gameOver ? "Final Scores" : "Scores"}</h2><table><tr><th>Player</th>`;
 
     state.rounds.forEach((_, i) => {
@@ -175,38 +205,44 @@
 
     html += `</table>`;
 
+    html += `<div style="margin-top:1em">`;
     if (!gameOver) {
-      html += `<div style="margin-top:1em">
-        <button id="next-round-btn" style="margin-right:1em">Next Round</button>
-        <button id="reset-game-btn">Reset Game</button>
-      </div>`;
-    } else {
-      html += `<div style="margin-top:1em">
-        <button id="reset-game-btn">Reset Game</button>
-      </div>`;
+      html += `<button id="entry-view-btn" style="margin-right:1em">Go to Round Entry</button>`;
     }
+    html += `<button id="reset-game-btn">Reset Game</button></div>`;
 
     appDiv.innerHTML = html;
 
     if (!gameOver) {
-      document.getElementById("next-round-btn").addEventListener("click", () => renderRoundInput());
+      document.getElementById("entry-view-btn").addEventListener("click", () => {
+        state.view = "entry";
+        saveState();
+        render();
+      });
     }
     document.getElementById("reset-game-btn").addEventListener("click", resetState);
   }
 
-  // NEW: make edit function available
+  function render() {
+    if (state.view === "entry") {
+      renderRoundEntry();
+    } else {
+      renderScoreTable();
+    }
+  }
+
+  // Edit round from anywhere
   window.editRound = function (roundIndex) {
-    renderRoundInput(roundIndex);
+    state.editingRoundIndex = roundIndex;
+    state.view = "entry";
+    saveState();
+    render();
   };
 
   // Initialize
   loadState();
   if (state.players.length > 0 && state.trickSequence.length > 0) {
-    if (state.currentRound >= state.trickSequence.length) {
-      renderScoreTable(true);
-    } else {
-      renderScoreTable();
-    }
+    render();
   } else {
     renderInitialForm();
   }
