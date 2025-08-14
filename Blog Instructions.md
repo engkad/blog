@@ -220,3 +220,16 @@ blog\.github\workflows\deploy.yml
    - Site is live on `https://engkad.github.io/blog/`
 
 That’s it—your Obsidian-to-Hugo-to-GitHub-Pages pipeline is fully automated on Windows. Enjoy writing!  
+
+
+
+# Steps to set up
+
+Need:
+- github repo
+- download hugo and papermod
+- setup github desktop
+
+- download hugo
+	- create hugo website according to papermod docs
+	- 
