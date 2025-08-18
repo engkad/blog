@@ -228,8 +228,11 @@ That’s it—your Obsidian-to-Hugo-to-GitHub-Pages pipeline is fully automated 
 Need:
 - github repo
 - download hugo and papermod
-- setup github desktop
+- setup github desktop and git
 
 - download hugo
 	- create hugo website according to papermod docs
-	- 
+		- git add submodule for papermod
+
+- clone into remote repo and create branch
+- add public/ files to .gitignore
