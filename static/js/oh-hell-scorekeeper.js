@@ -7,6 +7,7 @@
     currentRound: 0,
     trickSequence: [],
     awardOnMiss: true,
+    zeroBonusFive: true,   // 👈 new
     editingRoundIndex: null, // null = adding new round
     view: "summary", // or "entry"
     currentRoundData: { bids: [], won: [] } // preserves form progress
@@ -49,6 +50,11 @@
           Award tricks even if guess is wrong?
         </label><br><br>
 
+        <label>
+          <input type="checkbox" id="zero-bonus-five" checked>
+          Only give 5 bonus for successful 0 bid (instead of 10)?
+        </label><br><br>
+
         <button type="submit">Start Game</button>
       </form>
     `;
@@ -61,6 +67,7 @@
         .filter((n) => n);
       const maxTricks = parseInt(document.getElementById("max-tricks").value, 10);
       const awardOnMiss = document.getElementById("award-on-miss").checked;
+      const zeroBonusFive = document.getElementById("zero-bonus-five").checked;
 
       if (names.length < 2 || isNaN(maxTricks) || maxTricks < 1) {
         alert("Enter at least 2 players and a valid number of tricks.");
@@ -70,6 +77,7 @@
       state.players = names;
       state.trickSequence = generateTrickSequence(maxTricks);
       state.awardOnMiss = awardOnMiss;
+      state.zeroBonusFive = zeroBonusFive;
       state.rounds = [];
       state.currentRound = 0;
       state.editingRoundIndex = null;
@@ -139,11 +147,17 @@
 
         const gotItRight = bid === won;
         let score = 0;
+
         if (gotItRight) {
-          score = won + 5; // changed from +10 to +5
+          if (state.zeroBonusFive && bid === 0) {
+            score = 5;
+          } else {
+            score = won + 10;
+          }
         } else if (state.awardOnMiss) {
           score = won;
         }
+
         round.scores[i] = score;
 
       });
