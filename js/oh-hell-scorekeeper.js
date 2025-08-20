@@ -140,11 +140,12 @@
         const gotItRight = bid === won;
         let score = 0;
         if (gotItRight) {
-          score = won + 10;
+          score = won + 5; // changed from +10 to +5
         } else if (state.awardOnMiss) {
           score = won;
         }
         round.scores[i] = score;
+
       });
 
       if (isEditing) {
