@@ -47,7 +47,7 @@
 
         <label>
           <input type="checkbox" id="award-on-miss" checked>
-          Award tricks even if guess is wrong?
+          Award tricks even if bid is wrong?
         </label><br><br>
 
         <label>
