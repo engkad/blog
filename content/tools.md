@@ -33,6 +33,108 @@ tags: ["engineering"]
 
 [Gasket design guide](https://www.usseal.com/Grafoil/What-is-Grafoil.pdf)
 
+### Chemistry/propellants
+<details>
+<summary><strong>Periodic table</strong></summary>
+<iframe src="https://ptable.com/?lang=en" width="100%" height="800" style="border:0;"
+  title="Interactive periodic table (Ptable)"></iframe>
+</details>
+
+<details>
+<summary><strong>Common gas properties</strong></summary>
+
+<table class="gas-table">
+  <thead>
+    <tr>
+      <th colspan="5" style="text-align:left;">Common Gases (298 K, 1 atm)</th>
+    </tr>
+    <tr>
+      <th>Gas</th>
+      <th>Molar Mass (g/mol)</th>
+      <th>Density (g/L)</th>
+      <th>Boiling Point (K)</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Hydrogen (H₂)</td><td>2.016</td><td>0.082</td><td>20.3</td>
+      <td><a href="https://webbook.nist.gov/cgi/cbook.cgi?ID=C1333740" target="_blank">NIST</a></td></tr>
+    <tr><td>Helium (He)</td><td>4.003</td><td>0.166</td><td>4.2</td>
+      <td><a href="https://webbook.nist.gov/cgi/cbook.cgi?ID=C7440597" target="_blank">NIST</a></td></tr>
+    <tr><td>Nitrogen (N₂)</td><td>28.014</td><td>1.165</td><td>77.4</td>
+      <td><a href="https://webbook.nist.gov/cgi/cbook.cgi?ID=C7727379" target="_blank">NIST</a></td></tr>
+    <tr><td>Oxygen (O₂)</td><td>31.999</td><td>1.331</td><td>90.2</td>
+      <td><a href="https://webbook.nist.gov/cgi/cbook.cgi?ID=C7782447" target="_blank">NIST</a></td></tr>
+    <tr><td>Carbon Dioxide (CO₂)</td><td>44.010</td><td>1.799</td><td>194.7 (subl.)</td>
+      <td><a href="https://webbook.nist.gov/cgi/cbook.cgi?ID=C124389" target="_blank">NIST</a></td></tr>
+    <tr><td>Argon (Ar)</td><td>39.948</td><td>1.633</td><td>87.3</td>
+      <td><a href="https://webbook.nist.gov/cgi/cbook.cgi?ID=C7440371" target="_blank">NIST</a></td></tr>
+    <tr><td>Air (avg.)</td><td>28.97</td><td>1.184</td><td>—</td>
+      <td><a href="https://webbook.nist.gov/chemistry/fluid/" target="_blank">NIST</a></td></tr>
+  </tbody>
+
+  <thead>
+    <tr>
+      <th colspan="5" style="text-align:left;">Rocket Propellants (liquid near use temperature)</th>
+    </tr>
+    <tr>
+      <th>Propellant</th>
+      <th>Molar Mass (g/mol)</th>
+      <th>Density (g/cm³)</th>
+      <th>Boiling Point (K)</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>LOX (O₂, liquid @ ~90 K)</td><td>31.999</td><td>1.14</td><td>90.2</td>
+      <td><a href="https://webbook.nist.gov/cgi/cbook.cgi?ID=C7782447" target="_blank">NIST</a></td></tr>
+    <tr><td>LH₂ (H₂, liquid @ ~20 K)</td><td>2.016</td><td>0.071</td><td>20.3</td>
+      <td><a href="https://webbook.nist.gov/cgi/cbook.cgi?ID=C1333740" target="_blank">NIST</a></td></tr>
+    <tr><td>LCH₄ (CH₄, liquid @ ~111 K)</td><td>16.043</td><td>0.42</td><td>111.6</td>
+      <td><a href="https://webbook.nist.gov/cgi/cbook.cgi?ID=C74828" target="_blank">NIST</a></td></tr>
+    <tr><td>N₂O (liquid @ ~184 K)</td><td>44.013</td><td>1.22</td><td>184.7</td>
+      <td><a href="https://webbook.nist.gov/cgi/cbook.cgi?ID=C10024972" target="_blank">NIST</a></td></tr>
+    <tr><td>N₂O₄ (storable @ 298 K)</td><td>92.011</td><td>1.44</td><td>294.0</td>
+      <td><a href="https://webbook.nist.gov/cgi/cbook.cgi?ID=C1054473" target="_blank">NIST</a></td></tr>
+    <tr><td>Hydrazine (N₂H₄, liquid @ 298 K)</td><td>32.045</td><td>1.01</td><td>386.6</td>
+      <td><a href="https://webbook.nist.gov/cgi/cbook.cgi?ID=C302012" target="_blank">NIST</a></td></tr>
+    <tr><td>MMH (CH₆N₂, liquid @ 298 K)</td><td>46.073</td><td>0.88</td><td>337.0</td>
+      <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/Monomethylhydrazine" target="_blank">PubChem</a></td></tr>
+    <tr><td>UDMH (C₂H₈N₂, liquid @ 298 K)</td><td>60.098</td><td>0.79</td><td>364.6</td>
+      <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/Dimethylhydrazine" target="_blank">PubChem</a></td></tr>
+    <tr><td>Kerosene (RP-1, liquid @ 298 K)</td><td>~170 (avg.)</td><td>0.81</td><td>~450–500 (range)</td>
+      <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/Kerosene" target="_blank">PubChem</a></td></tr>
+  </tbody>
+</table>
+
+<style>
+.gas-table {
+  border-collapse: collapse;
+  margin: 1em auto;
+  font-family: system-ui, sans-serif;
+  font-size: 14px;
+  border-bottom: 2px solid #ccc;
+}
+.gas-table th, .gas-table td {
+  border: 1px solid #ddd;
+  padding: 6px 10px;
+  text-align: center;
+  background-color: inherit; /* inherit uniform background */
+}
+.gas-table a {
+  color: #2563eb;
+  text-decoration: none;
+}
+.gas-table a:hover {
+  text-decoration: underline;
+}
+</style>
+
+
+
+
+</details>
+
 ### NTRS
 [Engine heat transfer](https://ntrs.nasa.gov/api/citations/19940019998/downloads/19940019998.pdf)
 
