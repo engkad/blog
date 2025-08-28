@@ -3,6 +3,7 @@ title: "Engineering Tools"
 date: 2025-06-20
 draft: false
 tags: ["engineering"]
+TocOpen: true
 ---
 
 # Literature/Resources
@@ -135,7 +136,7 @@ tags: ["engineering"]
 
 </details>
 
-### NTRS
+### NTRS Documents
 [Engine heat transfer](https://ntrs.nasa.gov/api/citations/19940019998/downloads/19940019998.pdf)
 
 [Engine material selection](https://ntrs.nasa.gov/api/citations/20160008869/downloads/20160008869.pdf)
@@ -151,7 +152,7 @@ tags: ["engineering"]
 [Engine cooling](https://www.youtube.com/watch?v=he_BL6Q5u1Y)
 
 # O-ring seals
-See parker o-ring calculator and handbook links on blog homepage
+[Parker](https://divapps.parker.com/divapps/oring/ORingSelector/?LangID=EN&lang=en&cntry=us/17061&LangSrcType=local) O-ring selector/groove calculator ([handbook](https://www.parker.com/content/dam/Parker-com/Literature/O-Ring-Division-Literature/ORD-5700.pdf))
 
 ## Compression
 See handbook's compression values for the durometer, then use those values to calculate clamp force of the bolts you're using. This is very approximate since nut factor should be determined empirically for the specific application. The number of turns method (calculating strain/stress/force from deflection) is much more accurate. 
