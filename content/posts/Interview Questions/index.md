@@ -261,6 +261,7 @@ After!
 
 - Less waste heat because all propellant flows through turbines and combustors.  
 - More efficient combustion in the main combustion chamber. 
+- Lower \(\Delta T\) across turbines due to higher \(\dot{m}\) through turbines for the same amount of power.
 
 </details>
 
