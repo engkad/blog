@@ -7,6 +7,8 @@ tags: ["engineering","undergrad"]
 # Introduction
 Half-Badger is a liquid rocket designed to compete in the FAR-OUT liquid/hybrid rocket competition in Mojave, CA.
 
+See my [senior design final report](https://kyleadler.com/posts/senior-design-final-report/) for an in-depth design notes of a rocket engine.
+
 <details>
 <summary><strong>Project presentation</strong></summary>
 <iframe src="halfbadger.pdf" width="100%" height="600px"></iframe>
@@ -119,13 +121,29 @@ The pressurant was decided to be nitrogen due to cost
 	- Lower density, so less pressurant mass needed to fill the same amount of volume
 
 #### Injector
-TBD: injector design notes and description, pictures
+Significant guidance for design of the injector was provided by RPE9 and Huzel & Huang. A like-unlike impinging injector was chosen for simplicity of design, manufacturability, and performance. Since this engine uses liquid injection, an incompressible discharge coefficient flow equation was used to calculate required injection area for the fuel and oxidizer, which is then used to find the number and size of orifices (the size of orifices was chosen to be compatible with available tooling).
+$$
+\dot{m} = Q\rho = C_d A \sqrt{2\rho \Delta P}
+$$
+The impingement distance is a relevant parameter but not a major design consideration. Instead of focusing on a precise value, it should be chosen to be as close to the injector face as heat transfer, mixing efficiency and manufacturing permit.
 
 #### Combustion Chamber
-TBD: cc design notes etc
+The combustion chamber size is best characterized by the parameter characteristic chamber length \(L^*\). Defined as the ratio of chamber volume to nozzle throat area, \(L^*\) specifies the propellant stay time in the combustion chamber. While \(L^*\) increases the characteristic performance of a combustion chamber up to a certain point (as the propellant has more time to react completely), beyond this, larger values lead to higher chamber volume and weight, increased cooling surface area, and greater friction losses. In industry, optimization analysis is required to determine the minimum \(L^*\) for efficient combustion, with experimental firings used to validate this under specific conditions. An estimate from existing experimental data can be a good approximate value however, and can be obtained from Huzel & Huang based on the chosen propellant combination.
 
 #### Nozzle
-TBD: nozzle design notes etc
+The purpose of the nozzle is to extract enthalpy from the combustion products and turn it into kinetic energy. An ideally expanded nozzle will accelerate the products to sonic at the throat, and accelerate supersonically until the nozzle exit pressure matches atmospheric pressure.
+
+The nozzle geometry was constructed using a Rao parabolic approximation which approximates an ideal nozzle shape. The length of this nozzle is based off of the percent length of a full bell nozzle, and an 80% length nozzle results in over 98% ideal efficiency. Rao then provides a function for the contour of the nozzle which can be modeled in CAD and machined using a CNC lathe.
+
+The thickness of the nozzle was determined first by estimating a value suitable for the pressures experienced, then thickened in high-heat flux areas such as the converging section and throat.
+
+#### TCA Sealing
+- PTFE o-rings used to seal between LOX and IPA manifold grooves
+- FKM o-rings used to seal between IPA manifold groove and atmosphere
+- Graphite pipe gaskets (cut to size with waterjet) used to seal between injector face and combustion chamber
+	- High temperature requirement
+- Bolt pretension selected to maintain adequate sealing force for o-rings and gasket while running
+
 
 ### Fluid System
 #### Tanks
