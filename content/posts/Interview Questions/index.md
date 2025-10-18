@@ -356,3 +356,24 @@ My example was a COTS component that failed on our Spaceport 2024 rocket, and fr
 
 Having just seen a falcon 9 in person helps. My guess for approximate dimensions were 10ft diameter and 100ft tall. Thus approximately 30ft circumference times 100ft length is 3000ft^2. From painting walls I guessed it takes (very roughly) around 1 gallon to paint a 10ft x 10ft wall (so 100ft^2), so 3000/100 = 30 gallons of paint. Actual answer is around 40 gallons!
 </details>
+
+--- 
+
+<details>
+<summary><strong>How much power would it take to turn your room-temp tap water into a hot shower with mains electricity? Is this feasible? (give your best napkin math estimate)</strong></summary>
+
+Driving equation: \(Q = m c \Delta T\), so power, \(\dot{Q} = \dot{m} c \Delta T\)
+
+Know: \(c = 4.18\ [kJ/kg-^{\circ}C]\)
+
+Guesses: Shower is maybe a liter every 10 seconds? so ~0.1 kg/s. \(\Delta T\) is from room temp (~20C) to hot shower (maybe 100F? which is like 40C or something)
+
+Thus our napkin math works out to $$(0.1) \times (4.18) \times (20) = ~8.4\ kW$$
+
+This is a lot of power but not unreasonable. If it was a low flow rate shower, half our guess at 3 L/min, that would put us at ~4.2 kW which is much more reasonable.
+
+This is actually how a lot of showers in Central & South America have hot water, and some of these units are labelled for 4.1-5.5 kW.
+
+![showerhead](Projects/blog/public/posts/interview-questions/showerhead.png)
+
+</details>
