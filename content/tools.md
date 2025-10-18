@@ -16,10 +16,12 @@ TocOpen: true
 
 [Intermediate Solid Mechanics](https://273015.xyz/Marko%20V.%20Lubarda%2C%20Vlado%20A.%20Lubarda%20-%20Intermediate%20Solid%20Mechanics%20(2020%2C%20Cambridge%20University%20Press)%20-%20libgen.lc.pdf) - Advanced solid mechanics
 
-## Fluids & Systems
+## Thermo & Fluids
 [Fluids, White](https://273015.xyz/Fluid%20Mechanics%20(9th%20Edition)%20(Frank%20M.%20White%2C%20Henry%20Xue)%20(Z-Library).pdf) - Fluid mechanics
 
 [Modern Compressible Flow, Anderson](https://273015.xyz/Modern%20Compressible%20Flow%20With%20Historical%20Perspective%20(John%20D.%20Anderson)%20(Z-Library).pdf) - Compressible flow
+
+[Thermodynamics, Nellis](https://273015.xyz/NellisKleinThermodynamics2011.pdf) - Thermo
 
 ## Propulsion
 [Rocket Propulsion Elements, Sutton](https://273015.xyz/George%20P.%20Sutton%2C%20Oscar%20Biblarz%20-%20Rocket%20Propulsion%20Elements-Wiley%20(2016).pdf) - Intro to rocket propulsion
@@ -47,63 +49,65 @@ TocOpen: true
 <table class="gas-table">
   <thead>
     <tr>
-      <th colspan="5" style="text-align:left;">Common Gases (298 K, 1 atm)</th>
+      <th colspan="6" style="text-align:left;">Common Gases (298 K, 1 atm)</th>
     </tr>
     <tr>
       <th>Gas</th>
       <th>Molar Mass (g/mol)</th>
       <th>Density (g/L)</th>
       <th>Boiling Point (K)</th>
+      <th>Boiling Point (°F)</th>
       <th>Source</th>
     </tr>
   </thead>
   <tbody>
-    <tr><td>Hydrogen (H₂)</td><td>2.016</td><td>0.082</td><td>20.3</td>
+    <tr><td>Hydrogen (H₂)</td><td>2.016</td><td>0.082</td><td>20.3</td><td>-422.6</td>
       <td><a href="https://webbook.nist.gov/cgi/cbook.cgi?ID=C1333740" target="_blank">NIST</a></td></tr>
-    <tr><td>Helium (He)</td><td>4.003</td><td>0.166</td><td>4.2</td>
+    <tr><td>Helium (He)</td><td>4.003</td><td>0.166</td><td>4.2</td><td>-452.1</td>
       <td><a href="https://webbook.nist.gov/cgi/cbook.cgi?ID=C7440597" target="_blank">NIST</a></td></tr>
-    <tr><td>Nitrogen (N₂)</td><td>28.014</td><td>1.165</td><td>77.4</td>
+    <tr><td>Nitrogen (N₂)</td><td>28.014</td><td>1.165</td><td>77.4</td><td>-320.4</td>
       <td><a href="https://webbook.nist.gov/cgi/cbook.cgi?ID=C7727379" target="_blank">NIST</a></td></tr>
-    <tr><td>Oxygen (O₂)</td><td>31.999</td><td>1.331</td><td>90.2</td>
+    <tr><td>Oxygen (O₂)</td><td>31.999</td><td>1.331</td><td>90.2</td><td>-297.1</td>
       <td><a href="https://webbook.nist.gov/cgi/cbook.cgi?ID=C7782447" target="_blank">NIST</a></td></tr>
-    <tr><td>Carbon Dioxide (CO₂)</td><td>44.010</td><td>1.799</td><td>194.7 (subl.)</td>
+    <tr><td>Carbon Dioxide (CO₂)</td><td>44.010</td><td>1.799</td><td>194.7 (subl.)</td><td>-109.2</td>
       <td><a href="https://webbook.nist.gov/cgi/cbook.cgi?ID=C124389" target="_blank">NIST</a></td></tr>
-    <tr><td>Argon (Ar)</td><td>39.948</td><td>1.633</td><td>87.3</td>
+    <tr><td>Argon (Ar)</td><td>39.948</td><td>1.633</td><td>87.3</td><td>-305.6</td>
       <td><a href="https://webbook.nist.gov/cgi/cbook.cgi?ID=C7440371" target="_blank">NIST</a></td></tr>
-    <tr><td>Air (avg.)</td><td>28.97</td><td>1.184</td><td>—</td>
+    <tr><td>Air (avg.)</td><td>28.97</td><td>1.184</td><td>—</td><td>—</td>
       <td><a href="https://webbook.nist.gov/chemistry/fluid/" target="_blank">NIST</a></td></tr>
   </tbody>
 
   <thead>
     <tr>
-      <th colspan="5" style="text-align:left;">Rocket Propellants (liquid near use temperature)</th>
+      <th colspan="6" style="text-align:left;">Rocket Propellants (liquid near use temperature)</th>
     </tr>
     <tr>
       <th>Propellant</th>
       <th>Molar Mass (g/mol)</th>
       <th>Density (g/cm³)</th>
       <th>Boiling Point (K)</th>
+      <th>Boiling Point (°F)</th>
       <th>Source</th>
     </tr>
   </thead>
   <tbody>
-    <tr><td>LOX (O₂, liquid @ ~90 K)</td><td>31.999</td><td>1.14</td><td>90.2</td>
+    <tr><td>LOX (O₂, liquid @ ~90 K)</td><td>31.999</td><td>1.14</td><td>90.2</td><td>-297.1</td>
       <td><a href="https://webbook.nist.gov/cgi/cbook.cgi?ID=C7782447" target="_blank">NIST</a></td></tr>
-    <tr><td>LH₂ (H₂, liquid @ ~20 K)</td><td>2.016</td><td>0.071</td><td>20.3</td>
+    <tr><td>LH₂ (H₂, liquid @ ~20 K)</td><td>2.016</td><td>0.071</td><td>20.3</td><td>-422.6</td>
       <td><a href="https://webbook.nist.gov/cgi/cbook.cgi?ID=C1333740" target="_blank">NIST</a></td></tr>
-    <tr><td>LCH₄ (CH₄, liquid @ ~111 K)</td><td>16.043</td><td>0.42</td><td>111.6</td>
+    <tr><td>LCH₄ (CH₄, liquid @ ~111 K)</td><td>16.043</td><td>0.42</td><td>111.6</td><td>-259.6</td>
       <td><a href="https://webbook.nist.gov/cgi/cbook.cgi?ID=C74828" target="_blank">NIST</a></td></tr>
-    <tr><td>N₂O (liquid @ ~184 K)</td><td>44.013</td><td>1.22</td><td>184.7</td>
+    <tr><td>N₂O (liquid @ ~184 K)</td><td>44.013</td><td>1.22</td><td>184.7</td><td>-128.3</td>
       <td><a href="https://webbook.nist.gov/cgi/cbook.cgi?ID=C10024972" target="_blank">NIST</a></td></tr>
-    <tr><td>N₂O₄ (storable @ 298 K)</td><td>92.011</td><td>1.44</td><td>294.0</td>
+    <tr><td>N₂O₄ (storable @ 298 K)</td><td>92.011</td><td>1.44</td><td>294.0</td><td>129.3</td>
       <td><a href="https://webbook.nist.gov/cgi/cbook.cgi?ID=C1054473" target="_blank">NIST</a></td></tr>
-    <tr><td>Hydrazine (N₂H₄, liquid @ 298 K)</td><td>32.045</td><td>1.01</td><td>386.6</td>
+    <tr><td>Hydrazine (N₂H₄, liquid @ 298 K)</td><td>32.045</td><td>1.01</td><td>386.6</td><td>235.9</td>
       <td><a href="https://webbook.nist.gov/cgi/cbook.cgi?ID=C302012" target="_blank">NIST</a></td></tr>
-    <tr><td>MMH (CH₆N₂, liquid @ 298 K)</td><td>46.073</td><td>0.88</td><td>337.0</td>
+    <tr><td>MMH (CH₆N₂, liquid @ 298 K)</td><td>46.073</td><td>0.88</td><td>337.0</td><td>144.0</td>
       <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/Monomethylhydrazine" target="_blank">PubChem</a></td></tr>
-    <tr><td>UDMH (C₂H₈N₂, liquid @ 298 K)</td><td>60.098</td><td>0.79</td><td>364.6</td>
+    <tr><td>UDMH (C₂H₈N₂, liquid @ 298 K)</td><td>60.098</td><td>0.79</td><td>364.6</td><td>191.3</td>
       <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/Dimethylhydrazine" target="_blank">PubChem</a></td></tr>
-    <tr><td>Kerosene (RP-1, liquid @ 298 K)</td><td>~170 (avg.)</td><td>0.81</td><td>~450–500 (range)</td>
+    <tr><td>Kerosene (RP-1, liquid @ 298 K)</td><td>~170 (avg.)</td><td>0.81</td><td>~450–500 (range)</td><td>~350–440 (range)</td>
       <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/Kerosene" target="_blank">PubChem</a></td></tr>
   </tbody>
 </table>
