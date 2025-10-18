@@ -6,8 +6,91 @@
     <description>Recent content on Kyle’s Engineering Blog</description>
     <generator>Hugo -- 0.147.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 06 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://kyleadler.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Recipes</title>
+      <link>https://kyleadler.com/recipes/</link>
+      <pubDate>Mon, 06 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://kyleadler.com/recipes/</guid>
+      <description>&lt;h2&gt;Greek Yogurt Pizza Crust&lt;/h2&gt;
+&lt;div id=&#34;recipe-container&#34;&gt;
+  &lt;div style=&#34;margin-bottom:1em;&#34;&gt;
+    &lt;label&gt;Multiplier: 
+      &lt;input id=&#34;multiplier&#34; type=&#34;number&#34; value=&#34;1&#34; step=&#34;0.5&#34; min=&#34;0.5&#34; style=&#34;width:60px;&#34;&gt;
+    &lt;/label&gt;
+    &lt;button id=&#34;apply-multiplier&#34;&gt;Apply&lt;/button&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+    &lt;label&gt;
+      &lt;input type=&#34;checkbox&#34; id=&#34;keep-awake&#34;&gt;
+      Keep screen awake 🔆
+    &lt;/label&gt;
+  &lt;/div&gt;
+  &lt;h3&gt;Ingredients (makes 1 crust)&lt;/h3&gt;
+  &lt;ul id=&#34;ingredients&#34;&gt;
+    &lt;li&gt;&lt;input type=&#34;checkbox&#34;&gt; &lt;span data-amount=&#34;1&#34; data-unit=&#34;cup&#34;&gt;1 cup&lt;/span&gt; Greek yogurt (adjust for dough moisture)&lt;/li&gt;
+    &lt;li&gt;&lt;input type=&#34;checkbox&#34;&gt; &lt;span data-amount=&#34;1&#34; data-unit=&#34;cup&#34;&gt;1 cup&lt;/span&gt; self-rising flour (or &lt;span data-amount=&#34;1.5&#34; data-unit=&#34;tsp&#34;&gt;1½ tsp&lt;/span&gt; baking powder + 1 cup AP flour)&lt;/li&gt;
+    &lt;li&gt;&lt;input type=&#34;checkbox&#34;&gt; &lt;span data-amount=&#34;0.25&#34; data-unit=&#34;tsp&#34;&gt;¼–½ tsp&lt;/span&gt; salt&lt;/li&gt;
+    &lt;li&gt;&lt;input type=&#34;checkbox&#34;&gt; Optional: garlic powder and herbs&lt;/li&gt;
+    &lt;li&gt;&lt;input type=&#34;checkbox&#34;&gt; Option: blended cottage cheese instead of yogurt&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+&lt;script&gt;
+(function() {
+  const multiplierInput = document.getElementById(&#39;multiplier&#39;);
+  const applyButton = document.getElementById(&#39;apply-multiplier&#39;);
+  const ingredients = document.querySelectorAll(&#39;#ingredients span[data-amount]&#39;);
+  const keepAwake = document.getElementById(&#39;keep-awake&#39;);
+  let wakeLock = null;
+
+  applyButton.addEventListener(&#39;click&#39;, () =&gt; {
+    const mult = parseFloat(multiplierInput.value);
+    ingredients.forEach(span =&gt; {
+      const amt = parseFloat(span.getAttribute(&#39;data-amount&#39;));
+      const unit = span.getAttribute(&#39;data-unit&#39;);
+      span.textContent = (amt * mult).toFixed(2).replace(/\.00$/, &#39;&#39;) + &#39; &#39; + unit;
+    });
+  });
+
+  keepAwake.addEventListener(&#39;change&#39;, async () =&gt; {
+    if (&#39;wakeLock&#39; in navigator) {
+      if (keepAwake.checked) {
+        try {
+          wakeLock = await navigator.wakeLock.request(&#39;screen&#39;);
+        } catch (err) {
+          alert(&#39;Could not keep screen awake: &#39; + err);
+        }
+      } else if (wakeLock) {
+        wakeLock.release();
+        wakeLock = null;
+      }
+    } else {
+      alert(&#39;Screen wake lock not supported on this device.&#39;);
+      keepAwake.checked = false;
+    }
+  });
+})();
+&lt;/script&gt;
+&lt;style&gt;
+#recipe-container {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+#ingredients li {
+  list-style: none;
+  margin: 0.3em 0;
+}
+#ingredients input[type=&#34;checkbox&#34;] {
+  margin-right: 0.5em;
+}
+button {
+  margin-left: 0.3em;
+  padding: 0.2em 0.5em;
+}
+&lt;/style&gt;
+&lt;p&gt;&lt;img alt=&#34;Greek Yogurt Pizza Crust&#34; loading=&#34;lazy&#34; src=&#34;IMG_2687.jpeg&#34;&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Oh Hell Card Game Scorekeeper</title>
       <link>https://kyleadler.com/posts/ohhellscorekeeper/</link>
@@ -28,9 +111,10 @@
 &lt;p&gt;&lt;a href=&#34;https://jackson.engr.tamu.edu/wp-content/uploads/sites/229/2023/03/Roarks-formulas-for-stress-and-strain.pdf&#34;&gt;Roark&amp;rsquo;s&lt;/a&gt; - Formulas for stress/strain&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://273015.xyz/Franklin%20D%20Jones%2C%20Henry%20H%20Ryffel%2C%20Erik%20Oberg%2C%20Christopher%20J%20McCauley%2C%20Ricardo%20M%20Heald%20-%20Machinery&#39;s%20Handbook-Industrial%20Press%2C%20Inc.%20(2004).pdf&#34;&gt;Machinery&amp;rsquo;s Handbook&lt;/a&gt; - Manufacturing guidance&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://273015.xyz/Marko%20V.%20Lubarda%2C%20Vlado%20A.%20Lubarda%20-%20Intermediate%20Solid%20Mechanics%20(2020%2C%20Cambridge%20University%20Press)%20-%20libgen.lc.pdf&#34;&gt;Intermediate Solid Mechanics&lt;/a&gt; - Advanced solid mechanics&lt;/p&gt;
-&lt;h2 id=&#34;fluids--systems&#34;&gt;Fluids &amp;amp; Systems&lt;/h2&gt;
+&lt;h2 id=&#34;thermo--fluids&#34;&gt;Thermo &amp;amp; Fluids&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://273015.xyz/Fluid%20Mechanics%20(9th%20Edition)%20(Frank%20M.%20White%2C%20Henry%20Xue)%20(Z-Library).pdf&#34;&gt;Fluids, White&lt;/a&gt; - Fluid mechanics&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://273015.xyz/Modern%20Compressible%20Flow%20With%20Historical%20Perspective%20(John%20D.%20Anderson)%20(Z-Library).pdf&#34;&gt;Modern Compressible Flow, Anderson&lt;/a&gt; - Compressible flow&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://273015.xyz/NellisKleinThermodynamics2011.pdf&#34;&gt;Thermodynamics, Nellis&lt;/a&gt; - Thermo&lt;/p&gt;
 &lt;h2 id=&#34;propulsion&#34;&gt;Propulsion&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://273015.xyz/George%20P.%20Sutton%2C%20Oscar%20Biblarz%20-%20Rocket%20Propulsion%20Elements-Wiley%20(2016).pdf&#34;&gt;Rocket Propulsion Elements, Sutton&lt;/a&gt; - Intro to rocket propulsion&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://273015.xyz/HuzelHuang.pdf&#34;&gt;Design of Liquid Propellant Rocket Engines, Huzel &amp;amp; Huang&lt;/a&gt; - Advanced rocket propulsion&lt;/p&gt;
@@ -69,6 +153,7 @@
       <guid>https://kyleadler.com/posts/half-badger/</guid>
       <description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
 &lt;p&gt;Half-Badger is a liquid rocket designed to compete in the FAR-OUT liquid/hybrid rocket competition in Mojave, CA.&lt;/p&gt;
+&lt;p&gt;See my &lt;a href=&#34;https://kyleadler.com/posts/senior-design-final-report/&#34;&gt;senior design final report&lt;/a&gt; for an in-depth design notes of a rocket engine.&lt;/p&gt;
 &lt;details&gt;
 &lt;summary&gt;&lt;strong&gt;Project presentation&lt;/strong&gt;&lt;/summary&gt;
 &lt;iframe src=&#34;halfbadger.pdf&#34; width=&#34;100%&#34; height=&#34;600px&#34;&gt;&lt;/iframe&gt;
@@ -831,10 +916,20 @@
       <link>https://kyleadler.com/posts/senior-design-final-report/</link>
       <pubDate>Sun, 11 May 2025 00:00:00 +0000</pubDate>
       <guid>https://kyleadler.com/posts/senior-design-final-report/</guid>
-      <description>&lt;p&gt;Below is my senior design report from EMA569. This group project was developed in the spring semester, following a fall semester of designing a product and building a prototype. (Blue text means it has changed since the last version of the report)&lt;/p&gt;
+      <description>&lt;p&gt;Below is my senior design report from EMA569. This group project was developed in the spring semester, which followed a fall semester of designing a product and building a prototype (which also included a 100+ page report!). (Blue text means it has changed since the last version of the report)&lt;/p&gt;
 &lt;object data=&#34;EMA569_Report.pdf&#34; type=&#34;application/pdf&#34; width=&#34;100%&#34; height=&#34;600px&#34;&gt;
     &lt;p&gt;Link to PDF: &lt;a href=&#34;EMA569_Report.pdf&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/object&gt;</description>
+    </item>
+    <item>
+      <title>2024 Solar Eclipse</title>
+      <link>https://kyleadler.com/posts/2024-solar-eclipse/</link>
+      <pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://kyleadler.com/posts/2024-solar-eclipse/</guid>
+      <description>&lt;p&gt;Stayed in Bloomington, IL the night before in a questionable cheap hotel 🤨 but the eclipse was worth it. Ended up in a cute small town called Marshall with lots of grassy space.&lt;/p&gt;
+&lt;p&gt;I used my Canon EOS T3i with the EF-S 55-250 IS STM and a custom-made solar filter using aluminized mylar for non-eclipsed pictures.&lt;/p&gt;
+&lt;p&gt;Picture of me next to my camera setup
+&lt;img alt=&#34;Picture of me next to my camera setup&#34; loading=&#34;lazy&#34; src=&#34;https://kyleadler.com/posts/2024-solar-eclipse/sitting-by-camera.jpeg&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Spaceport America Cup 2023</title>
@@ -927,7 +1022,8 @@
 &lt;/div&gt;
 &lt;h2 id=&#34;the-website&#34;&gt;The website&lt;/h2&gt;
 &lt;p&gt;Under construction!
-&lt;img alt=&#34;construction&#34; loading=&#34;lazy&#34; src=&#34;https://kyleadler.com/images/construction.jpg&#34;&gt;&lt;/p&gt;</description>
+&lt;img alt=&#34;construction&#34; loading=&#34;lazy&#34; src=&#34;images/construction.jpg&#34;&gt;
+&lt;img alt=&#34;matlabhelp&#34; loading=&#34;lazy&#34; src=&#34;images/matlabhelp.gif&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Industry Updates</title>

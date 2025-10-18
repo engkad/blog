@@ -24,6 +24,7 @@
       <guid>https://kyleadler.com/posts/half-badger/</guid>
       <description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
 &lt;p&gt;Half-Badger is a liquid rocket designed to compete in the FAR-OUT liquid/hybrid rocket competition in Mojave, CA.&lt;/p&gt;
+&lt;p&gt;See my &lt;a href=&#34;https://kyleadler.com/posts/senior-design-final-report/&#34;&gt;senior design final report&lt;/a&gt; for an in-depth design notes of a rocket engine.&lt;/p&gt;
 &lt;details&gt;
 &lt;summary&gt;&lt;strong&gt;Project presentation&lt;/strong&gt;&lt;/summary&gt;
 &lt;iframe src=&#34;halfbadger.pdf&#34; width=&#34;100%&#34; height=&#34;600px&#34;&gt;&lt;/iframe&gt;
@@ -786,7 +787,7 @@
       <link>https://kyleadler.com/posts/senior-design-final-report/</link>
       <pubDate>Sun, 11 May 2025 00:00:00 +0000</pubDate>
       <guid>https://kyleadler.com/posts/senior-design-final-report/</guid>
-      <description>&lt;p&gt;Below is my senior design report from EMA569. This group project was developed in the spring semester, following a fall semester of designing a product and building a prototype. (Blue text means it has changed since the last version of the report)&lt;/p&gt;
+      <description>&lt;p&gt;Below is my senior design report from EMA569. This group project was developed in the spring semester, which followed a fall semester of designing a product and building a prototype (which also included a 100+ page report!). (Blue text means it has changed since the last version of the report)&lt;/p&gt;
 &lt;object data=&#34;EMA569_Report.pdf&#34; type=&#34;application/pdf&#34; width=&#34;100%&#34; height=&#34;600px&#34;&gt;
     &lt;p&gt;Link to PDF: &lt;a href=&#34;EMA569_Report.pdf&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/object&gt;</description>
