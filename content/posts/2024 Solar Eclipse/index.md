@@ -3,6 +3,11 @@ title: "2024 Solar Eclipse"
 date: 2024-04-08
 draft: false
 tags: []
+cover:
+    image: ”/total-nofilter.jpg”
+    alt: "The alt text"
+    caption: ""
+    relative: true
 ---
 
 Stayed in Bloomington, IL the night before in a questionable cheap hotel 🤨 but the eclipse was worth it. Ended up in a cute small town called Marshall with lots of grassy space.
