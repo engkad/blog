@@ -4,7 +4,7 @@ date: 2025-06-03
 draft: false
 tags: ["engineering","undergrad"]
 ---
-# Introduction
+## Introduction
 Half-Badger is a liquid rocket designed to compete in the FAR-OUT liquid/hybrid rocket competition in Mojave, CA.
 
 See my [senior design final report](https://kyleadler.com/posts/senior-design-final-report/) for an in-depth design notes of a rocket engine.
@@ -14,26 +14,26 @@ See my [senior design final report](https://kyleadler.com/posts/senior-design-fi
 <iframe src="halfbadger.pdf" width="100%" height="600px"></iframe>
 </details>
 
-# Propulsion Engineering
+## Propulsion Engineering
 Most of my efforts contributed to the propulsion and fluid system that fell under the responsibility of the Propulsion sub-team, for which I was a co-lead. I was also heavily involved test stand design and test operations, including co-founding a committee to develop a permanent propulsion test facility at UW-Madison.
 
-## System Design Comments
+### System Design Comments
 
-### Competition
-#### Why FAR-OUT?
+#### Competition
+##### Why FAR-OUT?
 FAR-OUT is the first competition dedicated to liquid and hybrid rockets. This means it has much more to offer when it comes to expertise and advising of liquid propulsion systems than Spaceport, which has only had 1 team attempt liquids.
 
-#### How is it scored
+##### How is it scored
 A number of factors go into the scoring, primarily how close you are to your predicted apogee, and how good your mass fractions and engine efficiency (Isp) are.
 
-#### Why 15k ft altitude target?
+##### Why 15k ft altitude target?
 15k was a good target for us since it's the upper bound of the lowest category.
 
-#### Why build a liquid rocket?
+##### Why build a liquid rocket?
 Building a liquid rocket offers an incredible opportunity for students to get hands-on experience that is directly applicable to the aerospace industry.
 
-### TCA
-#### Material Selection
+#### TCA
+##### Material Selection
 
 Aluminum (6061-T6)
 - 3x lighter than 316 but 3x lower yield and ultimate strength
@@ -62,7 +62,7 @@ Inconel
 - very expensive
 - would be good for reinforcing critical areas
 
-#### Propulsion Parameters
+##### Propulsion Parameters
 
 Mixture ratio=1.0
 - good compromise between combustion temperature and isp, could go higher with more sophisticated cooling methods
@@ -93,7 +93,7 @@ Vehicle diameter and length
 Tank pressure
 - added up pressure drops along tubing and flow components (valves, cav, tees, etc)
 
-#### Propellants
+##### Propellants
 The initial oxidizer selected was saturated nitrous oxide (N2O) as used on HalfCat Sphinx, however nitrous has a number of drawbacks to it:
 - Saturated N2O is stored at very high pressures (~600-1000psi depending on temperature), which means a very high risk of BLEVE event
 - Two-phase flow is extremely hard to characterize and measure, which goes against our goals of trying to measure and learn as much as we can from this engine
@@ -120,24 +120,24 @@ The pressurant was decided to be nitrogen due to cost
 	- Helium has much higher kinematic viscosity, so much lower reynolds number -> less pressure losses
 	- Lower density, so less pressurant mass needed to fill the same amount of volume
 
-#### Injector
+##### Injector
 Significant guidance for design of the injector was provided by RPE9 and Huzel & Huang. A like-unlike impinging injector was chosen for simplicity of design, manufacturability, and performance. Since this engine uses liquid injection, an incompressible discharge coefficient flow equation was used to calculate required injection area for the fuel and oxidizer, which is then used to find the number and size of orifices (the size of orifices was chosen to be compatible with available tooling).
 $$
 \dot{m} = Q\rho = C_d A \sqrt{2\rho \Delta P}
 $$
 The impingement distance is a relevant parameter but not a major design consideration. Instead of focusing on a precise value, it should be chosen to be as close to the injector face as heat transfer, mixing efficiency and manufacturing permit.
 
-#### Combustion Chamber
+##### Combustion Chamber
 The combustion chamber size is best characterized by the parameter characteristic chamber length \(L^*\). Defined as the ratio of chamber volume to nozzle throat area, \(L^*\) specifies the propellant stay time in the combustion chamber. While \(L^*\) increases the characteristic performance of a combustion chamber up to a certain point (as the propellant has more time to react completely), beyond this, larger values lead to higher chamber volume and weight, increased cooling surface area, and greater friction losses. In industry, optimization analysis is required to determine the minimum \(L^*\) for efficient combustion, with experimental firings used to validate this under specific conditions. An estimate from existing experimental data can be a good approximate value however, and can be obtained from Huzel & Huang based on the chosen propellant combination.
 
-#### Nozzle
+##### Nozzle
 The purpose of the nozzle is to extract enthalpy from the combustion products and turn it into kinetic energy. An ideally expanded nozzle will accelerate the products to sonic at the throat, and accelerate supersonically until the nozzle exit pressure matches atmospheric pressure.
 
 The nozzle geometry was constructed using a Rao parabolic approximation which approximates an ideal nozzle shape. The length of this nozzle is based off of the percent length of a full bell nozzle, and an 80% length nozzle results in over 98% ideal efficiency. Rao then provides a function for the contour of the nozzle which can be modeled in CAD and machined using a CNC lathe.
 
 The thickness of the nozzle was determined first by estimating a value suitable for the pressures experienced, then thickened in high-heat flux areas such as the converging section and throat.
 
-#### TCA Sealing
+##### TCA Sealing
 - PTFE o-rings used to seal between LOX and IPA manifold grooves
 - FKM o-rings used to seal between IPA manifold groove and atmosphere
 - Graphite pipe gaskets (cut to size with waterjet) used to seal between injector face and combustion chamber
@@ -145,15 +145,15 @@ The thickness of the nozzle was determined first by estimating a value suitable 
 - Bolt pretension selected to maintain adequate sealing force for o-rings and gasket while running
 
 
-### Fluid System
-#### Tanks
+#### Fluid System
+##### Tanks
 Initially, our design for the tank was modeled off of HalfCat Rocketry's Sphinx rocket, using saturated nitrous oxide as the oxidizer, which autogeneously pressurizes itself, and through the use of a stacked piston tank, the fuel (isopropyl alcohol) as well.
 
 This design as some flaws however. Since cavitating venturis are not used in N2O systems (since it would immediately cavitate which is dangerous in nitrous), the flow is not very decoupled from the combustion chamber. This is not necessarily an issue, but combined with the fact that N2O-IPA combustion in the Sphinx design is very unstable (verified c* efficiencies of ~70%), this means that the very stiff injector (over 50%) is absolutely necessary to maintain semi-stable combustion, and may not adequately decouple instability that could excite a natural frequency of the feedline and piston tank (which could be particularly susceptible since the floating piston is coupled to propellant pressures).
 
 For these and several other reasons, we decided to change our oxidizer to cryogenic liquid oxygen, and instead use a separate nitrogen pressurant tank to pressurize the independent LOX and IPA tanks.
 
-#### Fluids Routing
+##### Fluids Routing
 <details>
 <summary><strong>Plumbing and Instrumentation Diagram (P&ID) for the test stand setup</strong></summary>
 
@@ -161,12 +161,12 @@ For these and several other reasons, we decided to change our oxidizer to cryoge
 
 </details>
 
-### Test Operations
+#### Test Operations
 TBD
 
 
 
-### Regrettable decisions
+#### Regrettable decisions
 Administrative/timeline
 - Not building prototypes sooner
 	- could've machined injector out of aluminum, forcing us to practice CAM on aluminum while also having a test article to validate discharge coefficients with
