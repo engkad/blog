@@ -22,6 +22,9 @@
   border-left: 1px solid var(--border-color);
   font-size: 0.95rem;
   line-height: 1.4;
+
+  /* --- Shift sidebar slightly left to center content --- */
+  margin-left: -5rem; /* adjust between -2rem and -5rem to taste */
 }
 
 /* TOC lists */
@@ -70,6 +73,13 @@
   }
 }
 
+/* Reset sidebar position on mid-size screens to prevent edge clipping */
+@media (max-width: 1100px) {
+  .toc-sidebar {
+    margin-left: 0;
+  }
+}
+
 /* Content column spacing */
 .content-area {
   flex: 1;
@@ -78,5 +88,47 @@
 
 /* Hide PaperMod's built-in TOC container */
 div.sidebar-toc {
-    display: none;
+  display: none;
+}
+
+
+
+/* ===== Responsive adjustments for smaller screens ===== */
+@media (max-width: 768px) {
+  .layout-toc {
+    flex-direction: column;
+  }
+
+  .toc-sidebar {
+    display: block;
+    position: relative;
+    top: auto;
+    border-left: none;
+    border-top: 1px solid var(--border-color);
+    margin: 1rem 0;
+    padding: 0.5rem 0 0;
+    background: var(--theme-bg);
+  }
+
+  .toc-header .toc-title {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+
+  .toc-sidebar ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem 1.25rem;
+    padding-left: 0;
+  }
+
+  .toc-sidebar li {
+    list-style: none;
+  }
+
+  .toc-sidebar a {
+    padding: 0;
+    font-size: 0.95rem;
+  }
 }
