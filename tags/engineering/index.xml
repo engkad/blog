@@ -24,12 +24,11 @@
 &lt;p&gt;&lt;a href=&#34;https://273015.xyz/Modern%20Compressible%20Flow%20With%20Historical%20Perspective%20(John%20D.%20Anderson)%20(Z-Library).pdf&#34;&gt;Modern Compressible Flow, Anderson&lt;/a&gt; - Compressible flow&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://273015.xyz/NellisKleinThermodynamics2011.pdf&#34;&gt;Thermodynamics, Nellis&lt;/a&gt; - Thermo&lt;/p&gt;
 &lt;h3 id=&#34;incompressible-flow&#34;&gt;Incompressible flow&lt;/h3&gt;
-&lt;h4 id=&#34;assumptions--limitations&#34;&gt;Assumptions / limitations:&lt;/h4&gt;
-&lt;p&gt;Small change in density ~&amp;lt;5%, correlates to M~=0.3&lt;/p&gt;
+&lt;blockquote data-callout=&#34;danger&#34; data-callout-title=&#34;Assumptions and limitations&#34;&gt;
+Incompressible flow assumes small change in density ~&lt;5%, which correlates to M~=0.3. It&#39;s a good starting point but be sure to check your change in density and determine if the assumption was valid or not.
+&lt;/blockquote&gt;
 &lt;h3 id=&#34;compressible-flow&#34;&gt;Compressible flow&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://devenport.aoe.vt.edu/aoe3114/calc.html&#34;&gt;Compressible flow solver&lt;/a&gt;&lt;/p&gt;
-&lt;h4 id=&#34;isentropic-relations&#34;&gt;Isentropic relations&lt;/h4&gt;
-&lt;p&gt;&lt;a href=&#34;https://kyleadler.com/course_notes/EMA524/524_lecture_4_isentropic_relations.pdf&#34;&gt;Link to course notes&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;https://devenport.aoe.vt.edu/aoe3114/calc.html&#34;&gt;Compressible flow solver&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Interview Questions</title>
