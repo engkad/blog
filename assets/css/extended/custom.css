@@ -36,3 +36,43 @@ input[type=number] {
 }
 
 
+/* info box styling */
+blockquote > [class*='[!'] {
+  all: unset; /* Reset weird inherited blockquote styles */
+}
+
+blockquote {
+  position: relative;
+  padding: 1em 1.2em;
+  margin: 1em 0;
+  border-left: 4px solid var(--callout-color, #3b82f6);
+  background: var(--callout-bg, rgba(59,130,246,0.1));
+  border-radius: 0.4em;
+}
+
+blockquote::before {
+  content: attr(data-callout-title);
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.5em;
+}
+
+blockquote[data-callout="info"] {
+  --callout-color: #0ea5e9;
+  --callout-bg: rgba(14,165,233,0.1);
+}
+
+blockquote[data-callout="tip"] {
+  --callout-color: #10b981;
+  --callout-bg: rgba(16,185,129,0.1);
+}
+
+blockquote[data-callout="warning"] {
+  --callout-color: #f59e0b;
+  --callout-bg: rgba(245,158,11,0.1);
+}
+
+blockquote[data-callout="danger"] {
+  --callout-color: #ef4444;
+  --callout-bg: rgba(239,68,68,0.1);
+}

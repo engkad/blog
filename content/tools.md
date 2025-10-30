@@ -25,8 +25,10 @@ showToc: false
 [Thermodynamics, Nellis](https://273015.xyz/NellisKleinThermodynamics2011.pdf) - Thermo
 
 ### Incompressible flow
-#### Assumptions / limitations:
-Small change in density \~<5%, correlates to M\~=0.3
+<blockquote data-callout="danger" data-callout-title="Assumptions and limitations">
+Incompressible flow assumes small change in density ~<5%, which correlates to M~=0.3. It's a good starting point but be sure to check your change in density and determine if the assumption was valid or not.
+</blockquote>
+
 
 ### Compressible flow
 [Compressible flow solver](https://devenport.aoe.vt.edu/aoe3114/calc.html)
