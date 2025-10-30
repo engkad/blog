@@ -5,6 +5,7 @@ theme: ["PaperMod"]
 publishDir: "public" # Output directory for the generated site
 contentDir: "content"  # Obsidian folder where posts folder is
 
+# TO CHANGE LINE WIDTH: see themes/PaperMod/assets/css/extended/theme-vars.css and change --main-width variable
 
 markup: # this all allows for markdown rendering including latex math and raw HTML
   goldmark:
