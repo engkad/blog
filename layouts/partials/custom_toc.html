@@ -1,0 +1,12 @@
+{{- /* Only render if TOC is requested and there are real TOC items */ -}}
+{{- $toc := .TableOfContents | default "" -}}
+{{- /* detect actual list items in the generated TOC HTML */ -}}
+{{- $hasItems := gt (len (findRE "<li" $toc)) 0 -}}
+{{- if and (or .Params.showToc .Site.Params.showToc) $hasItems -}}
+<aside class="toc-sidebar" aria-label="Table of contents">
+  <div class="toc-header">
+    <h2 class="toc-title">{{ .Title }}</h2>
+  </div>
+  {{ $toc | safeHTML }}
+</aside>
+{{- end -}}

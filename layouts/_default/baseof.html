@@ -18,13 +18,78 @@
 {{- end -}}
 " id="top">
     {{- partialCached "header.html" . .Page -}}
-    <main class="main">
-        {{- block "main" . }}{{ end }}
+
+    <!-- Main area: flexible layout with optional TOC sidebar -->
+    <main class="main layout-toc">
+        <!-- Custom TOC partial -->
+        {{ partial "custom_toc.html" . }}
+
+        <!-- Main content column -->
+        <section class="content-area">
+            {{ block "main" . }}{{ end }}
+        </section>
     </main>
+
     {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") -}}
+
     {{ if or (.Param "math") (.Site.Params.math) }}
         {{ partial "math.html" . }}
     {{ end }}
-</body>
 
+    <!-- Active TOC link highlighting -->
+    <script>
+    (function () {
+      let ticking = false;
+      function updateActiveToc() {
+        const toc = document.querySelector('.toc-sidebar');
+        if (!toc) return;
+        const headers = Array.from(document.querySelectorAll('.post-content h2, .post-content h3, .post-content h4'));
+        if (!headers.length) return;
+        const offset = 120;
+        let activeId = headers[0].id || null;
+        for (let i = 0; i < headers.length; i++) {
+          const rect = headers[i].getBoundingClientRect();
+          if (rect.top - offset <= 0) {
+            activeId = headers[i].id || activeId;
+          } else {
+            break;
+          }
+        }
+        toc.querySelectorAll('a').forEach(a => a.classList.remove('active'));
+        if (activeId) {
+          const activeLink = toc.querySelector('a[href="#' + CSS.escape(activeId) + '"]');
+          if (activeLink) activeLink.classList.add('active');
+        }
+      }
+      document.addEventListener('scroll', () => {
+        if (!ticking) {
+          window.requestAnimationFrame(() => { updateActiveToc(); ticking = false; });
+          ticking = true;
+        }
+      }, { passive: true });
+      document.addEventListener('DOMContentLoaded', updateActiveToc);
+      window.addEventListener('resize', updateActiveToc);
+    })();
+    </script>
+
+    <!-- Anchor links for headings -->
+    <script>
+    document.addEventListener("DOMContentLoaded", () => {
+    document.querySelectorAll('.post-content h1, .post-content h2, .post-content h3, .post-content h4').forEach(h => {
+        // skip if heading already has an anchor
+        if (h.querySelector('.anchor')) return;
+
+        if (h.id) {
+        const a = document.createElement('a');
+        a.href = '#' + h.id;
+        a.className = 'anchor';
+        a.innerText = '#'; // use pound sign instead of ¶
+        h.prepend(a);
+        }
+    });
+    });
+
+    </script>
+
+</body>
 </html>

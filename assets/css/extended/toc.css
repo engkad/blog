@@ -1,0 +1,82 @@
+/* ===== GitBook-style layout for PaperMod ===== */
+
+/* Container that holds sidebar + content */
+.layout-toc {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Sticky sidebar */
+.toc-sidebar {
+  position: sticky;
+  top: 6rem;
+  align-self: flex-start;
+  flex: 0 0 260px;
+  max-height: calc(100vh - 6rem);
+  overflow-y: auto;
+  padding-left: 1rem;
+  border-left: 1px solid var(--border-color);
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+/* TOC lists */
+.toc-sidebar ul {
+  list-style: none;
+  padding-left: 0.75rem;
+}
+
+.toc-sidebar a {
+  display: block;
+  color: var(--secondary);
+  padding: 0.25rem 0;
+  text-decoration: none;
+  transition: color 0.15s ease;
+  font-weight: 400;
+}
+
+.toc-sidebar a:hover {
+  color: var(--primary);
+}
+
+/* Highlight currently active link */
+.toc-sidebar a.active {
+  color: var(--primary);
+  font-weight: 600;
+}
+
+/* Title slightly larger and always bold */
+.toc-header .toc-title {
+  font-size: 1.05rem; /* slightly larger than the links */
+  font-weight: 700;   /* always bold */
+  margin: 0 0 0.5rem;
+  line-height: 1.2;
+}
+
+/* Slightly reduce title size on small screens */
+@media (max-width: 768px) {
+  .toc-header .toc-title {
+    font-size: 1rem;
+  }
+  .layout-toc {
+    flex-direction: column;
+  }
+  .toc-sidebar {
+    display: none;
+  }
+}
+
+/* Content column spacing */
+.content-area {
+  flex: 1;
+  max-width: 720px;
+}
+
+/* Hide PaperMod's built-in TOC container */
+div.sidebar-toc {
+    display: none;
+}

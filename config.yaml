@@ -11,6 +11,8 @@ markup: # this all allows for markdown rendering including latex math and raw HT
   goldmark:
     renderer:
       unsafe: true # Allow raw HTML in markdown
+    parser:
+      autoHeadingID: true
     extensions:
       passthrough:
         delimiters:
@@ -25,6 +27,10 @@ markup: # this all allows for markdown rendering including latex math and raw HT
           - - $
             - $
         enable: true
+  tableOfContents:
+    startLevel: 2
+    endLevel: 4
+
 
 taxonomies:
   tag: "tags" # Allow tags like "Engineering", "Software", etc.
@@ -69,6 +75,9 @@ params:
     favicon16x16: "/favicon-16x16.png"
     favicon32x32: "/favicon-32x32.png"
     apple_touch_icon: "/apple-touch-icon.png" # unsure if this is used
+    css:
+      - "css/extended/toc.css"
+      - "css/extended/headings.css"
 
 menu: # Navigation menu configuration
   main:

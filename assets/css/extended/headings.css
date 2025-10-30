@@ -1,0 +1,35 @@
+/* ===== GitBook-like heading and anchor styling ===== */
+
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4 {
+  font-family: "Inter", "Segoe UI", sans-serif;
+  font-weight: 600;
+  line-height: 1.25;
+  margin-top: 2rem;
+  scroll-margin-top: 6rem; /* prevents clipping behind header */
+  position: relative;
+}
+
+/* Anchor (¶) inline with heading text, hidden by default */
+.post-content a.anchor {
+  text-decoration: none;
+  opacity: 0;
+  font-size: 0.85em;
+  color: #ccc;
+  margin-left: 0.3em; /* small spacing to the right of heading text */
+  transition: opacity 0.2s;
+  cursor: pointer;
+  pointer-events: auto; /* allow hover/click */
+}
+
+/* Show anchor on heading hover or when hovering the anchor itself */
+.post-content h1:hover a.anchor,
+.post-content h2:hover a.anchor,
+.post-content h3:hover a.anchor,
+.post-content h4:hover a.anchor,
+.post-content a.anchor:hover {
+  opacity: 1;
+  color: var(--primary);
+}
