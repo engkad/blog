@@ -105,22 +105,22 @@ button {
       <link>https://kyleadler.com/tools/</link>
       <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://kyleadler.com/tools/</guid>
-      <description>&lt;h2 id=&#34;literature--resources&#34;&gt;Literature / Resources&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;general&#34;&gt;General&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://273015.xyz/Eugene%20A.%20Avallone%2C%20Theodore%20Baumeister%2C%20Ali%20Sadegh%20-%20Marks%20Standard%20Handbook%20for%20Mechanical%20Engineers-McGraw-Hill%20Professional%20(2006).pdf&#34;&gt;Marks Standard Handbook&lt;/a&gt; - Marks handbook&lt;/p&gt;
-&lt;h3 id=&#34;mom--structural&#34;&gt;MoM / Structural&lt;/h3&gt;
+&lt;h2 id=&#34;mom--structural&#34;&gt;MoM / Structural&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://jackson.engr.tamu.edu/wp-content/uploads/sites/229/2023/03/Roarks-formulas-for-stress-and-strain.pdf&#34;&gt;Roark&amp;rsquo;s&lt;/a&gt; - Formulas for stress/strain&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://273015.xyz/Franklin%20D%20Jones%2C%20Henry%20H%20Ryffel%2C%20Erik%20Oberg%2C%20Christopher%20J%20McCauley%2C%20Ricardo%20M%20Heald%20-%20Machinery&#39;s%20Handbook-Industrial%20Press%2C%20Inc.%20(2004).pdf&#34;&gt;Machinery&amp;rsquo;s Handbook&lt;/a&gt; - Manufacturing guidance&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://273015.xyz/Marko%20V.%20Lubarda%2C%20Vlado%20A.%20Lubarda%20-%20Intermediate%20Solid%20Mechanics%20(2020%2C%20Cambridge%20University%20Press)%20-%20libgen.lc.pdf&#34;&gt;Intermediate Solid Mechanics&lt;/a&gt; - Advanced solid mechanics&lt;/p&gt;
-&lt;h3 id=&#34;thermo--fluids&#34;&gt;Thermo &amp;amp; Fluids&lt;/h3&gt;
+&lt;h2 id=&#34;thermo--fluids&#34;&gt;Thermo &amp;amp; Fluids&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://273015.xyz/Fluid%20Mechanics%20(9th%20Edition)%20(Frank%20M.%20White%2C%20Henry%20Xue)%20(Z-Library).pdf&#34;&gt;Fluids, White&lt;/a&gt; - Fluid mechanics&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://273015.xyz/Modern%20Compressible%20Flow%20With%20Historical%20Perspective%20(John%20D.%20Anderson)%20(Z-Library).pdf&#34;&gt;Modern Compressible Flow, Anderson&lt;/a&gt; - Compressible flow&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://273015.xyz/NellisKleinThermodynamics2011.pdf&#34;&gt;Thermodynamics, Nellis&lt;/a&gt; - Thermo&lt;/p&gt;
-&lt;h4 id=&#34;incompressible-flow&#34;&gt;Incompressible flow&lt;/h4&gt;
-&lt;h5 id=&#34;assumptions--limitations&#34;&gt;Assumptions / limitations&lt;/h5&gt;
+&lt;h3 id=&#34;incompressible-flow&#34;&gt;Incompressible flow&lt;/h3&gt;
+&lt;h4 id=&#34;assumptions--limitations&#34;&gt;Assumptions / limitations:&lt;/h4&gt;
 &lt;p&gt;Small change in density ~&amp;lt;5%, correlates to M~=0.3&lt;/p&gt;
-&lt;h4 id=&#34;compressible-flow&#34;&gt;Compressible flow&lt;/h4&gt;
+&lt;h3 id=&#34;compressible-flow&#34;&gt;Compressible flow&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://devenport.aoe.vt.edu/aoe3114/calc.html&#34;&gt;Compressible flow solver&lt;/a&gt;&lt;/p&gt;
-&lt;h5 id=&#34;isentropic-relations&#34;&gt;Isentropic relations&lt;/h5&gt;
+&lt;h4 id=&#34;isentropic-relations&#34;&gt;Isentropic relations&lt;/h4&gt;
 &lt;p&gt;&lt;a href=&#34;https://kyleadler.com/course_notes/EMA524/524_lecture_4_isentropic_relations.pdf&#34;&gt;Link to course notes&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
