@@ -6,10 +6,10 @@ tags: ["engineering"]
 TocOpen: true
 ---
 
-# Literature/Resources
+# Literature / Resources
 [Marks Standard Handbook](https://273015.xyz/Eugene%20A.%20Avallone%2C%20Theodore%20Baumeister%2C%20Ali%20Sadegh%20-%20Marks%20Standard%20Handbook%20for%20Mechanical%20Engineers-McGraw-Hill%20Professional%20(2006).pdf) - Marks handbook
 
-## MoM/Structural
+## MoM / Structural
 [Roark's](https://jackson.engr.tamu.edu/wp-content/uploads/sites/229/2023/03/Roarks-formulas-for-stress-and-strain.pdf) - Formulas for stress/strain
 
 [Machinery's Handbook](https://273015.xyz/Franklin%20D%20Jones%2C%20Henry%20H%20Ryffel%2C%20Erik%20Oberg%2C%20Christopher%20J%20McCauley%2C%20Ricardo%20M%20Heald%20-%20Machinery's%20Handbook-Industrial%20Press%2C%20Inc.%20(2004).pdf) - Manufacturing guidance
@@ -22,6 +22,70 @@ TocOpen: true
 [Modern Compressible Flow, Anderson](https://273015.xyz/Modern%20Compressible%20Flow%20With%20Historical%20Perspective%20(John%20D.%20Anderson)%20(Z-Library).pdf) - Compressible flow
 
 [Thermodynamics, Nellis](https://273015.xyz/NellisKleinThermodynamics2011.pdf) - Thermo
+
+### Incompressible flow
+#### Assumptions / limitations
+Small change in density \~<5%, correlates to M\~=0.3
+
+### Compressible flow
+#### Isentropic relations
+[Link to course notes](/course_notes/EMA524/524_lecture_4_isentropic_relations.pdf)
+
+$$
+\frac{p_2}{p_1}=\left(\frac{T_2}{T_1}\right)^{\frac{\gamma}{\gamma-1}},\qquad
+\frac{\rho_2}{\rho_1}=\left(\frac{T_2}{T_1}\right)^{\frac{1}{\gamma-1}},\qquad
+\frac{p_2}{p_1}=\left(\frac{\rho_2}{\rho_1}\right)^{\gamma}
+$$
+
+Useful direct forms / inversions:
+
+$$
+\frac{T_2}{T_1}=\left(\frac{p_2}{p_1}\right)^{\frac{\gamma-1}{\gamma}}
+=\left(\frac{\rho_2}{\rho_1}\right)^{\gamma-1}
+$$
+
+$$
+\frac{\rho_2}{\rho_1}=\left(\frac{p_2}{p_1}\right)^{\frac{1}{\gamma}}
+$$
+
+
+#### Mach relations
+[Link to course notes](/course_notes/EMA524/524_lecture_18_mach_relations.pdf)
+
+$$
+\frac{T}{T_0}=\left(1+\frac{\gamma-1}{2}M^2\right)^{-1}
+$$
+
+$$
+\frac{p}{p_0}=\left(1+\frac{\gamma-1}{2}M^2\right)^{-\frac{\gamma}{\gamma-1}}
+$$
+
+$$
+\frac{\rho}{\rho_0}=\left(1+\frac{\gamma-1}{2}M^2\right)^{-\frac{1}{\gamma-1}}
+$$
+
+Invert to get M from stagnation/static pressure ratio:
+$$
+M=\sqrt{\frac{2}{\gamma-1}\left[\left(\frac{p_0}{p}\right)^{\frac{\gamma-1}{\gamma}}-1\right]}
+$$
+
+Choked, (M = 1) ratios:
+$$
+\frac{T^*}{T_0}=\frac{2}{\gamma+1},\quad
+\frac{p^*}{p_0}=\left(\frac{2}{\gamma+1}\right)^{\frac{\gamma}{\gamma-1}},\quad
+\frac{\rho^*}{\rho_0}=\left(\frac{2}{\gamma+1}\right)^{\frac{1}{\gamma-1}}
+$$
+
+Area–Mach relation (isentropic, 1D nozzle):
+$$
+\frac{A}{A^*}=\frac{1}{M}\left[\frac{2}{\gamma+1}\left(1+\frac{\gamma-1}{2}M^2\right)\right]^{\frac{\gamma+1}{2(\gamma-1)}}
+$$
+
+#### Fanno flow
+TBA
+
+#### Rayleigh flow
+TBA
 
 ## Propulsion
 [Rocket Propulsion Elements, Sutton](https://273015.xyz/George%20P.%20Sutton%2C%20Oscar%20Biblarz%20-%20Rocket%20Propulsion%20Elements-Wiley%20(2016).pdf) - Intro to rocket propulsion
@@ -140,20 +204,23 @@ TocOpen: true
 
 </details>
 
-### NTRS Documents
+### NTRS documents
 [Engine heat transfer](https://ntrs.nasa.gov/api/citations/19940019998/downloads/19940019998.pdf)
 
 [Engine material selection](https://ntrs.nasa.gov/api/citations/20160008869/downloads/20160008869.pdf)
 
 [Film cooling](https://ntrs.nasa.gov/api/citations/19930085379/downloads/19930085379.pdf)
 
-## YouTube Videos
+## YouTube videos
 
 [Engine cycles](https://www.youtube.com/watch?v=Owji-ukVt9M)
 
 [Engine ignition](https://www.youtube.com/watch?v=bAUVCn_jw5I)
 
 [Engine cooling](https://www.youtube.com/watch?v=he_BL6Q5u1Y)
+
+# Relief valve sizing
+TBD
 
 # O-ring seals
 [Parker](https://divapps.parker.com/divapps/oring/ORingSelector/?LangID=EN&lang=en&cntry=us/17061&LangSrcType=local) O-ring selector/groove calculator ([handbook](https://www.parker.com/content/dam/Parker-com/Literature/O-Ring-Division-Literature/ORD-5700.pdf))
