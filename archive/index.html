@@ -10,7 +10,7 @@
 <meta name="description" content="Archive - Kyle’s Engineering Blog">
 <meta name="author" content="">
 <link rel="canonical" href="https://kyleadler.com/archive/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.aa5a103804e0c6334042570b60408eefbd0ce2c3d21f277ae0087a1b2800dad7.css" integrity="sha256-qloQOATgxjNAQlcLYECO770M4sPSHyd64Ah6GygA2tc=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.8dbd2db133ff3cb105a642c25b4e4be1d6a33690319cf8e6f41b9f9fc7e5b9e0.css" integrity="sha256-jb0tsTP/PLEFpkLCW05L4dajNpAxnPjm9Bufn8flueA=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://kyleadler.com/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://kyleadler.com/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://kyleadler.com/favicon-32x32.png">
@@ -173,7 +173,14 @@
         </ul>
     </nav>
 </header>
-<main class="main">
+
+    <main class="main layout-toc">
+        
+        
+
+        
+        <section class="content-area">
+            
 
 <header class="page-header">
   <h1>
@@ -286,7 +293,9 @@
     </div>
   </div>
 </div>
+        </section>
     </main>
+
     
 <footer class="footer">
         <span>&copy; 2025 <a href="https://kyleadler.com/">Kyle’s Engineering Blog</a></span> · 
@@ -362,6 +371,61 @@
 
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
     
-</body>
 
+    
+    <script>
+    (function () {
+      let ticking = false;
+      function updateActiveToc() {
+        const toc = document.querySelector('.toc-sidebar');
+        if (!toc) return;
+        const headers = Array.from(document.querySelectorAll('.post-content h2, .post-content h3, .post-content h4'));
+        if (!headers.length) return;
+        const offset = 120;
+        let activeId = headers[0].id || null;
+        for (let i = 0; i < headers.length; i++) {
+          const rect = headers[i].getBoundingClientRect();
+          if (rect.top - offset <= 0) {
+            activeId = headers[i].id || activeId;
+          } else {
+            break;
+          }
+        }
+        toc.querySelectorAll('a').forEach(a => a.classList.remove('active'));
+        if (activeId) {
+          const activeLink = toc.querySelector('a[href="#' + CSS.escape(activeId) + '"]');
+          if (activeLink) activeLink.classList.add('active');
+        }
+      }
+      document.addEventListener('scroll', () => {
+        if (!ticking) {
+          window.requestAnimationFrame(() => { updateActiveToc(); ticking = false; });
+          ticking = true;
+        }
+      }, { passive: true });
+      document.addEventListener('DOMContentLoaded', updateActiveToc);
+      window.addEventListener('resize', updateActiveToc);
+    })();
+    </script>
+
+    
+    <script>
+    document.addEventListener("DOMContentLoaded", () => {
+    document.querySelectorAll('.post-content h1, .post-content h2, .post-content h3, .post-content h4').forEach(h => {
+        
+        if (h.querySelector('.anchor')) return;
+
+        if (h.id) {
+        const a = document.createElement('a');
+        a.href = '#' + h.id;
+        a.className = 'anchor';
+        a.innerText = '#'; 
+        h.prepend(a);
+        }
+    });
+    });
+
+    </script>
+
+</body>
 </html>

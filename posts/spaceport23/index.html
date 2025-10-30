@@ -15,7 +15,7 @@ The Competition
 The Spaceport America Cup (also known as IREC) is the world&rsquo;s largest intercollegiate rocket competition, with over 150 teams competing annually. There are a number of categories and it takes place outside of Las Cruces in southern New Mexico.">
 <meta name="author" content="">
 <link rel="canonical" href="https://kyleadler.com/posts/spaceport23/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.aa5a103804e0c6334042570b60408eefbd0ce2c3d21f277ae0087a1b2800dad7.css" integrity="sha256-qloQOATgxjNAQlcLYECO770M4sPSHyd64Ah6GygA2tc=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.8dbd2db133ff3cb105a642c25b4e4be1d6a33690319cf8e6f41b9f9fc7e5b9e0.css" integrity="sha256-jb0tsTP/PLEFpkLCW05L4dajNpAxnPjm9Bufn8flueA=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://kyleadler.com/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://kyleadler.com/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://kyleadler.com/favicon-32x32.png">
@@ -198,7 +198,30 @@ The Spaceport America Cup (also known as IREC) is the world&rsquo;s largest inte
         </ul>
     </nav>
 </header>
-<main class="main">
+
+    <main class="main layout-toc">
+        
+        <aside class="toc-sidebar" aria-label="Table of contents">
+  <div class="toc-header">
+    <h2 class="toc-title">Spaceport America Cup 2023</h2>
+  </div>
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#the-competition">The Competition</a></li>
+    <li><a href="#wisconsin-space-program">Wisconsin Space Program</a></li>
+    <li><a href="#the-process">The Process</a>
+      <ul>
+        <li><a href="#test-flight">Test Flight</a></li>
+      </ul>
+    </li>
+    <li><a href="#uw-college-of-engineering-support">UW College of Engineering Support</a></li>
+  </ul>
+</nav>
+</aside>
+
+        
+        <section class="content-area">
+            
 
 <article class="post-single">
   <header class="post-header">
@@ -209,30 +232,7 @@ The Spaceport America Cup (also known as IREC) is the world&rsquo;s largest inte
     <div class="post-meta"><span title='2024-02-05 00:00:00 +0000 UTC'>February 5, 2024</span>&nbsp;·&nbsp;2 min
 
 </div>
-  </header> <div class="toc">
-    <details >
-        <summary accesskey="c" title="(Alt + C)">
-            <span class="details">Table of Contents</span>
-        </summary>
-
-        <div class="inner"><ul>
-                <li>
-                    <a href="#the-competition" aria-label="The Competition">The Competition</a></li>
-                <li>
-                    <a href="#wisconsin-space-program" aria-label="Wisconsin Space Program">Wisconsin Space Program</a></li>
-                <li>
-                    <a href="#the-process" aria-label="The Process">The Process</a><ul>
-                        
-                <li>
-                    <a href="#test-flight" aria-label="Test Flight">Test Flight</a></li></ul>
-                </li>
-                <li>
-                    <a href="#uw-college-of-engineering-support" aria-label="UW College of Engineering Support">UW College of Engineering Support</a>
-                </li>
-            </ul>
-        </div>
-    </details>
-</div>
+  </header> 
 
   <div class="post-content"><p><img alt="The nine of us and our mentor Frank standing with our rocket in NM." loading="lazy" src="/posts/spaceport23/IMG_5357.jpg"></p>
 <p>I participated in this rocket competition as President of the Wisconsin Space Program student org (formerly UW-Madison&rsquo;s Chapter of AIAA).</p>
@@ -276,7 +276,9 @@ The Spaceport America Cup (also known as IREC) is the world&rsquo;s largest inte
 
   </footer>
 </article>
+        </section>
     </main>
+
     
 <footer class="footer">
         <span>&copy; 2025 <a href="https://kyleadler.com/">Kyle’s Engineering Blog</a></span> · 
@@ -399,6 +401,61 @@ The Spaceport America Cup (also known as IREC) is the world&rsquo;s largest inte
 
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
     
-</body>
 
+    
+    <script>
+    (function () {
+      let ticking = false;
+      function updateActiveToc() {
+        const toc = document.querySelector('.toc-sidebar');
+        if (!toc) return;
+        const headers = Array.from(document.querySelectorAll('.post-content h2, .post-content h3, .post-content h4'));
+        if (!headers.length) return;
+        const offset = 120;
+        let activeId = headers[0].id || null;
+        for (let i = 0; i < headers.length; i++) {
+          const rect = headers[i].getBoundingClientRect();
+          if (rect.top - offset <= 0) {
+            activeId = headers[i].id || activeId;
+          } else {
+            break;
+          }
+        }
+        toc.querySelectorAll('a').forEach(a => a.classList.remove('active'));
+        if (activeId) {
+          const activeLink = toc.querySelector('a[href="#' + CSS.escape(activeId) + '"]');
+          if (activeLink) activeLink.classList.add('active');
+        }
+      }
+      document.addEventListener('scroll', () => {
+        if (!ticking) {
+          window.requestAnimationFrame(() => { updateActiveToc(); ticking = false; });
+          ticking = true;
+        }
+      }, { passive: true });
+      document.addEventListener('DOMContentLoaded', updateActiveToc);
+      window.addEventListener('resize', updateActiveToc);
+    })();
+    </script>
+
+    
+    <script>
+    document.addEventListener("DOMContentLoaded", () => {
+    document.querySelectorAll('.post-content h1, .post-content h2, .post-content h3, .post-content h4').forEach(h => {
+        
+        if (h.querySelector('.anchor')) return;
+
+        if (h.id) {
+        const a = document.createElement('a');
+        a.href = '#' + h.id;
+        a.className = 'anchor';
+        a.innerText = '#'; 
+        h.prepend(a);
+        }
+    });
+    });
+
+    </script>
+
+</body>
 </html>
