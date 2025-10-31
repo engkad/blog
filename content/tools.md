@@ -26,9 +26,8 @@ showToc: false
 
 ### Incompressible flow
 <blockquote data-callout="danger" data-callout-title="Assumptions and limitations">
-Incompressible flow assumes small change in density ~<5%, which correlates to M~=0.3. It's a good starting point but be sure to check your change in density and determine if the assumption was valid or not.
+Incompressible flow assumes small change in density ~&lt;5%, which correlates to M~=0.3. It's a good starting point but be sure to check your change in density and determine if the assumption was valid or not.
 </blockquote>
-
 
 ### Compressible flow
 [Compressible flow solver](https://devenport.aoe.vt.edu/aoe3114/calc.html)
@@ -106,6 +105,72 @@ TBA
 [Gasket design guide](https://www.usseal.com/Grafoil/What-is-Grafoil.pdf)
 
 ### Chemistry/propellants
+
+<blockquote data-callout="info" data-callout-title="Cryo quick ref">
+<table class="gas-table">
+  <thead>
+    <tr>
+      <th>Propellant</th>
+      <th>Molar Mass (g/mol)</th>
+      <th>Density (kg/m³)</th>
+      <th>Density (lb/ft³)</th>
+      <th>Boiling Point (K)</th>
+      <th>Boiling Point (°F)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>LOX (O₂, liquid @ ~90 K)</td>
+      <td>31.999</td>
+      <td>1140</td>
+      <td>71.2</td>
+      <td>90.2</td>
+      <td>-297.1</td>
+    </tr>
+    <tr>
+      <td>LH₂ (H₂, liquid @ ~20 K)</td>
+      <td>2.016</td>
+      <td>71</td>
+      <td>4.43</td>
+      <td>20.3</td>
+      <td>-422.6</td>
+    </tr>
+    <tr>
+      <td>LCH₄ (CH₄, liquid @ ~111 K)</td>
+      <td>16.043</td>
+      <td>420</td>
+      <td>26.2</td>
+      <td>111.6</td>
+      <td>-259.6</td>
+    </tr>
+  </tbody>
+</table>
+
+<style>
+.gas-table {
+  border-collapse: collapse;
+  margin: 1em auto;
+  font-family: system-ui, sans-serif;
+  font-size: 14px;
+  border-bottom: 2px solid #ccc;
+}
+.gas-table th, .gas-table td {
+  border: 1px solid #ddd;
+  padding: 6px 10px;
+  text-align: center;
+  background-color: inherit; /* inherit uniform background */
+}
+.gas-table a {
+  color: #2563eb;
+  text-decoration: none;
+}
+.gas-table a:hover {
+  text-decoration: underline;
+}
+</style>
+
+</blockquote>
+
 <details>
 <summary><strong>Periodic table</strong></summary>
 <iframe src="https://ptable.com/?lang=en" width="100%" height="800" style="border:0;"
