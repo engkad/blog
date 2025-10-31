@@ -117,7 +117,7 @@ button {
 &lt;p&gt;&lt;a href=&#34;https://273015.xyz/NellisKleinThermodynamics2011.pdf&#34;&gt;Thermodynamics, Nellis&lt;/a&gt; - Thermo&lt;/p&gt;
 &lt;h3 id=&#34;incompressible-flow&#34;&gt;Incompressible flow&lt;/h3&gt;
 &lt;blockquote data-callout=&#34;danger&#34; data-callout-title=&#34;Assumptions and limitations&#34;&gt;
-Incompressible flow assumes small change in density ~&lt;5%, which correlates to M~=0.3. It&#39;s a good starting point but be sure to check your change in density and determine if the assumption was valid or not.
+Incompressible flow assumes small change in density ~&amp;lt;5%, which correlates to M~=0.3. It&#39;s a good starting point but be sure to check your change in density and determine if the assumption was valid or not.
 &lt;/blockquote&gt;
 &lt;h3 id=&#34;compressible-flow&#34;&gt;Compressible flow&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://devenport.aoe.vt.edu/aoe3114/calc.html&#34;&gt;Compressible flow solver&lt;/a&gt;&lt;/p&gt;</description>
