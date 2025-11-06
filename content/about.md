@@ -22,5 +22,5 @@ I was part of the Wisconsin Space Program student org for my entire time in unde
 
 ## The website
 Under construction!
-![construction](images/construction.jpg)
-![matlabhelp](images/matlabhelp.gif)
+![construction](/images/construction.jpg)
+![matlabhelp](/images/matlabhelp.gif)

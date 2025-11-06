@@ -17,6 +17,10 @@ showToc: false
 
 [Intermediate Solid Mechanics](https://273015.xyz/Marko%20V.%20Lubarda%2C%20Vlado%20A.%20Lubarda%20-%20Intermediate%20Solid%20Mechanics%20(2020%2C%20Cambridge%20University%20Press)%20-%20libgen.lc.pdf) - Advanced solid mechanics
 
+### Engineering vs true stress-strain
+![true vs engineering stress strain](/images/stressstrain.png)
+https://yasincapar.com/engineering-stress-strain-vs-true-stress-strain/
+
 ## Thermo & Fluids
 [Fluids, White](https://273015.xyz/Fluid%20Mechanics%20(9th%20Edition)%20(Frank%20M.%20White%2C%20Henry%20Xue)%20(Z-Library).pdf) - Fluid mechanics
 
@@ -89,6 +93,8 @@ $$
 TBA
 
 #### Rayleigh flow
+
+![Rayleigh line plot](/images/RayleighLinePlot.png)
 TBA
 
 ## Propulsion
@@ -102,7 +108,7 @@ TBA
 
 [Liquid film cooling](https://apps.dtic.mil/sti/pdfs/ADA234288.pdf)
 
-[Gasket design guide](https://www.usseal.com/Grafoil/What-is-Grafoil.pdf)
+[Graphite gasket design guide](https://www.usseal.com/Grafoil/What-is-Grafoil.pdf)
 
 ### Chemistry/propellants
 
@@ -286,6 +292,123 @@ TBA
 [DoD propellant explosive equivalent](https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodm/414526m.pdf?ver=201#page=215)
 
 [ASME stored energy calc](https://www.chiefdelphi.com/uploads/default/original/3X/0/a/0a4630706b356d9a1f1adca65dd04972c8669984.pdf)
+
+## English units
+Unfortunately they are an inevitable consequence of working in the USA.
+
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Propellant Quick Converter</title>
+<style>
+  body { font-family: system-ui, sans-serif; margin: 15px; }
+  h3 { margin-bottom: 5px; }
+  table { border-collapse: collapse; margin-bottom: 10px; font-size: 14px;   border: 1px solid #ccc; /* uniform border for all edges */}
+  th, td { border: 1px solid #ccc; padding: 4px 6px; text-align: center; }
+  input { width: 60px; max-width: 6ch; font-size: 12px; padding: 2px; text-align: center; }
+  button { margin: 3px 2px 10px 0; padding: 6px 10px; font-size: 14px; cursor: pointer; }
+</style>
+</head>
+<body>
+
+<h3>Temperature Converter</h3>
+<table>
+  <tr><th>°F</th><th>°C</th><th>K</th><th>°R</th></tr>
+  <tr>
+<td><input id="tempF" type="number" placeholder="°F"></td>
+<td><input id="tempC" type="number" placeholder="°C"></td>
+<td><input id="tempK" type="number" placeholder="K"></td>
+<td><input id="tempR" type="number" placeholder="°R"></td>
+  </tr>
+</table>
+<button onclick="convertTemperature()">Calculate Temp</button>
+<button onclick="clearTemp()">Clear Temp</button>
+
+<h3>Pressure Converter</h3>
+<table>
+  <tr><th>psia</th><th>bar</th><th>atm</th><th>kPa</th></tr>
+  <tr>
+<td><input id="pPsi" type="number" placeholder="psia"></td>
+<td><input id="pBar" type="number" placeholder="bar"></td>
+<td><input id="pAtm" type="number" placeholder="atm"></td>
+<td><input id="pKPa" type="number" placeholder="kPa"></td>
+  </tr>
+</table>
+<button onclick="convertPressure()">Calculate Pressure</button>
+<button onclick="clearPressure()">Clear Pressure</button>
+
+<script>
+// ----- Temperature -----
+function convertTemperature() {
+  let F = parseFloat(document.getElementById("tempF").value);
+  let C = parseFloat(document.getElementById("tempC").value);
+  let K = parseFloat(document.getElementById("tempK").value);
+  let R = parseFloat(document.getElementById("tempR").value);
+
+  if (!isNaN(F)) { C=(F-32)*5/9; K=C+273.15; R=F+459.67; }
+  else if (!isNaN(C)) { F=C*9/5+32; K=C+273.15; R=F+459.67; }
+  else if (!isNaN(K)) { C=K-273.15; F=C*9/5+32; R=F+459.67; }
+  else if (!isNaN(R)) { F=R-459.67; C=(F-32)*5/9; K=C+273.15; }
+  else return;
+
+  document.getElementById("tempF").value=F.toFixed(2);
+  document.getElementById("tempC").value=C.toFixed(2);
+  document.getElementById("tempK").value=K.toFixed(2);
+  document.getElementById("tempR").value=R.toFixed(2);
+}
+
+function clearTemp() {
+  ["tempF","tempC","tempK","tempR"].forEach(id => document.getElementById(id).value="");
+}
+
+// ----- Pressure -----
+function convertPressure() {
+  let psi=parseFloat(document.getElementById("pPsi").value);
+  let bar=parseFloat(document.getElementById("pBar").value);
+  let atm=parseFloat(document.getElementById("pAtm").value);
+  let kPa=parseFloat(document.getElementById("pKPa").value);
+
+  if(!isNaN(psi)){ bar=psi*0.0689476; atm=psi/14.6959; kPa=psi*6.89476; }
+  else if(!isNaN(bar)){ psi=bar/0.0689476; atm=bar/1.01325; kPa=bar*100; }
+  else if(!isNaN(atm)){ psi=atm*14.6959; bar=atm*1.01325; kPa=atm*101.325; }
+  else if(!isNaN(kPa)){ psi=kPa/6.89476; bar=kPa/100; atm=kPa/101.325; }
+  else return;
+
+  document.getElementById("pPsi").value=psi.toFixed(3);
+  document.getElementById("pBar").value=bar.toFixed(3);
+  document.getElementById("pAtm").value=atm.toFixed(3);
+  document.getElementById("pKPa").value=kPa.toFixed(3);
+}
+
+function clearPressure() {
+  ["pPsi","pBar","pAtm","pKPa"].forEach(id=>document.getElementById(id).value="");
+}
+</script>
+
+</body>
+</html>
+
+
+
+### lbm to lbf and units
+Use \(g_c\) when going between lbm and lbf. Alternatively use slugs where 1 slug = 
+$$
+g_c = 32.174\ \frac{\text{lbm}\cdot\text{ft}}{\text{lbf}\cdot\text{s}^2}
+$$
+Convince yourself this makes sense by trying 
+$$
+F = m \cdot g
+$$
+where F is in lbf, m is in lbm, and g is in ft/s^2. 1 lbm should weigh 1 lbf so you need to divide out the magnitude of g and cancel out the units respectively.
+
+### SCFM
+Do not be fooled—just because it has cubic feet in the name does **not** mean it is a volumetric flow, instead it's really just a mass flow. The "**S**tandard" in the name means it is a volume flow at a standardized temperature and pressure, which means the density of the working fluid is given and thus it is a mass flow. For many fluids applications this is 59°F and 14.7psia, and to convert from lb/s to SCFM you do the following:
+$$
+\dot{m}\ [\text{SCFM}] = \frac{\dot{m}\ [\frac{\text{lbm}}{\text{s}}]}{\rho\ (\text{T=59°F*,\ P=14.7 psia*})\ [\frac{\text{lbm}}{\text{ft}^3}]}\times \frac{60\ [\text{s}]}{1\ [\text{m}]}
+$$
+\*ensure these conditions are known and agreed upon
+
 ## YouTube videos
 
 [Engine cycles](https://www.youtube.com/watch?v=Owji-ukVt9M)
@@ -293,6 +416,8 @@ TBA
 [Engine ignition](https://www.youtube.com/watch?v=bAUVCn_jw5I)
 
 [Engine cooling](https://www.youtube.com/watch?v=he_BL6Q5u1Y)
+
+[Efficient Engineer MoM playlist](https://youtube.com/playlist?list=PLEYqyyrm-hQ3wtF34smyJSAOqUJqnf1ch&si=2b-eFbrYjB88YK5C)
 
 ## Random tools
 ### Relief valve sizing
