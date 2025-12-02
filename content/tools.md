@@ -6,6 +6,8 @@ tags: ["engineering"]
 TocOpen: true
 showToc: false
 ---
+## Course Notes
+[https://kyleadler.com/posts/course-notes/](https://kyleadler.com/posts/course-notes/)
 
 ## General
 [Marks Standard Handbook](https://273015.xyz/Eugene%20A.%20Avallone%2C%20Theodore%20Baumeister%2C%20Ali%20Sadegh%20-%20Marks%20Standard%20Handbook%20for%20Mechanical%20Engineers-McGraw-Hill%20Professional%20(2006).pdf) - Marks handbook
@@ -21,12 +23,19 @@ showToc: false
 ![true vs engineering stress strain](/images/stressstrain.png)
 https://yasincapar.com/engineering-stress-strain-vs-true-stress-strain/
 
+### LRFD/LSD vs ASD
+**Allowable Stress Design (ASD):** Calculate/simulate stresses with nominal load and compare stresses to an "allowable stress" defined by the yield/ultimate strength divided by a safety factor. This is a simple and intuitive method and common safety factors are 3/4; 3 to yield and 4 to ultimate, whichever results in lower allowable stress.
+
+**Load and Resistance Factor Design (LRFD) or Limit State Design (LSD):** Used in structural engineering and can get very complex. Works better when looking at ductile post-yield behavior and nonlinear analysis since safety factor placed on the load instead of the stress.
+
 ## Thermo & Fluids
 [Fluids, White](https://273015.xyz/Fluid%20Mechanics%20(9th%20Edition)%20(Frank%20M.%20White%2C%20Henry%20Xue)%20(Z-Library).pdf) - Fluid mechanics
 
 [Modern Compressible Flow, Anderson](https://273015.xyz/Modern%20Compressible%20Flow%20With%20Historical%20Perspective%20(John%20D.%20Anderson)%20(Z-Library).pdf) - Compressible flow
 
 [Thermodynamics, Nellis](https://273015.xyz/NellisKleinThermodynamics2011.pdf) - Thermo
+
+[CoolProp Online](https://ibell.pythonanywhere.com/) - Online refprop
 
 ### Incompressible flow
 <blockquote data-callout="danger" data-callout-title="Assumptions and limitations">
@@ -149,6 +158,15 @@ TBA
       <td>111.6</td>
       <td>-259.6</td>
     </tr>
+    <tr>
+	  <td>LN₂ (N₂, liquid @ ~77 K)</td>
+	  <td>28.014</td>
+	  <td>808</td>
+	  <td>50.4</td>
+	  <td>77.4</td>
+	  <td>-320.5</td>
+	</tr>
+
   </tbody>
 </table>
 
@@ -293,10 +311,12 @@ TBA
 
 [ASME stored energy calc](https://www.chiefdelphi.com/uploads/default/original/3X/0/a/0a4630706b356d9a1f1adca65dd04972c8669984.pdf)
 
+### Turbomachinery
+### Pumps
+NSS: TBA
+### Turbines
 ## English units
 Unfortunately they are an inevitable consequence of working in the USA.
-
-
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -389,10 +409,8 @@ function clearPressure() {
 </body>
 </html>
 
-
-
 ### lbm to lbf and units
-Use \(g_c\) when going between lbm and lbf. Alternatively use slugs where 1 slug = 
+Use \(g_c\) when going between lbm and lbf. Alternatively use slugs.
 $$
 g_c = 32.174\ \frac{\text{lbm}\cdot\text{ft}}{\text{lbf}\cdot\text{s}^2}
 $$
@@ -403,11 +421,11 @@ $$
 where F is in lbf, m is in lbm, and g is in ft/s^2. 1 lbm should weigh 1 lbf so you need to divide out the magnitude of g and cancel out the units respectively.
 
 ### SCFM
-Do not be fooled—just because it has cubic feet in the name does **not** mean it is a volumetric flow, instead it's really just a mass flow. The "**S**tandard" in the name means it is a volume flow at a standardized temperature and pressure, which means the density of the working fluid is given and thus it is a mass flow. For many fluids applications this is 59°F and 14.7psia, and to convert from lb/s to SCFM you do the following:
+**Not** a volumetric flow, really just a mass flow. The "**S**tandard" in the name means it is a volume flow at a standardized temperature and pressure, which means the density of the working fluid is defined and thus it is a mass flow. For many fluids applications this is 59°F and 14.7psia, and to convert from lb/s to SCFM you do the following:
 $$
 \dot{m}\ [\text{SCFM}] = \frac{\dot{m}\ [\frac{\text{lbm}}{\text{s}}]}{\rho\ (\text{T=59°F*,\ P=14.7 psia*})\ [\frac{\text{lbm}}{\text{ft}^3}]}\times \frac{60\ [\text{s}]}{1\ [\text{m}]}
 $$
-\*ensure these conditions are known and agreed upon
+\*ensure these conditions are consistent
 
 ## YouTube videos
 
@@ -421,8 +439,7 @@ $$
 
 ## Random tools
 ### Relief valve sizing
-TBD
-
+See API520
 ### O-ring seals
 [Parker](https://divapps.parker.com/divapps/oring/ORingSelector/?LangID=EN&lang=en&cntry=us/17061&LangSrcType=local) O-ring selector/groove calculator ([handbook](https://www.parker.com/content/dam/Parker-com/Literature/O-Ring-Division-Literature/ORD-5700.pdf))
 
@@ -471,3 +488,17 @@ function calculateClampForce() {
 }
 </script>
 
+### Coding
+**Python venv one-liner for bash***
+```
+python3 -m venv venv && source venv/bin/activate && pip install X
+```
+
+#### Combustion stability 
+Thesis
+https://etda.libraries.psu.edu/catalog/10688
+Same guys work at MSFC 
+https://ntrs.nasa.gov/citations/20130014078
+
+Other 
+https://ntrs.nasa.gov/api/citations/20170008957/downloads/20170008957.pdf
