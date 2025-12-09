@@ -12,6 +12,8 @@ showToc: false
 ## General
 [Marks Standard Handbook](https://273015.xyz/Eugene%20A.%20Avallone%2C%20Theodore%20Baumeister%2C%20Ali%20Sadegh%20-%20Marks%20Standard%20Handbook%20for%20Mechanical%20Engineers-McGraw-Hill%20Professional%20(2006).pdf) - Marks handbook
 
+[Mechanical Engineering Design](https://273015.xyz/Shigleys_Mechanical_Engineering_Design_10ed.pdf) - Shigley's
+
 ## MoM / Structural
 [Roark's](https://jackson.engr.tamu.edu/wp-content/uploads/sites/229/2023/03/Roarks-formulas-for-stress-and-strain.pdf) - Formulas for stress/strain
 
@@ -210,6 +212,8 @@ see: [Basic Design Concepts: LRFD](https://www.bgstructuralengineering.com/BGDes
 
 ## Thermo
 [Thermodynamics, Nellis](https://273015.xyz/NellisKleinThermodynamics2011.pdf) - Thermo
+
+[An Introduction to Combustion Concepts and Applications](https://273015.xyz/An_introduction_to_combustion_concepts_and_applications_3ed.pdf) - Combustion
 
 [CoolProp Online](https://ibell.pythonanywhere.com/) - Online refprop
 
