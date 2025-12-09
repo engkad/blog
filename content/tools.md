@@ -524,8 +524,11 @@ python3 -m venv venv && source venv/bin/activate && pip install X
 
 ## Random case studies
 ### NASA 3d printed engine
+[Additively manufactured GRCop-42 copper-alloy combustion chamber failure analysis: The role of build interruptions](https://www.sciencedirect.com/science/article/pii/S1350630725004510?via%3Dihub)
+
+[Scott Manley Video](https://www.youtube.com/watch?v=S5TdVYSgqr4)
 ### NK-33/RD-180 mods and history
-[https://www.youtube.com/watch?v=TMbl_ofF3AM](https://www.youtube.com/watch?v=TMbl_ofF3AM)
+[YT: The Engines That Came In From The Cold - And how The NK-33/RD-180 Came To The USA](https://www.youtube.com/watch?v=TMbl_ofF3AM)
 
 <details>
 <summary><strong>NK33 mods paper</strong></summary>
