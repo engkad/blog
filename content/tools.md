@@ -24,102 +24,12 @@ showToc: false
 https://yasincapar.com/engineering-stress-strain-vs-true-stress-strain/
 
 ### LRFD/LSD vs ASD
-**Allowable Stress Design (ASD):** Calculate/simulate stresses with nominal load and compare stresses to an "allowable stress" defined by the yield/ultimate strength divided by a safety factor. This is a simple and intuitive method and common safety factors are 3/4; 3 to yield and 4 to ultimate, whichever results in lower allowable stress.
+**Allowable Strength Design (ASD):** Calculate/simulate nominal loads/stresses and compare to an “allowable strength” defined by the yield/ultimate strength divided by a safety factor $\Omega$. This is a simple and intuitive method and common safety factors are 3/4; 3 to yield and 4 to ultimate, whichever results in lower allowable strength. Alternative SF e.g. 2/3 used for extreme load cases like hurricane etc.  
+**Load and Resistance Factor Design (LRFD) or Limit State Design (LSD):** Used in structural engineering and can get very complex. Works better when looking at ductile post-yield behavior and nonlinear analysis since safety factor placed on loads and material strength based on type of loading and type of failure. E.g. dead load (predictable) has small factor applied to it but wind loading (more variable) has a larger factor. Similarly, failure due to tensile stress has a smaller knockdown than buckling following the same reasoning. LRFD lets you get more detailed with what safety factors you put on which loads rather than a blanket safety factor which can be overconservative. LRFD is also backed by extensive empirical data to inform the factors and design safe but not overconservative (\$\$\$) structures.  
+  
+see: [Basic Design Concepts: LRFD](https://www.bgstructuralengineering.com/BGDesign/BGDesign05.htm)
 
-**Load and Resistance Factor Design (LRFD) or Limit State Design (LSD):** Used in structural engineering and can get very complex. Works better when looking at ductile post-yield behavior and nonlinear analysis since safety factor placed on the load instead of the stress.
-
-## Thermo & Fluids
-[Fluids, White](https://273015.xyz/Fluid%20Mechanics%20(9th%20Edition)%20(Frank%20M.%20White%2C%20Henry%20Xue)%20(Z-Library).pdf) - Fluid mechanics
-
-[Modern Compressible Flow, Anderson](https://273015.xyz/Modern%20Compressible%20Flow%20With%20Historical%20Perspective%20(John%20D.%20Anderson)%20(Z-Library).pdf) - Compressible flow
-
-[Thermodynamics, Nellis](https://273015.xyz/NellisKleinThermodynamics2011.pdf) - Thermo
-
-[CoolProp Online](https://ibell.pythonanywhere.com/) - Online refprop
-
-### Incompressible flow
-<blockquote data-callout="danger" data-callout-title="Assumptions and limitations">
-Incompressible flow assumes small change in density ~&lt;5%, which correlates to M~=0.3. It's a good starting point but be sure to check your change in density and determine if the assumption was valid or not.
-</blockquote>
-
-### Compressible flow
-[Compressible flow solver](https://devenport.aoe.vt.edu/aoe3114/calc.html)
-
-#### Isentropic relations
-[Link to course notes](/course_notes/EMA524/524_lecture_4_isentropic_relations.pdf)
-
-$$
-\frac{p_2}{p_1}=\left(\frac{T_2}{T_1}\right)^{\frac{\gamma}{\gamma-1}},\qquad
-\frac{\rho_2}{\rho_1}=\left(\frac{T_2}{T_1}\right)^{\frac{1}{\gamma-1}},\qquad
-\frac{p_2}{p_1}=\left(\frac{\rho_2}{\rho_1}\right)^{\gamma}
-$$
-
-Useful direct forms / inversions:
-
-$$
-\frac{T_2}{T_1}=\left(\frac{p_2}{p_1}\right)^{\frac{\gamma-1}{\gamma}}
-=\left(\frac{\rho_2}{\rho_1}\right)^{\gamma-1}
-$$
-
-$$
-\frac{\rho_2}{\rho_1}=\left(\frac{p_2}{p_1}\right)^{\frac{1}{\gamma}}
-$$
-
-
-#### Mach relations
-[Link to course notes](/course_notes/EMA524/524_lecture_18_mach_relations.pdf)
-
-$$
-\frac{T}{T_0}=\left(1+\frac{\gamma-1}{2}M^2\right)^{-1}
-$$
-
-$$
-\frac{p}{p_0}=\left(1+\frac{\gamma-1}{2}M^2\right)^{-\frac{\gamma}{\gamma-1}}
-$$
-
-$$
-\frac{\rho}{\rho_0}=\left(1+\frac{\gamma-1}{2}M^2\right)^{-\frac{1}{\gamma-1}}
-$$
-
-Invert to get M from stagnation/static pressure ratio:
-$$
-M=\sqrt{\frac{2}{\gamma-1}\left[\left(\frac{p_0}{p}\right)^{\frac{\gamma-1}{\gamma}}-1\right]}
-$$
-
-Choked, (M = 1) ratios:
-$$
-\frac{T^*}{T_0}=\frac{2}{\gamma+1},\quad
-\frac{p^*}{p_0}=\left(\frac{2}{\gamma+1}\right)^{\frac{\gamma}{\gamma-1}},\quad
-\frac{\rho^*}{\rho_0}=\left(\frac{2}{\gamma+1}\right)^{\frac{1}{\gamma-1}}
-$$
-
-Area–Mach relation (isentropic, 1D nozzle):
-$$
-\frac{A}{A^*}=\frac{1}{M}\left[\frac{2}{\gamma+1}\left(1+\frac{\gamma-1}{2}M^2\right)\right]^{\frac{\gamma+1}{2(\gamma-1)}}
-$$
-
-#### Fanno flow
-TBA
-
-#### Rayleigh flow
-
-![Rayleigh line plot](/images/RayleighLinePlot.png)
-TBA
-
-## Propulsion
-[Rocket Propulsion Elements, Sutton](https://273015.xyz/George%20P.%20Sutton%2C%20Oscar%20Biblarz%20-%20Rocket%20Propulsion%20Elements-Wiley%20(2016).pdf) - Intro to rocket propulsion
-
-[Design of Liquid Propellant Rocket Engines, Huzel & Huang](https://273015.xyz/HuzelHuang.pdf) - Advanced rocket propulsion
-
-[Space Propulsion Analysis & Design](https://273015.xyz/Space%20Propulsion%20Analysis%20and%20Design.pdf) - More advanced rocket prop
-
-[Rao nozzle design](https://rrs.org/2023/01/28/making-correct-parabolic-nozzles/)
-
-[Liquid film cooling](https://apps.dtic.mil/sti/pdfs/ADA234288.pdf)
-
-[Graphite gasket design guide](https://www.usseal.com/Grafoil/What-is-Grafoil.pdf)
-
-### Chemistry/propellants
+## Chemistry/propellants
 
 <blockquote data-callout="info" data-callout-title="Cryo quick ref">
 <table class="gas-table">
@@ -298,23 +208,141 @@ TBA
 
 </details>
 
-### NTRS documents and standards
-[Engine heat transfer](https://ntrs.nasa.gov/api/citations/19940019998/downloads/19940019998.pdf)
+## Thermo
+[Thermodynamics, Nellis](https://273015.xyz/NellisKleinThermodynamics2011.pdf) - Thermo
 
-[Engine material selection](https://ntrs.nasa.gov/api/citations/20160008869/downloads/20160008869.pdf)
+[CoolProp Online](https://ibell.pythonanywhere.com/) - Online refprop
 
-[Film cooling](https://ntrs.nasa.gov/api/citations/19930085379/downloads/19930085379.pdf)
 
-[Leak classification](https://ntrs.nasa.gov/api/citations/19680013998/downloads/19680013998.pdf)
+### States and properties
+[Cp and Cv deriation/notes](https://engineering.purdue.edu/~wassgren/teaching/ME20000/NotesAndReading/Lec10_Reading_Wassgren.pdf)
+## Fluids
+[Fluids, White](https://273015.xyz/Fluid%20Mechanics%20(9th%20Edition)%20(Frank%20M.%20White%2C%20Henry%20Xue)%20(Z-Library).pdf) - Fluid mechanics
+
+[Modern Compressible Flow, Anderson](https://273015.xyz/Modern%20Compressible%20Flow%20With%20Historical%20Perspective%20(John%20D.%20Anderson)%20(Z-Library).pdf) - Compressible flow
+
+### Incompressible flow
+<blockquote data-callout="danger" data-callout-title="Assumptions and limitations">
+Incompressible flow assumes small change in density ~&lt;5%, which correlates to M~=0.3. It's a good starting point but be sure to check your change in density and determine if the assumption was valid or not.
+</blockquote>
+
+### Compressible flow
+[Compressible flow solver](https://devenport.aoe.vt.edu/aoe3114/calc.html)
+
+#### Isentropic relations
+[Link to course notes](/course_notes/EMA524/524_lecture_4_isentropic_relations.pdf)
+
+$$
+\frac{p_2}{p_1}=\left(\frac{T_2}{T_1}\right)^{\frac{\gamma}{\gamma-1}},\qquad
+\frac{\rho_2}{\rho_1}=\left(\frac{T_2}{T_1}\right)^{\frac{1}{\gamma-1}},\qquad
+\frac{p_2}{p_1}=\left(\frac{\rho_2}{\rho_1}\right)^{\gamma}
+$$
+
+Useful direct forms / inversions:
+
+$$
+\frac{T_2}{T_1}=\left(\frac{p_2}{p_1}\right)^{\frac{\gamma-1}{\gamma}}
+=\left(\frac{\rho_2}{\rho_1}\right)^{\gamma-1}
+$$
+
+$$
+\frac{\rho_2}{\rho_1}=\left(\frac{p_2}{p_1}\right)^{\frac{1}{\gamma}}
+$$
+
+
+#### Mach relations
+[Link to course notes](/course_notes/EMA524/524_lecture_18_mach_relations.pdf)
+
+$$
+\frac{T}{T_0}=\left(1+\frac{\gamma-1}{2}M^2\right)^{-1}
+$$
+
+$$
+\frac{p}{p_0}=\left(1+\frac{\gamma-1}{2}M^2\right)^{-\frac{\gamma}{\gamma-1}}
+$$
+
+$$
+\frac{\rho}{\rho_0}=\left(1+\frac{\gamma-1}{2}M^2\right)^{-\frac{1}{\gamma-1}}
+$$
+
+Invert to get M from stagnation/static pressure ratio:
+$$
+M=\sqrt{\frac{2}{\gamma-1}\left[\left(\frac{p_0}{p}\right)^{\frac{\gamma-1}{\gamma}}-1\right]}
+$$
+
+Choked, (M = 1) ratios:
+$$
+\frac{T^*}{T_0}=\frac{2}{\gamma+1},\quad
+\frac{p^*}{p_0}=\left(\frac{2}{\gamma+1}\right)^{\frac{\gamma}{\gamma-1}},\quad
+\frac{\rho^*}{\rho_0}=\left(\frac{2}{\gamma+1}\right)^{\frac{1}{\gamma-1}}
+$$
+
+Area–Mach relation (isentropic, 1D nozzle):
+$$
+\frac{A}{A^*}=\frac{1}{M}\left[\frac{2}{\gamma+1}\left(1+\frac{\gamma-1}{2}M^2\right)\right]^{\frac{\gamma+1}{2(\gamma-1)}}
+$$
+
+#### Fanno flow
+TBA
+
+#### Rayleigh flow
+
+![Rayleigh line plot](/images/RayleighLinePlot.png)
+TBA
+
+## GSE
+### Tanks
+**Propellant collapse**
+[NTRS: A History of Collapse Factor Modeling and Empirical Data for Cryogenic Propellant Tanks](https://ntrs.nasa.gov/api/citations/20100026018/downloads/20100026018.pdf)
+
+**Pressurization**
+[NTRS: Contamination of Liquid Oxygen by Pressurized Gaseous Nitrogen](https://ntrs.nasa.gov/api/citations/19890010128/downloads/19890010128.pdf)
+
+### Misc
+[NTRS: Leak classification](https://ntrs.nasa.gov/api/citations/19680013998/downloads/19680013998.pdf)
 
 [DoD propellant explosive equivalent](https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodm/414526m.pdf?ver=201#page=215)
 
 [ASME stored energy calc](https://www.chiefdelphi.com/uploads/default/original/3X/0/a/0a4630706b356d9a1f1adca65dd04972c8669984.pdf)
 
+## Propulsion
+[Rocket Propulsion Elements, Sutton](https://273015.xyz/George%20P.%20Sutton%2C%20Oscar%20Biblarz%20-%20Rocket%20Propulsion%20Elements-Wiley%20(2016).pdf) - Intro to rocket propulsion
+
+[Design of Liquid Propellant Rocket Engines, Huzel & Huang](https://273015.xyz/HuzelHuang.pdf) - Advanced rocket propulsion
+
+[Space Propulsion Analysis & Design](https://273015.xyz/Space%20Propulsion%20Analysis%20and%20Design.pdf) - More advanced rocket prop
+
+[Rao nozzle design](https://rrs.org/2023/01/28/making-correct-parabolic-nozzles/)
+
+[Liquid film cooling](https://apps.dtic.mil/sti/pdfs/ADA234288.pdf)
+
+[Graphite gasket design guide](https://www.usseal.com/Grafoil/What-is-Grafoil.pdf)
+
+[NTRS: Engine material selection](https://ntrs.nasa.gov/api/citations/20160008869/downloads/20160008869.pdf)
+
+### Thermal/cooling
+[NTRS: Engine heat transfer](https://ntrs.nasa.gov/api/citations/19940019998/downloads/19940019998.pdf)
+
+[NTRS: Film cooling](https://ntrs.nasa.gov/api/citations/19930085379/downloads/19930085379.pdf)
+
 ### Turbomachinery
-### Pumps
+#### Pumps
 NSS: TBA
-### Turbines
+#### Turbines
+
+### Injector
+### Combustion chamber
+#### Combustion stability 
+**Casiano thesis**
+[Extensions to the Time Lag Models for Practical Application to Rocket Engine Stability Design](https://etda.libraries.psu.edu/catalog/10688)
+Same guys work at MSFC 
+[Status on the Verification of Combustion Stability for the J-2X Engine Thrust Chamber Assembly](https://ntrs.nasa.gov/citations/20130014078)
+
+Other 
+[Chug and Buzz …. The Neglected and Disrespected Combustion Instabilities](https://ntrs.nasa.gov/api/citations/20170008957/downloads/20170008957.pdf)
+
+### Nozzle
+
 ## English units
 Unfortunately they are an inevitable consequence of working in the USA.
 <html lang="en">
@@ -494,11 +522,14 @@ function calculateClampForce() {
 python3 -m venv venv && source venv/bin/activate && pip install X
 ```
 
-#### Combustion stability 
-Thesis
-https://etda.libraries.psu.edu/catalog/10688
-Same guys work at MSFC 
-https://ntrs.nasa.gov/citations/20130014078
+## Random case studies
+### NASA 3d printed engine
+### NK-33/RD-180 mods and history
+[https://www.youtube.com/watch?v=TMbl_ofF3AM](https://www.youtube.com/watch?v=TMbl_ofF3AM)
 
-Other 
-https://ntrs.nasa.gov/api/citations/20170008957/downloads/20170008957.pdf
+<details>
+<summary><strong>NK33 mods paper</strong></summary>
+<iframe src="/pdfs/Modifications_for_NK33.pdf" width="100%" height="600px"></iframe>
+</details>
+### LOX valve fire
+[Case Study: LOX Valve Internal Fire](https://wha-international.com/case-study-lox-valve-internal-fire/)
