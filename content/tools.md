@@ -316,10 +316,6 @@ TBA
 
 [Space Propulsion Analysis & Design](https://273015.xyz/Space%20Propulsion%20Analysis%20and%20Design.pdf) - More advanced rocket prop
 
-[Rao nozzle design](https://rrs.org/2023/01/28/making-correct-parabolic-nozzles/)
-
-[Liquid film cooling](https://apps.dtic.mil/sti/pdfs/ADA234288.pdf)
-
 [Graphite gasket design guide](https://www.usseal.com/Grafoil/What-is-Grafoil.pdf)
 
 [NTRS: Engine material selection](https://ntrs.nasa.gov/api/citations/20160008869/downloads/20160008869.pdf)
@@ -328,6 +324,8 @@ TBA
 [NTRS: Engine heat transfer](https://ntrs.nasa.gov/api/citations/19940019998/downloads/19940019998.pdf)
 
 [NTRS: Film cooling](https://ntrs.nasa.gov/api/citations/19930085379/downloads/19930085379.pdf)
+
+[Liquid film cooling](https://apps.dtic.mil/sti/pdfs/ADA234288.pdf)
 
 ### Turbomachinery
 #### Pumps
@@ -346,6 +344,8 @@ Other
 [Chug and Buzz …. The Neglected and Disrespected Combustion Instabilities](https://ntrs.nasa.gov/api/citations/20170008957/downloads/20170008957.pdf)
 
 ### Nozzle
+[Rao nozzle design](https://rrs.org/2023/01/28/making-correct-parabolic-nozzles/)
+
 
 ## English units
 Unfortunately they are an inevitable consequence of working in the USA.
@@ -538,5 +538,6 @@ python3 -m venv venv && source venv/bin/activate && pip install X
 <summary><strong>NK33 mods paper</strong></summary>
 <iframe src="/pdfs/Modifications_for_NK33.pdf" width="100%" height="600px"></iframe>
 </details>
+
 ### LOX valve fire
 [Case Study: LOX Valve Internal Fire](https://wha-international.com/case-study-lox-valve-internal-fire/)
