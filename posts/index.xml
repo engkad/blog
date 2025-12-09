@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Kyle’s Engineering Blog</description>
     <generator>Hugo -- 0.147.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 06 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://kyleadler.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Engineering Memes</title>
+      <link>https://kyleadler.com/posts/engineering_memes/</link>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://kyleadler.com/posts/engineering_memes/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;3dmrplot&#34; loading=&#34;lazy&#34; src=&#34;https://kyleadler.com/posts/engineering_memes/3dmrplot.jpg&#34;&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Oh Hell Card Game Scorekeeper</title>
       <link>https://kyleadler.com/posts/ohhellscorekeeper/</link>

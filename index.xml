@@ -6,8 +6,15 @@
     <description>Recent content on Kyle’s Engineering Blog</description>
     <generator>Hugo -- 0.147.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://kyleadler.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Engineering Memes</title>
+      <link>https://kyleadler.com/posts/engineering_memes/</link>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://kyleadler.com/posts/engineering_memes/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;3dmrplot&#34; loading=&#34;lazy&#34; src=&#34;https://kyleadler.com/posts/engineering_memes/3dmrplot.jpg&#34;&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Recipes</title>
       <link>https://kyleadler.com/recipes/</link>
@@ -117,7 +124,8 @@ button {
 &lt;p&gt;&lt;img alt=&#34;true vs engineering stress strain&#34; loading=&#34;lazy&#34; src=&#34;https://kyleadler.com/images/stressstrain.png&#34;&gt;
 &lt;a href=&#34;https://yasincapar.com/engineering-stress-strain-vs-true-stress-strain/&#34;&gt;https://yasincapar.com/engineering-stress-strain-vs-true-stress-strain/&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;lrfdlsd-vs-asd&#34;&gt;LRFD/LSD vs ASD&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Allowable Stress Design (ASD):&lt;/strong&gt; Calculate/simulate stresses with nominal load and compare stresses to an &amp;ldquo;allowable stress&amp;rdquo; defined by the yield/ultimate strength divided by a safety factor. This is a simple and intuitive method and common safety factors are 3/4; 3 to yield and 4 to ultimate, whichever results in lower allowable stress.&lt;/p&gt;</description>
+&lt;p&gt;&lt;strong&gt;Allowable Strength Design (ASD):&lt;/strong&gt; Calculate/simulate nominal loads/stresses and compare to an “allowable strength” defined by the yield/ultimate strength divided by a safety factor $\Omega$. This is a simple and intuitive method and common safety factors are 3/4; 3 to yield and 4 to ultimate, whichever results in lower allowable strength. Alternative SF e.g. 2/3 used for extreme load cases like hurricane etc.&lt;br&gt;
+&lt;strong&gt;Load and Resistance Factor Design (LRFD) or Limit State Design (LSD):&lt;/strong&gt; Used in structural engineering and can get very complex. Works better when looking at ductile post-yield behavior and nonlinear analysis since safety factor placed on loads and material strength based on type of loading and type of failure. E.g. dead load (predictable) has small factor applied to it but wind loading (more variable) has a larger factor. Similarly, failure due to tensile stress has a smaller knockdown than buckling following the same reasoning. LRFD lets you get more detailed with what safety factors you put on which loads rather than a blanket safety factor which can be overconservative. LRFD is also backed by extensive empirical data to inform the factors and design safe but not overconservative ($$$) structures.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Interview Questions</title>
